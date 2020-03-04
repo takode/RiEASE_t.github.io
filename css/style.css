@@ -1,0 +1,1129 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css");
+
+html {
+	scroll-behavior: smooth;
+}
+  
+body {
+	font-family: 'Noto Sans TC' !important;
+	color: #4A4A4A;
+}
+
+.row {
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
+
+.text-primary {
+	color: rgb(255, 115, 45) !important;
+	font-weight: 900 !important;
+}
+
+.btn-primary {
+	color: #ffffff;
+	background-color: rgb(255, 115, 45);
+	border-color: rgb(255, 115, 45);
+}
+
+.btn-primary:hover {
+	background-color: rgb(243, 106, 37);
+	border-color: rgb(243, 106, 37);
+}
+
+.btn {
+	border-radius: 0px;
+}
+
+/* 導覽 */
+
+.navbar-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.navbar-brand img{
+    width: 185px;
+    margin-left: 10px;
+}
+
+.navbar-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999999999;
+    padding: 0.9rem 1rem !important;
+    font-weight: 700;
+    /* box-shadow: 0px 4px 10px rgba(74, 74, 74); */
+    background-color: rgba(255, 255, 255) !important;
+}
+
+.nav-text-phone {
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-weight: 700;
+	font-family: 'Arial' !important;
+}
+
+.nav-phone-wrapper a {
+	display: flex;
+}
+
+.nav-phone-wrapper a img {
+	margin-right: 6px;
+	margin-left: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: rgba(0, 0, 0, .8);
+}
+
+/* 導覽 */
+
+/* 輪播 */
+
+.banner-text-wrapper {
+	position: absolute;
+	z-index: 999999;
+	top: 24%;
+	right: 80px;
+	text-align: right;
+	width: 44%;
+}
+
+.banner-text-wrapper .banner-text-top {
+	font-size: 5rem;
+	font-weight: 900;
+	color: rgb(255, 115, 45);
+	display: inline-flex;
+	align-items: center;
+}
+
+.banner-text-wrapper .banner-text-top span {
+	font-size: 2.5rem;
+	margin: 10px 10px 0px 10px;
+}
+
+.banner-text-center {
+	font-size: 3.7rem;
+	font-weight: 600;
+	color: #4A4A4A;
+}
+
+.banner-text-bottom {
+	font-size: 1.5rem;
+	color: #4A4A4A;
+	text-align: inherit;
+}
+
+.banner-text-btn {
+	font-size: 1.1rem;
+	padding: 10px 20px;
+	float: right;
+	margin-top: 30px;
+}
+
+
+@media only screen and (min-width: 1367px) {
+	.banner-text-wrapper .banner-text-top {
+		font-size: 5.7rem;
+	}
+
+	.banner-text-center {
+		font-size: 4.1rem;
+	}
+
+	.banner-text-bottom {
+		font-size: 1.7rem;
+	}
+
+	.banner-text-wrapper {
+		width: 60%;
+	}
+
+}
+
+@media only screen and (max-width: 1366px) {
+	.banner-text-wrapper .banner-text-top {
+		font-size: 4.5rem;
+	}
+
+	.banner-text-center {
+		font-size: 3.4rem;
+	}
+
+	.banner-text-bottom {
+		font-size: 1.4rem;
+	}
+
+}
+
+@media only screen and (max-width: 1260px) {
+	.banner-text-wrapper .banner-text-top {
+		font-size: 4rem;
+	}
+
+	.banner-text-center {
+		font-size: 3rem;
+	}
+
+	.banner-text-bottom {
+		font-size: 1rem;
+	}
+}
+
+@media only screen and (max-width: 1160px) {
+	.banner-text-wrapper .banner-text-top {
+		font-size: 3.4rem;
+	}
+
+	.banner-text-center {
+		font-size: 2.75rem;
+	}
+
+	.banner-text-bottom {
+		font-size: 1rem;
+	}
+
+	.banner-text-wrapper {
+		width: 100%;
+	}
+}
+
+
+.carousel {
+	position: relative;
+	padding-top: 76px;
+}
+
+
+@media only screen and (max-width: 997px) {
+	.carousel-m-hide {
+		display: none !important;
+	}
+}
+
+@media only screen and (min-width: 998px) {
+	.carousel-l-hide {
+		display: none !important;
+	}
+}
+
+
+/* 輪播 */
+
+/* 公司特點 */
+
+.feature-box {
+	width: 100%;
+	background-color: #F2F2F2;
+	padding: 43px 4%;
+}
+
+.feature-box:nth-child(2) {
+	background-color: #E8E8E8;
+}
+
+.feature-box h3 {
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 16px;
+}
+
+.feature-box p {
+	margin-bottom: 0px;
+}
+
+.feature-icon-focus::before {
+	text-align: center;
+	content: url('../img/features-focus.svg');
+	margin: 0px 10px 0px 0px;
+}
+
+.feature-icon-nice::before {
+	text-align: center;
+	content: url('../img/features-nice.svg');
+	margin: 0px 10px 0px 0px;
+}
+
+.feature-icon-price::before {
+	text-align: center;
+	content: url('../img/features-price.svg');
+	margin: 0px 10px 0px 0px;
+}
+
+
+/* 公司特點 */
+
+
+/* 遇到困難 */
+.title-mark {
+	width: 7px;
+	height: 28px;
+	background-color: rgb(255, 115, 45);
+	position: absolute;
+	left: -3px;
+	top: 47px;
+}
+
+.difficult-wrapper {
+	padding: 130px 0px;
+}
+
+.difficult-wrapper h2 {
+	padding-top: 40px;
+}
+
+.difficult-text-l {
+	font-size: 27px;
+	padding-top: 40px;
+}
+
+.difficult-text-mark {
+	position: absolute;
+	bottom: 57px;
+	width: 289px;
+	height: 15px;
+	left: 44px;
+	background-color: rgb(255, 115, 45, .3);
+}
+
+/* 遇到困難 */
+
+
+
+/* 產業介紹 */
+
+.industry-wrapper h2 {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: scale3d(0.8, 0.8, 1);
+	transform: scale3d(0.8, 0.8, 1);
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	font-size: 50px;
+	color: #ffffff;
+}
+
+.industry-wrapper .effect-active .industry-mask,.industry-wrapper .effect-active .industry-mask-2,
+.industry-wrapper .effect-active .industry-mask-3,.industry-wrapper .effect-active .industry-mask-4 {
+	opacity: 0;
+}
+
+.industry-wrapper .industry-mask {
+	width: 93%;
+	height: 95.8%;
+	background:rgba(43, 170, 202, 0.402);
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	position: absolute;
+	opacity: 1;
+}
+
+.industry-wrapper .industry-mask-2{
+	width: 93%;
+	height: 95.8%;
+	background: rgba(65, 171, 150, 0.402);
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	position: absolute;
+	opacity: 1;
+}
+
+
+
+.industry-wrapper .industry-mask-3{
+	width: 93%;
+	height: 95.8%;
+	background: rgba(255, 127, 80, 0.402);
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	position: absolute;
+	opacity: 1;
+}
+
+.industry-wrapper .industry-mask-4{
+	width: 93%;
+	height: 95.8%;
+	background: rgba(238, 98, 215, 0.402);
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	position: absolute;
+	opacity: 1;
+}
+
+.industry-wrapper p {
+	margin-top: 40px;
+	text-transform: none;
+	color: #ffffff;
+	opacity: 1;
+	font-size: 20px;
+	-webkit-transform: scale3d(0.8, 0.8, 1);
+	transform: scale3d(0.8, 0.8, 1);
+	-webkit-transform-origin: 50% -100%;
+	transform-origin: 50% -100%;
+}
+
+figure.effect-active h2 {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: scale3d(0.8, 0.8, 1);
+	transform: scale3d(0.8, 0.8, 1);
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	font-size: 50px;
+	color: #ffffff;
+	opacity: 0;
+}
+
+figure.effect-active p {
+	margin-top: 40px;
+	text-transform: none;
+	color: #ffffff;
+	opacity: 1;
+	font-size: 20px;
+	-webkit-transform: scale3d(0.8, 0.8, 1);
+	transform: scale3d(0.8, 0.8, 1);
+	-webkit-transform-origin: 50% -100%;
+	transform-origin: 50% -100%;
+	opacity: 0;
+}
+
+figure.effect-active:hover h2,
+figure.effect-active:hover p {
+	opacity: 1;
+	overflow: hidden;
+	/* -webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1); */
+}
+
+.industry-wrapper .industry-mask,.industry-wrapper .industry-mask-2,
+.industry-wrapper .industry-mask-3,.industry-wrapper .industry-mask-4{
+	position: absolute;
+	top: 0%;
+	left: 30px;
+	left: 3.6%;
+}
+
+
+/* Media queries */
+@media screen and (max-width: 50em) {
+	.content {
+		padding: 0 10px;
+		text-align: center;
+	}
+
+	.grid figure {
+		display: inline-block;
+		float: none;
+		margin: 10px auto;
+		width: 100%;
+	}
+}
+
+/* 產業介紹 */
+
+
+.products-price-wrapper {
+	padding: 80px 50px;
+}
+
+
+.bg-gray {
+	width: 100%;
+	background-color: #EFEFEF;
+}
+
+.products-box-1 {
+	width: 100%;
+	background-color: #ffffff;
+	border: 3px solid #07A1DD;
+	padding: 50px 20px;
+	text-align: center;
+}
+
+.products-box-2 {
+	width: 100%;
+	/* height: 537px; */
+	background-color: #ffffff;
+	border: 3px solid #FF4545;
+	padding: 50px 20px;
+	text-align: center;
+}
+
+.products-box-3 {
+	width: 100%;
+	background-color: #ffffff;
+	border: 3px solid #3775FF;
+	padding: 50px 20px;
+	text-align: center;
+}
+
+.products-box-4 {
+	width: 100%;
+	background-color: #ffffff;
+	border: 3px solid #4C26ED;
+	padding: 50px 20px;
+	text-align: center;
+}
+
+.products-wrapper {
+	padding: 40px 0px 0px 0px;
+	position: relative;
+}
+
+.products-wrapper h2 {
+	text-align: center;
+	padding: 40px 0px 60px 0px;
+	font-weight: 900;
+}
+
+.products-icon-out {
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	position: absolute;
+	top: -40px;
+	left: 95px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.products-color-1 {
+	background-color: #07A1DD;
+}
+
+.products-color-2 {
+	background-color: #FF4545;
+}
+
+.products-color-3 {
+	background-color: #3775FF;
+}
+
+.products-color-4 {
+	background-color: #4C26ED;
+}
+
+.products-icon-inner {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	border: 2px solid #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.price-text-title {
+	padding: 20px 0px 15px 0px;
+	font-weight: 900;
+	font-size: 1.3rem;
+}
+
+.price-text-delete {
+	text-decoration: line-through;
+	font-weight: 900;
+	margin-right: 8px;
+}
+
+.price-text-sale {
+	background-color: #FF3756;
+	border-radius: 50px;
+	color: #ffffff;
+	font-weight: 900;
+	padding: 2px 10px;
+}
+
+.price-text-wrapper {
+	opacity: .5;
+}
+
+.price-text-main {
+	font-size: 38px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.price-text-main-only {
+	font-size: 27px;
+	font-weight: bold;
+}
+
+.price-text-up {
+	font-size: 22px;
+}
+
+.list-group {
+	text-align: left;
+	list-style-type: none;
+	margin: 0 auto;
+	width: 100%;
+	margin-top: 12px;
+	height: 300px;
+}
+
+.fa-check,
+.fa-gift {
+	margin-right: 10px;
+}
+
+.fa-rocket {
+	color: #4C26ED;
+	margin-right: 10px;
+}
+
+.fa-check {
+	color: #00B67A;
+}
+
+.fa-gift {
+	color: #FD7734;
+}
+
+.products-box-1 .price-btn-1 {
+	background-color: #07A1DD;
+	color: #ffffff;
+	padding: 10px 25px;
+}
+
+.products-box-1 .price-btn-1:hover {
+	background-color: #07A1DD;
+	color: #ffffff;
+	padding: 10px 25px;
+}
+
+.price-btn-2 {
+	background-color: #FF3756;
+	color: #ffffff;
+	padding: 10px 25px;
+}
+
+.price-btn-2:hover {
+	background-color: #FF3756;
+	color: #ffffff;
+	padding: 10px 25px;
+}
+
+.price-btn-3 {
+	background-color: #3775FF;
+	color: #ffffff;
+	padding: 10px 25px;
+}
+
+.price-btn-3:hover {
+	background-color: #3775FF;
+	color: #ffffff;
+	padding: 10px 25px;
+}
+
+
+.price-btn-4 {
+	background-color: #4C26ED;
+	color: #ffffff;
+	padding: 10px 25px;
+}
+
+.price-btn-4:hover {
+	background-color: #4C26ED;
+	color: #ffffff;
+	padding: 10px 25px;
+}
+
+.price-background-triangle {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 100px 50vw 0 50vw;
+	border-color: #EFEFEF transparent transparent transparent;
+	position: absolute;
+	left: 0px;
+	/* top: 50px; */
+	bottom: -100px;
+}
+
+.price-phone-wrapper {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.price-phone-title {
+	font-size: 2rem;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.price-phone-number {
+	font-size: 2.5rem;
+	font-weight: bold;
+	margin-top: 20px;
+	color: #FD7734;
+}
+
+
+
+/* 電話區塊 */
+
+
+
+
+
+
+
+.protfolio-wrapper h2{
+    text-align: center;
+    padding: 40px 0px 20px 0px;
+    font-weight: 900;
+    margin-top: 170px;
+}
+
+.protfolio-title-p{
+	text-align: center;
+	margin: 0 auto;
+	color: #747474;
+	margin-bottom: 40px;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-container {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	overflow: hidden;
+	list-style: none;
+	padding: 0;
+	z-index: 1;
+	height: 380px;
+	padding: 29px 0px !important;
+	margin-bottom: 50px;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	transition: 300ms;
+	transform: scale(0.8);
+	box-shadow: 0 0 24px rgba(0, 0, 0, .08);
+}
+
+.swiper-slide-active,
+.swiper-slide-duplicate-active {
+	transform: scale(1.03);
+}
+
+
+/* new */
+
+.swiper-slide-prev {
+	transform: scale(1.03);
+}
+
+.swiper-slide-next {
+	transform: scale(1.03);
+}
+
+
+.protfolio-text-wrapper {
+	padding: 20px;
+	text-align: center;
+}
+
+.protfolio-text-wrapper p:nth-child(1) {
+	text-align: left;
+	font-weight: bold;
+}
+
+.protfolio-text-wrapper p:nth-child(2) {
+	font-size: 12px;
+	text-align: left;
+	margin-bottom: .5rem;
+}
+
+.protfolio-text-wrapper p:nth-child(3) {
+	font-size: 12px;
+	text-align: left;
+	margin-bottom: .5rem;
+}
+
+.protfolio-text-wrapper span {
+	font-size: 12px;
+	position: absolute;
+    right: 27px;
+	background-color: #F8F8F8;
+	border-radius: 50px;
+	color: #767676;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+	bottom: -4px !important;
+}
+
+.protfolio-wrapper{
+	position: relative;
+}
+
+.protfolio-background{
+    background-color: rgba(253, 119, 52, 0.85);
+    width: 100%;
+    height: 330px;
+    position: absolute;
+    bottom: -120px;
+}
+
+.protfolio-background-triangle{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 100px 50vw 0 50vw;
+	border-color: rgba(253, 119, 52, 0.85) transparent transparent transparent;
+	position: absolute;
+	left: 0px;
+	/* top: 50px; */
+	bottom: -100px;
+}
+
+.swiper-pagination-bullet-active {
+    background: rgb(255, 194, 164)!important;
+}
+
+/* 
+.cool{
+	display: none;
+}
+
+.showcool{
+	display: block;
+
+} */
+
+/* 規劃 */
+
+.planning-number{
+	color: rgba(253, 119, 52, 0.85);
+    position: absolute;
+    right: 29px;
+    top: -4px;
+    font-size: 30px;
+}
+
+.planning-wrapper{
+    padding-top: 230px;
+    background-color: #EFEFEF;
+    padding-bottom: 125px;
+}
+
+.planning-wrapper h2{
+	text-align: center;
+    padding: 40px 0px 20px 0px;
+    font-weight: 900;
+}
+
+.planning-box{
+    background-color: #ffffff;
+    height: 100%;
+    text-align: left;
+    padding: 20px;
+}
+
+.planning-title{
+	color: #7086A5;
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.planning-content{
+	width: 50%;
+	color: #707070;
+	float: left;
+}
+
+.planning-img{
+	float: right;
+	width: 40%;
+}
+
+.planning-subtitle {
+    font-size: 1.375rem;
+    color: rgb(124, 153, 194);
+    margin-top: 10px;
+    display: block;
+}
+
+.planning-wrapper .col-md-4{
+	padding: 20px 15px;
+}
+
+
+/* 電話區塊 */
+
+.number-wrapper{
+	background-color: #FD7734;
+    text-align: center;
+    color: #ffffff;
+    padding: 40px 0px 40px 0px;
+    position: relative;
+}
+
+.number-title{
+	font-size:1.4375rem;
+	margin-bottom: 3px;
+}
+
+.number-content{
+	font-size: 3rem;
+    font-family: Arial;
+	font-weight: 700;
+	margin-bottom: 3px;
+}
+
+.number-background-triangle{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 30px 30px 0 30px;
+	border-color: #FD7734 transparent transparent transparent;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+/* 服務區塊 */
+.servive-wrapper{
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.servive-wrapper h2{
+    padding: 40px 0px 20px 0px;
+    font-weight: 900;
+    margin-top: 60px;
+}
+
+.servive-box{
+	-ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+	max-width: 20%;
+	padding: 20px;
+}
+
+.servive-title-p {
+    text-align: center;
+    margin: 0 auto;
+    color: #747474;
+    margin-bottom: 40px;
+}
+
+.servive-title{
+	font-size: 1.4rem;
+	font-weight: 700;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+/* 聯絡我們 */
+
+.contact-wrapper{
+    width: 100%;
+    background: url(../img/service-background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.contact-box{
+	padding: 30px 40px 80px 40px;
+	color: #fff;
+}
+
+.contact-title{
+	color: #ffffff;
+	font-size: 1.8rem;
+}
+.contact-number{
+	color: #ffffff;	
+	font-size: 1.8rem;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+}
+
+.contact-mask{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .3);
+}
+
+.contact-box .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0px solid #ced4da;
+    border-radius: 0px!important;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.contact-input{
+	height: 50px!important;
+}
+
+.contact-textarea{
+	height: 126px!important;
+}
+
+.select-wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact-select{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.contact-select .d-flex{
+	align-items: center;
+}
+
+
+.contact-select .form-control {
+    width: 169px;
+	margin-left: 18px;
+	border-radius: 0px!important;
+}
+
+.select-text-btn {
+    font-size: 1.1rem;
+    padding: 10px 28px;
+    float: right;
+    /* margin-top: 30px; */
+}
+
+
+/* 頁尾 */
+
+.footer-wrapper{
+	background-color:#EFEFEF;
+	padding: 30px 40px 30px 40px;;
+}
+
+.footer-logo{
+	width: 200px;
+}
+
+.footer-content{
+	text-align: right;
+}
+
+.footer-box-1{
+	display: flex;
+    align-items: end;
+	justify-content: space-between;
+}
+
+.footer-copyright{
+	position: absolute;
+    bottom: 0px;
+}
+
+.footer-copyright-text{
+	font-size: 12px;
+	color: rgb(141, 141, 141);
+}
+
+#map {
+    width: 100%;
+    height: 300px;
+}
+
+.fa-map-marker-alt,.fa-envelope,.fa-phone-alt{
+	color: rgba(253, 119, 52, 0.85);
+	margin-right: 5px;
+	margin-left: 10px;
+}
+
+
+/* 移致頂層 */
+
+#button {
+	display: inline-block;
+	background-color: rgba(253, 119, 52, 0.85);
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 50%;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	transition: background-color .3s, 
+	  opacity .5s, visibility .5s;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 1000;
+  }
+  #button::after {
+	color: #fff;
+    content: '\f077';
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 900;
+    text-decoration: inherit;
+    font-size: 23px;
+    top: 7px;
+    position: relative;
+  }
+  #button:hover {
+	cursor: pointer;
+	background-color: #333;
+  }
+  #button:active {
+	background-color: #555;
+  }
+  #button.show {
+	opacity: 1;
+	visibility: visible;
+  }
+  
+  /* Styles for the content section */
+  
+  .content {
+	width: 77%;
+	margin: 50px auto;
+	font-family: 'Merriweather', serif;
+	font-size: 17px;
+	color: #6c767a;
+	line-height: 1.9;
+  }
+  @media (min-width: 500px) {
+	.content {
+	  width: 43%;
+	}
+	#button {
+	  margin: 30px;
+	}
+  }
+  .content h1 {
+	margin-bottom: -10px;
+	color: #03a9f4;
+	line-height: 1.5;
+  }
+  .content h3 {
+	font-style: italic;
+	color: #96a2a7;
+  }

@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>RiEASE</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<link rel="SHORTCUT ICON" href="" />
+	<!-- google字體 -->
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+	<!-- bootstrap js -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<!-- scroll animation -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<!-- 主要的style -->
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+
+</head>
+
+<body>
+	<a id="button"></a>
+	<section class="container-fulid">
+		<nav class="navbar-top navbar navbar-expand-lg navbar-light bg-white">
+			<a class="navbar-brand text-primary" href="#"><img src="./img/main-logo.svg" alt=""></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-wrapper navbar-nav ml-auto topnav">
+					<!-- <li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li> -->
+					<li class="nav-item">
+						<a class="nav-link" href="#section1">方案介紹</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#section2">案例實績</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#section3">規劃流程</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#section4">服務項目</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#section5">免費諮詢</a>
+					</li>
+					<li class="nav-item nav-phone-wrapper">
+						<a class="nav-link" href="#">
+							<img src="./img/nav-icon-phone.svg" alt="">
+							<span class="nav-text-phone">0800-082-816</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<!-- The Modal -->
+			<div class="modal" id="myModal">
+				<div class="modal-dialog">
+					<div class="modal-content">
+
+						<!-- Modal Header -->
+						<div class="modal-header">
+							<h4 class="modal-title">Customer Sign In</h4>
+							<button type="button" class="close" data-dismiss="modal">×</button>
+						</div>
+
+						<!-- Modal body -->
+						<div class="modal-body">
+							<form>
+								<label class="sr-only" for="usrname">Username</label>
+								<div class="input-group mb-3">
+									<div class="input-group-prepend">
+										<span class="input-group-text" id="basic-addon1"><i
+												class="fa fa-user"></i></span>
+									</div>
+									<input type="text" class="form-control" placeholder="Username" aria-label="Username"
+										aria-describedby="basic-addon1">
+								</div>
+
+
+								<label class="sr-only" for="Password">Name</label>
+								<div class="input-group mb-2">
+									<div class="input-group-prepend">
+										<span class="input-group-text" id="basic-addon2"><i
+												class="fa fa-key"></i></span>
+									</div>
+									<input id="Password" type="password" class="form-control" placeholder="Password"
+										aria-label="Password" aria-describedby="basic-addon2">
+								</div>
+							</form>
+						</div>
+
+						<!-- Modal footer -->
+						<div class="modal-footer">
+							<button type="submit" class="btn btn-primary">Sign In</button>
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</nav>
+		<div data-aos="zoom-in-right">
+			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active carousel-m-hide">
+						<img src="./img/banner.jpg" class="d-block w-100" alt="...">
+						<div class="banner-text-wrapper">
+							<div class="banner-text-top">
+								網站<span>×</span>
+								設計<span>×</span>
+								行銷
+							</div>
+							<div class="banner-text-center">
+								把你的困難都交給我們
+							</div>
+							<div class="banner-text-bottom">
+								官網、社群、後台、廣告、名片、DM，一次用到好！
+							</div>
+							<button class="btn btn-primary banner-text-btn">了解更多</button>
+						</div>
+					</div>
+					<div class="carousel-item active carousel-l-hide">
+						<img src="./img/banner-m.jpg" class="d-block w-100" alt="...">
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+
+		<div class="container-fulid">
+			<div data-aos="zoom-in">
+				<div class="row">
+					<div class="col-md-4 feature-box">
+						<h3 class="feature-icon-focus">專業技術</h3>
+						<p>結合資安、程式、設計、企劃、行銷、管理等不同領域的專業人才，為您打造符合您需求的RWD網站。</p>
+					</div>
+					<div class="col-md-4 feature-box">
+						<h3 class="feature-icon-nice">優質服務</h3>
+						<p>提供最親切、最值得信賴的網站規劃與服務。不知道該怎麼做嗎？那就交給我們吧！</p>
+					</div>
+					<div class="col-md-4 feature-box">
+						<h3 class="feature-icon-price">價格合理</h3>
+						<p>錢要花在刀口上，最便宜不等於最有價值。唯有提供超乎期待的規劃與品質，才是真正的價超所值！</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+
+	<div class="container">
+		<div class="difficult-wrapper row">
+			<div class="col-md-5">
+				<div class="title-mark"></div>
+				<h2>你也有遇到這些問題嗎？</h2>
+				<p>我們知道，創業不易。預算不夠只能校長兼撞鐘，你只好樣樣都要懂、樣樣都要會......你，不累嗎？
+					我們知道，服務做得好還不夠，公司要被人看見，訂單才有機會進來。創業需要的官網、名片、DM 設計、廣告行銷，交給我們，讓你一次到位！創業路漫長，你不要每件事都自己扛！</p>
+				<p class="difficult-text-l">讓你的時間能專注在更有價值的地方
+					讓我們陪你一起走下去吧！<div class="difficult-text-mark"></div>
+				</p>
+
+			</div>
+			<div class="col-md-7" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+				<img class="w-100" src="./img/dilemma-img.png" alt="">
+			</div>
+		</div>
+	</div>
+
+	<div data-aos="zoom-in-right" class="container-fulid industry-wrapper">
+		<div class="row">
+			<div class="col-md-3">
+				<figure class="effect-active">
+					<img class="w-100" src="./img/industry-medical.jpg" alt="img27" />
+					<div class="industry-mask-2">
+						<h2>醫療診所網站</h2>
+						<p>對象：宴會館/餐廳/飲料店/小吃店<br />
+							網站類型：形象網站<br />
+							功能：菜單呈現</p>
+					</div>
+				</figure>
+			</div>
+			<div class="col-md-3">
+				<figure class="">
+					<img class="w-100" src="./img/industry-manufacture.jpg" alt="img27" />
+					<div class="industry-mask">
+						<h2>科技製造網站</h2>
+						<p>對象：宴會館/餐廳/飲料店/小吃店<br />
+							網站類型：形象網站<br />
+							功能：菜單呈現</p>
+					</div>
+				</figure>
+			</div>
+			<div class="col-md-3">
+				<figure class="effect-active">
+					<img class="w-100" src="./img/industry-food.jpg" alt="img27" />
+					<div class="industry-mask-3">
+						<h2>餐飲宴會網站</h2>
+						<p>對象：宴會館/餐廳/飲料店/小吃店<br />
+							網站類型：形象網站<br />
+							功能：菜單呈現</p>
+					</div>
+				</figure>
+			</div>
+			<div class="col-md-3">
+				<figure class="effect-active">
+					<img class="w-100" src="./img/industry-shopping.jpg" alt="img27" />
+					<div class="industry-mask-4">
+						<h2>服裝購物網站</h2>
+						<p>對象：宴會館/餐廳/飲料店/小吃店<br />
+							網站類型：形象網站<br />
+							功能：菜單呈現</p>
+					</div>
+				</figure>
+			</div>
+
+			<!-- <div class="col-md-3"><img class="w-100" src="./img/industry-food.jpg" alt=""></div>
+			<div class="col-md-3"><img class="w-100" src="./img/industry-shopping.jpg" alt=""></div> -->
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="col-md-12 products-price-wrapper">
+			<img class="w-100" src="./img/website-banner-8800.png" alt="">
+		</div>
+	</div>
+	<div id="section1" class="products-wrapper container-fulid bg-gray">
+		<div class="container">
+			<h2>方案介紹</h2>
+			<div class="row">
+				<div class="col-md-6 col-lg-3">
+					<div class="products-box-1">
+						<div class="products-icon-out products-color-1">
+							<div class="products-icon-inner">
+								<img src="./img/products-icon-1.svg" alt="">
+							</div>
+						</div>
+						<div class="price-text-title">創業贏家</div>
+						<div class="price-text-wrapper">
+							<span class="price-text-delete">$36000</span><span class="price-text-sale">Sale 80%</span>
+						</div>
+						<div class="price-text-main">$28,800<span class="price-text-up">up</span></div>
+						<ul class="list-group">
+							<li><i class="fa fa-check"></i>網域空間</li>
+							<li><i class="fas fa-check"></i>虛擬主機空間</li>
+							<li><i class="fas fa-check"></i>SEO網站優化</li>
+							<li><i class="fas fa-check"></i>連絡表單</li>
+							<li><i class="fas fa-gift"></i>名片設計</li>
+						</ul>
+						<button class="btn price-btn-1">聯絡我們</button>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="products-box-2">
+						<div class="products-icon-out products-color-2">
+							<div class="products-icon-inner">
+								<img src="./img/products-icon-2.svg" alt="">
+							</div>
+						</div>
+						<div class="price-text-title">經濟小資</div>
+						<div class="price-text-wrapper">
+							<span class="price-text-delete">$78400</span><span class="price-text-sale">Sale 75%</span>
+						</div>
+						<div class="price-text-main">$58,800<span class="price-text-up">up</span></div>
+						<ul class="list-group">
+							<li><i class="fa fa-check"></i>網域空間</li>
+							<li><i class="fas fa-check"></i>虛擬主機空間</li>
+							<li><i class="fas fa-check"></i>SEO網站優化</li>
+							<li><i class="fas fa-check"></i>連絡表單</li>
+							<li><i class="fas fa-gift"></i>名片設計/DM設計</li>
+							<li><i class="fas fa-gift"></i>LINE客服設定</li>
+							<li><i class="fas fa-gift"></i>廣告投放</li>
+						</ul>
+						<button class="btn price-btn-2">聯絡我們</button>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="products-box-3">
+						<div class="products-icon-out products-color-3">
+							<div class="products-icon-inner">
+								<img src="./img/products-icon-3.svg" alt="">
+							</div>
+						</div>
+						<div class="price-text-title">電商購物</div>
+						<div class="price-text-wrapper">
+							<span class="price-text-delete">$97800</span><span class="price-text-sale">Sale 90%</span>
+						</div>
+						<div class="price-text-main">$88,800<span class="price-text-up">up</span></div>
+						<ul class="list-group">
+							<li><i class="fa fa-check"></i>網域空間</li>
+							<li><i class="fas fa-check"></i>虛擬主機空間</li>
+							<li><i class="fas fa-check"></i>SEO網站優化</li>
+							<li><i class="fas fa-check"></i>連絡表單/商品型錄</li>
+							<li><i class="fas fa-check"></i>預約模組/金流串接</li>
+							<li><i class="fas fa-gift"></i>名片設計/DM設計</li>
+							<li><i class="fas fa-gift"></i>LINE客服設定</li>
+							<li><i class="fas fa-gift"></i>社群服務</li>
+							<li><i class="fas fa-gift"></i>廣告投放</li>
+						</ul>
+						<button class="btn price-btn-3">聯絡我們</button>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="products-box-4">
+						<div class="products-icon-out products-color-4">
+							<div class="products-icon-inner">
+								<img src="./img/products-icon-4.svg" alt="">
+							</div>
+						</div>
+						<div class="price-text-title">客製系統/網站</div>
+						<div class="price-text-main-only">依客戶的<br />
+							需求報價</div>
+						<ul class="list-group">
+							<li><i class="fa fa-check"></i>網域空間</li>
+							<li><i class="fas fa-check"></i>虛擬主機空間</li>
+							<li><i class="fas fa-rocket"></i></i>客製化系統建置</li>
+							<li><i class="fas fa-rocket"></i></i>客製化形象網站</li>
+							<li><i class="fas fa-rocket"></i></i>企業ERP系統</li>
+							<li><i class="fas fa-rocket"></i></i>進銷存系統</li>
+						</ul>
+						<button class="btn price-btn-4">聯絡我們</button>
+					</div>
+				</div>
+			</div>
+			<div class="price-phone-wrapper">
+				<div class="price-phone-title">專業、快速、滿意！</div>
+				<div>我們會專心聆聽您的問題與需求，您不必擔心不知道要從何開始</div>
+				<div class="price-phone-number">0800-082-816</div>
+			</div>
+			<div class="price-background-triangle"></div>
+		</div>
+	</div>
+	<section id="section2" class="protfolio-wrapper">
+		<h2>我們的案例</h2>
+		<p class="col-md-8 col-lg-6 protfolio-title-p">幫您從頭規劃，量身訂做，針對您需要的功能與服務，為您找出最適當的方法，就像我們要親自
+			面對您的客戶一樣，全心全意，鉅細靡遺，務必給您最好的網站，讓您的客戶也能快速了解您的
+			產品，產生最大的效益！</p>
+		<div class="swiper-container swiper-container-initialized swiper-container-horizontal">
+			<div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-1010px, 0px, 0px);">
+				<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+					data-swiper-slide-index="3"
+					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(-0.25);">
+					Slide 4
+				</div>
+				<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="4"
+					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(-0.125248);">
+					Slide 5</div>
+				<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="5"
+					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(0.000371287);">
+					Slide 6</div>
+				<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="6"
+					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(0.125124);">
+					Slide 7</div>
+				<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="7"
+					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(0.249876);">
+					Slide 8</div>
+				<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="8"
+					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(0.374629);">
+					Slide 9</div>
+				<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="9"
+					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(0.500248);">
+					Slide 10</div>
+				<div class="swiper-slide" data-swiper-slide-index="0"
+					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(0.625);">
+					<img class="w-100 protfolio-image-1" src="./img/protfolio-image-1.jpg" alt="">
+					<div class="protfolio-text-wrapper">
+						<p>安進捲門</p>
+						<p>科技製造業</p>
+						<p>響應式wordpress</p>
+						<span>&nbsp;&nbsp;2019.06.26&nbsp;&nbsp;</span>
+					</div>
+				</div>
+				<div class="swiper-slide" data-swiper-slide-index="1"
+					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(0.749752);">
+					<img class="w-100 protfolio-image-1" src="./img/protfolio-image-3.jpg" alt="">
+					<div class="protfolio-text-wrapper">
+						<p>麗莎鄉春</p>
+						<p>民宿業</p>
+						<p>響應式wordpress</p>
+						<span>&nbsp;&nbsp;2019.06.26&nbsp;&nbsp;</span>
+					</div>
+				</div>
+				<div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="2"
+					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(0.875371);">
+					<img class="w-100 protfolio-image-1" src="./img/protfolio-image-4.jpg" alt="">
+					<div class="protfolio-text-wrapper">
+						<p>眾翔科技</p>
+						<p>科技製造業</p>
+						<p>響應式wix</p>
+						<span>&nbsp;&nbsp;2019.06.26&nbsp;&nbsp;</span>
+					</div>
+				</div>
+				<div class="swiper-slide swiper-slide-active" data-swiper-slide-index="3"
+					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(0.999876);">
+					<img class="w-100 protfolio-image-1" src="./img/protfolio-image-5.jpg" alt="">
+					<div class="protfolio-text-wrapper">
+						<p>光的課程</p>
+						<p>教育業</p>
+						<p>響應式</p>
+						<span>&nbsp;&nbsp;2019.06.26&nbsp;&nbsp;</span>
+					</div>
+				</div>
+				<div class="swiper-slide" data-swiper-slide-index="5"
+					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(0.750371);">
+					<img class="w-100 protfolio-image-1" src="./img/protfolio-image-2.jpg" alt="">
+					<div class="protfolio-text-wrapper">
+						<p>臺灣藝術大學</p>
+						<p>教育業</p>
+						<p>響應式wordpress</p>
+						<span>&nbsp;&nbsp;2019.06.26&nbsp;&nbsp;</span>
+					</div>
+				</div>
+
+
+				<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0"
+					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(0.124876);">
+					Slide 1</div>
+				<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1"
+					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(0.000123762);">
+					Slide 2</div>
+				<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="2"
+					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(-0.124629);">
+					Slide 3</div>
+				<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+					data-swiper-slide-index="3"
+					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(-0.250248);">
+					Slide 4</div>
+				<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="4"
+					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(-0.375);">
+					Slide
+					5</div>
+				<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="5"
+					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(-0.499752);">
+					Slide 6</div>
+				<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="6"
+					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(-0.624505);">
+					Slide 7</div>
+			</div>
+
+			<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span
+					class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span
+					class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span
+					class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span
+					class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button"
+					aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0" role="button"
+					aria-label="Go to slide 5"></span><span class="swiper-pagination-bullet" tabindex="0" role="button"
+					aria-label="Go to slide 6"></span><span class="swiper-pagination-bullet" tabindex="0" role="button"
+					aria-label="Go to slide 7"></span><span class="swiper-pagination-bullet" tabindex="0" role="button"
+					aria-label="Go to slide 8"></span><span class="swiper-pagination-bullet" tabindex="0" role="button"
+					aria-label="Go to slide 9"></span><span class="swiper-pagination-bullet" tabindex="0" role="button"
+					aria-label="Go to slide 10"></span></div>
+			<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+		</div>
+		<div class="protfolio-background">
+			<div class="protfolio-background-triangle"></div>
+		</div>
+	</section>
+
+	<section id="section3" class="planning-wrapper">
+		<h2>最細緻的規劃</h2>
+		<p class="col-md-8 col-lg-6 protfolio-title-p">專屬於您的服務</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="planning-box">
+						<p class="planning-title">明確溝通，達成共識！</p>
+						<p class="planning-content">確實瞭解您的需求，溝通視覺與功能細目。<br />
+							<span class="planning-subtitle">需求訪談</span>
+						</p>
+						<img class="planning-img" src="./img/planning-img-1.png" alt="">
+						<span class="planning-number">01</span>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="planning-box">
+						<p class="planning-title">透明價格，安心保證！</p>
+						<p class="planning-content">因應需求提供多元價格方案，立約保固雙方權益。<br />
+							<span class="planning-subtitle">簽約立案</span>
+						</p>
+						<img class="planning-img" src="./img/planning-img-2.png" alt="">
+						<span class="planning-number">02</span>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="planning-box">
+						<p class="planning-title">合乎情理，最適風格！</p>
+						<p class="planning-content">落實依照需求規劃，制定友善介面與操作體驗。<br />
+							<span class="planning-subtitle">企劃設計</span>
+						</p>
+						<img class="planning-img" src="./img/planning-img-3.png" alt="">
+						<span class="planning-number">03</span>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="planning-box">
+						<p class="planning-title">專業技術，完整全面！</p>
+						<p class="planning-content">採用流行框架，專注於互動性、產品效能、資安維護。<br />
+							<span class="planning-subtitle">程式開發</span>
+						</p>
+						<img class="planning-img" src="./img/planning-img-4.png" alt="">
+						<span class="planning-number">04</span>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="planning-box">
+						<p class="planning-title">準時上線，專人教學！</p>
+						<p class="planning-content">提供詳細說明操作流程，協助您輕鬆使用、快速上手。<br />
+							<span class="planning-subtitle">上線教學</span>
+						</p>
+						<img class="planning-img" src="./img/planning-img-5.png" alt="">
+						<span class="planning-number">05</span>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="planning-box">
+						<p class="planning-title">頂尖團隊，用心客服！</p>
+						<p class="planning-content">睿鍶科技團隊，永遠是您最棒的商業合作夥伴。<br />
+							<span class="planning-subtitle">售後服務</span>
+						</p>
+						<img class="planning-img" src="./img/planning-img-6.png" alt="">
+						<span class="planning-number">06</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="number-wrapper">
+		<p class="number-title">我們會專心聆聽您的問題與需求，您不必擔心不知道要從何開始</p>
+		<p class="number-content">0800-082-816</p>
+	</section>
+	<div class="number-background-triangle"></div>
+	<section id="section4" class="servive-wrapper">
+		<div class="container">
+			<h2>一站式全方位數位服務</h2>
+			<p class="servive-title-p col-md-8 col-lg-6">公司經營不用單打獨鬥，我們為您量身定做最適合您的網站
+				讓您不用東奔西走，就可以一次找到能處理問題的數位化解決方案</p>
+			<div class="d-flex">
+				<div class="servive-box">
+					<img class="w-100" src="./img/service-img-1.png" alt="">
+					<p class="servive-title">網頁設計</p>
+					<p>RWD響應式網站</br>
+						介面視覺設計</br>
+						套版及客製化網站</br>
+						網站Banner設計</p>
+				</div>
+				<div class="servive-box">
+					<img class="w-100" src="./img/service-img-2.png" alt="">
+					<p class="servive-title">程式開發</p>
+					<p>客製化功能開發</br>
+						全站後台管理</br>
+						多權限管理者</br>
+						網頁互動效果</p>
+				</div>
+				<div class="servive-box">
+					<img class="w-100" src="./img/service-img-3.png" alt="">
+					<p class="servive-title">程式開發</p>
+					<p>客製化功能開發</br>
+						全站後台管理</br>
+						多權限管理者</br>
+						網頁互動效果</p>
+				</div>
+				<div class="servive-box">
+					<img class="w-100" src="./img/service-img-4.png" alt="">
+					<p class="servive-title">程式開發</p>
+					<p>客製化功能開發</br>
+						全站後台管理</br>
+						多權限管理者</br>
+						網頁互動效果</p>
+				</div>
+				<div class="servive-box">
+					<img class="w-100" src="./img/service-img-5.png" alt="">
+					<p class="servive-title">程式開發</p>
+					<p>客製化功能開發</br>
+						全站後台管理</br>
+						多權限管理者</br>
+						網頁互動效果</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="contact-wrapper">
+		<div class="container-fulid contact-mask">
+			<div id="section5" class="contact-box">
+				<div class="p-4">
+					<span class="contact-title">免費諮詢</span><span class="float-right contact-number">0800-082-816</span>
+				</div>
+
+				<form action="https://formspree.io/xvorverl" method="POST">
+					<div class="row">
+						<div class="col-md-7">
+							<div class="row">
+								<div class="col">
+									<input type="text" name="companyname" class="form-control rounded-0 contact-input"
+										placeholder="公司名稱">
+								</div>
+								<div class="col">
+									<input type="text" name="name" class="form-control rounded-0 contact-input"
+										placeholder="姓名">
+								</div>
+							</div>
+							<div class="row mt-4">
+								<div class="col">
+									<input type="email" name="mail" class="form-control rounded-0 contact-input"
+										placeholder="E-mail">
+								</div>
+								<div class="col">
+									<input type="tel" id="phone" class="form-control rounded-0 contact-input"
+										name="phone" placeholder="電話" pattern="[0-9]{9}" required>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div class="row">
+								<div class="col pl-0 pr-0">
+									<textarea name="content" class="contact-textarea form-control rounded-0 pr-0">輸入你想要寫的內容...
+									</textarea>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="contact-select pl-4 pt-3">
+						<div class="d-flex">
+							<label for="attending">您對哪一個方案有興趣呢？</label>
+							<select class="form-control" name="attending" id="attending" required="">
+								<option>經濟小資</option>
+								<option value="創業贏家">創業贏家</option>
+								<option value="電商購物">電商購物</option>
+								<option value="電商購物">客製系統/網站</option>
+							</select>
+						</div>
+						<input class="float-right mr-4 btn btn-primary select-text-btn" type="submit" value="發送">
+					</div>
+				</form>
+
+			</div>
+		</div>
+	</section>
+	<footer class="footer-wrapper">
+		<div class="p-4 row">
+
+			<div class="col-md-8">
+				<div class="footer-box-1">
+					<img class="footer-logo" src="./img/main-logo.svg" alt="">
+					<div class="footer-content">
+						<p><i class="fas fa-map-marker-alt"></i>桃園市蘆竹區中正路365號2樓 <span><i
+									class="fas fa-envelope"></i>客服信箱：service@riease.com</span> </p>
+						<p><i class="fas fa-phone-alt"></i>服務專線：03-2129889 </p>
+					</div>
+				</div>
+				<div class="footer-copyright">
+					全方位RWD響應式網頁設計規劃團隊，桃園、台北全台網頁設計服務<br />
+					<span class="footer-copyright-text">© RiEASE TECHNOLOGY Co., LTD. ALL RIGHTS RESERVED.</span>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div id="map"></div>
+			</div>
+
+		</div>
+	</footer>
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+	integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+	integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+	integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
+<script src="https://unpkg.com/swiper/js/swiper.js"> </script>
+<script src="https://unpkg.com/swiper/js/swiper.min.js"> </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146880351-2"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDn7zrf8uk9iTXldUsOwtSjElT20mRWAls&callback=initMap" async
+	defer></script>
+
+<script>
+	AOS.init();
+</script>
+
+<script>
+	$(document).ready(function () {
+		$('.industry-wrapper .col-md-3 figure').mouseover(function () {
+			$('.col-md-3 figure').addClass("effect-active");
+			$(this).removeClass("effect-active");
+		});
+	});
+</script>
+
+<script>
+	function initMap() {
+		// The location of Uluru
+		var uluru = {
+			lat: 25.049212,
+			lng: 121.2910268
+		};
+		// The map, centered at Uluru
+		var map = new google.maps.Map(
+			document.getElementById('map'), {
+				zoom: 16,
+				center: uluru,
+				styles: [{
+						"elementType": "geometry",
+						"stylers": [{
+							"color": "#f5f5f5"
+						}]
+					},
+					{
+						"elementType": "labels.icon",
+						"stylers": [{
+							"visibility": "off"
+						}]
+					},
+					{
+						"elementType": "labels.text.fill",
+						"stylers": [{
+							"color": "#616161"
+						}]
+					},
+					{
+						"elementType": "labels.text.stroke",
+						"stylers": [{
+							"color": "#f5f5f5"
+						}]
+					},
+					{
+						"featureType": "administrative.land_parcel",
+						"elementType": "labels.text.fill",
+						"stylers": [{
+							"color": "#bdbdbd"
+						}]
+					},
+					{
+						"featureType": "poi",
+						"elementType": "geometry",
+						"stylers": [{
+							"color": "#eeeeee"
+						}]
+					},
+					{
+						"featureType": "poi",
+						"elementType": "labels.text.fill",
+						"stylers": [{
+							"color": "#757575"
+						}]
+					},
+					{
+						"featureType": "poi.park",
+						"elementType": "geometry",
+						"stylers": [{
+							"color": "#e5e5e5"
+						}]
+					},
+					{
+						"featureType": "poi.park",
+						"elementType": "labels.text.fill",
+						"stylers": [{
+							"color": "#9e9e9e"
+						}]
+					},
+					{
+						"featureType": "road",
+						"elementType": "geometry",
+						"stylers": [{
+							"color": "#ffffff"
+						}]
+					},
+					{
+						"featureType": "road.arterial",
+						"elementType": "labels.text.fill",
+						"stylers": [{
+							"color": "#757575"
+						}]
+					},
+					{
+						"featureType": "road.highway",
+						"elementType": "geometry",
+						"stylers": [{
+							"color": "#dadada"
+						}]
+					},
+					{
+						"featureType": "road.highway",
+						"elementType": "labels.text.fill",
+						"stylers": [{
+							"color": "#616161"
+						}]
+					},
+					{
+						"featureType": "road.local",
+						"elementType": "labels.text.fill",
+						"stylers": [{
+							"color": "#9e9e9e"
+						}]
+					},
+					{
+						"featureType": "transit.line",
+						"elementType": "geometry",
+						"stylers": [{
+							"color": "#e5e5e5"
+						}]
+					},
+					{
+						"featureType": "transit.station",
+						"elementType": "geometry",
+						"stylers": [{
+							"color": "#eeeeee"
+						}]
+					},
+					{
+						"featureType": "water",
+						"elementType": "geometry",
+						"stylers": [{
+							"color": "#c9c9c9"
+						}]
+					},
+					{
+						"featureType": "water",
+						"elementType": "labels.text.fill",
+						"stylers": [{
+							"color": "#9e9e9e"
+						}]
+					}
+				]
+			});
+		// The marker, positioned at Uluru
+		var marker = new google.maps.Marker({
+			position: uluru,
+			map: map,
+			title: 'ZHANG SI YU',
+			icon: './img/map-logo.png'
+		});
+	}
+</script>
+
+<script>
+	effect = 0
+	var swiper = new Swiper('.swiper-container', {
+		loop: true,
+		loopFillGroupWithBlank: false,
+		speed: 2500,
+		slidesPerView: 5,
+		// autoplay:true,
+		slidesPerColumn: 1,
+		spaceBetween: 30,
+		centeredSlides: true,
+		watchSlidesProgress: true,
+		on: {
+			setTranslate: function () {
+				slides = this.slides
+				for (i = 0; i < slides.length; i++) {
+					slide = slides.eq(i)
+					progress = slides[i].progress
+					//slide.html(progress.toFixed(2)); 看清楚progress是怎么变化的
+					slide.css({
+						'opacity': '',
+						'background': ''
+					});
+					slide.transform(''); //清除样式
+
+					if (effect == 1) {
+						slide.transform('scale(' + (1 - Math.abs(progress) / 8) + ')');
+					} else if (effect == 2) {
+						slide.css('opacity', (1 - Math.abs(progress) / 6));
+						slide.transform('translate3d(0,' + Math.abs(progress) * 20 + 'px, 0)');
+					} else if (effect == 3) {
+						slide.transform('rotate(' + progress * 30 + 'deg)');
+					} else if (effect == 4) {
+						slide.css('background', 'rgba(' + (255 - Math.abs(progress) * 20) + ',' + (127 +
+							progress * 32) + ',' + Math.abs(progress) * 64 + ')');
+					}
+
+				}
+			},
+			setTransition: function (transition) {
+				for (var i = 0; i < this.slides.length; i++) {
+					var slide = this.slides.eq(i)
+					slide.transition(transition);
+				}
+			},
+		},
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		},
+	});
+
+	pe = document.getElementById('progressEffect');
+	pe.onchange = function () {
+		effect = this.value
+		swiper.update();
+	}
+</script>
+
+<script>
+	var btn = $('#button');
+
+	$(window).scroll(function () {
+		if ($(window).scrollTop() > 300) {
+			btn.addClass('show');
+		} else {
+			btn.removeClass('show');
+		}
+	});
+
+	btn.click(function(e){
+		e.preventDefault();
+    $('html, body').scrollTop(0);
+  });
+
+</script>
+
+<script>
+	// $(window).scroll(function() {
+	//   if ($(this).scrollTop() > 400) {
+	//     $('.navbar-top').addClass('cool');
+	//   }
+	// });
+
+
+	$(function () {
+		$(window).scroll(function () {
+			var scroll = $(window).scrollTop();
+			if (scroll > 20) {
+				$('.navbar-top').hide();
+			} else {
+				$('.navbar-top').show();
+			}
+		});
+	})
+
+	// $(window).scroll(function () {
+	// 	if ($(this).scrollTop() > 400) {
+	// 		$('.navbar-top').fadeOut();
+	// 	} else {
+	// 		$('.navbar-top').fadeIn();
+	// 	}
+	// });
+</script>
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+	FB.init({
+	  xfbml            : true,
+	  version          : 'v6.0'
+	});
+  };
+
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="2040206619586111"
+theme_color="#20cef5">
+</div>
+
+</html>

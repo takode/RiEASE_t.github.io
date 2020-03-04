@@ -1,0 +1,685 @@
+body {
+	font-family: 'Noto Sans TC' !important;
+}
+
+.row {
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+}
+
+.text-primary {
+	color: rgb(255, 115, 45) !important;
+	font-weight: 900 !important;
+}
+
+.btn-primary {
+	color: #ffffff;
+	background-color: rgb(255, 115, 45);
+	border-color: rgb(255, 115, 45);
+}
+
+.btn-primary:hover {
+	background-color: rgb(243, 106, 37);
+	border-color: rgb(243, 106, 37);
+}
+
+.btn {
+	border-radius: 0px;
+}
+
+/* 導覽 */
+
+.navbar-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.navbar-top {
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 999999999;
+	padding: 0.9rem 1rem !important;
+	font-weight: 700;
+	box-shadow: 0px 4px 10px rgba(74, 74, 74, 0.101);
+	background-color: rgba(255, 255, 255, .9)!important;
+}
+
+.nav-text-phone {
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-weight: 700;
+	font-family: 'Arial' !important;
+}
+
+.nav-phone-wrapper a {
+	display: flex;
+}
+
+.nav-phone-wrapper a img {
+	margin-right: 6px;
+	margin-left: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: rgba(0, 0, 0, .8);
+}
+
+/* 導覽 */
+
+/* 輪播 */
+
+.banner-text-wrapper {
+	position: absolute;
+	z-index: 999999;
+	top: 24%;
+	right: 80px;
+	text-align: right;
+	width: 44%;
+}
+
+.banner-text-wrapper .banner-text-top {
+	font-size: 5rem;
+	font-weight: 900;
+	color: rgb(255, 115, 45);
+	display: inline-flex;
+	align-items: center;
+}
+
+.banner-text-wrapper .banner-text-top span {
+	font-size: 2.5rem;
+	margin: 10px 10px 0px 10px;
+}
+
+.banner-text-center {
+	font-size: 3.7rem;
+	font-weight: 600;
+	color: #4A4A4A;
+}
+
+.banner-text-bottom {
+	font-size: 1.5rem;
+	color: #4A4A4A;
+	text-align: inherit;
+}
+
+.banner-text-btn {
+	font-size: 1.1rem;
+	padding: 10px 20px;
+	float: right;
+	margin-top: 30px;
+}
+
+
+@media only screen and (min-width: 1367px) {
+	.banner-text-wrapper .banner-text-top {
+		font-size: 5.7rem;
+	}
+	.banner-text-center {
+		font-size: 4.1rem;
+	}
+	.banner-text-bottom {
+		font-size: 1.7rem;
+	}
+	.banner-text-wrapper {
+		width: 60%;
+	}
+	
+  }
+
+@media only screen and (max-width: 1366px) {
+	.banner-text-wrapper .banner-text-top {
+		font-size: 4.5rem;
+	}
+	.banner-text-center {
+		font-size: 3.4rem;
+	}
+	.banner-text-bottom {
+		font-size: 1.4rem;
+	}
+	
+  }
+
+  @media only screen and (max-width: 1260px) {
+	.banner-text-wrapper .banner-text-top {
+		font-size: 4rem;
+	}
+	.banner-text-center {
+		font-size: 3rem;
+	}
+	.banner-text-bottom {
+		font-size: 1rem;
+	}
+  }
+
+  @media only screen and (max-width: 1160px) {
+	.banner-text-wrapper .banner-text-top {
+		font-size: 3.4rem;
+	}
+	.banner-text-center {
+		font-size: 2.75rem;
+	}
+	.banner-text-bottom {
+		font-size: 1rem;
+	}
+	.banner-text-wrapper {
+		width: 100%;
+	}
+  }
+
+
+  .carousel {
+	position: relative;
+	padding-top: 76px;
+}
+
+
+@media only screen and (max-width: 997px) {
+	.carousel-m-hide{
+		display: none!important;
+	}	
+  }
+  @media only screen and (min-width: 998px) {
+	.carousel-l-hide{
+		display: none!important;
+	}	
+  }
+
+
+/* 輪播 */
+
+/* 公司特點 */
+
+.feature-box {
+	width: 100%;
+	background-color: #F2F2F2;
+	padding: 43px 4%;
+}
+
+.feature-box:nth-child(2) {
+	background-color: #E8E8E8;
+}
+
+.feature-box h3 {
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 16px;
+}
+
+.feature-box p {
+	margin-bottom: 0px;
+}
+
+.feature-icon-focus::before {
+	text-align: center;
+	content: url('../img/features-focus.svg');
+	margin: 0px 10px 0px 0px;
+}
+
+.feature-icon-nice::before {
+	text-align: center;
+	content: url('../img/features-nice.svg');
+	margin: 0px 10px 0px 0px;
+}
+
+.feature-icon-price::before {
+	text-align: center;
+	content: url('../img/features-price.svg');
+	margin: 0px 10px 0px 0px;
+}
+
+
+/* 公司特點 */
+
+
+/* 遇到困難 */
+.title-mark{
+    width: 7px;
+    height: 28px;
+    background-color: rgb(255, 115, 45);
+    position: absolute;
+    left: -3px;
+    top: 47px;
+}
+
+.difficult-wrapper{
+	padding: 130px 0px;
+}
+
+.difficult-wrapper h2{
+	padding-top: 40px;
+}
+
+.difficult-text-l{
+	font-size: 27px;
+	padding-top: 40px;
+}
+
+.difficult-text-mark{
+    position: absolute;
+    bottom: 57px;
+    width: 289px;
+    height: 15px;
+    left: 44px;
+    background-color: rgb(255, 115, 45,.3);
+}
+
+/* 遇到困難 */
+
+
+
+/* 產業介紹 */
+
+.industry-wrapper h2{
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: scale3d(0.8,0.8,1);
+	transform: scale3d(0.8,0.8,1);
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	font-size: 50px;
+	color: #ffffff;
+}
+
+.industry-wrapper .effect-active .industry-mask{
+	opacity: 0;
+}
+
+.industry-wrapper .industry-mask{
+    width: 93%;
+    height: 95.8%;
+	background: rgba(255, 127, 80, 0.402);
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+    position: absolute;
+    opacity: 1;
+}
+
+.industry-wrapper p{
+	margin-top: 40px;
+    text-transform: none;
+	color: #ffffff;
+	opacity: 1;
+	font-size: 20px;
+    -webkit-transform: scale3d(0.8,0.8,1);
+    transform: scale3d(0.8,0.8,1);
+    -webkit-transform-origin: 50% -100%;
+	transform-origin: 50% -100%;
+}
+
+figure.effect-active h2 {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: scale3d(0.8,0.8,1);
+	transform: scale3d(0.8,0.8,1);
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	font-size: 50px;
+	color: #ffffff;
+	opacity: 0;
+}
+
+figure.effect-active p {
+	margin-top: 40px;
+    text-transform: none;
+	color: #ffffff;
+	opacity: 1;
+	font-size: 20px;
+    -webkit-transform: scale3d(0.8,0.8,1);
+    transform: scale3d(0.8,0.8,1);
+    -webkit-transform-origin: 50% -100%;
+	transform-origin: 50% -100%;
+	opacity: 0;
+}
+
+figure.effect-active:hover h2,
+figure.effect-active:hover p {
+	opacity: 1;
+	overflow: hidden;
+	/* -webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1); */
+}
+
+.industry-wrapper .industry-mask{
+    position: absolute;
+    top: 0%;
+    left: 30px;
+    left: 3.6%;
+}
+
+/* Media queries */
+@media screen and (max-width: 50em) {
+	.content {
+		padding: 0 10px;
+		text-align: center;
+	}
+	.grid figure {
+		display: inline-block;
+		float: none;
+		margin: 10px auto;
+		width: 100%;
+	}
+}
+
+/* 產業介紹 */
+
+
+.products-price-wrapper{
+	padding: 80px 50px;
+}
+
+
+.bg-gray{
+	width: 100%;
+	background-color: #EFEFEF;
+}
+
+.products-box-1{
+	width: 100%;
+	background-color: #ffffff;
+	border: 3px solid #07A1DD;
+	padding: 50px 20px;
+	text-align: center;
+}
+
+.products-box-2{
+    width: 100%;
+    /* height: 537px; */
+    background-color: #ffffff;
+    border: 3px solid #FF4545;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.products-box-3{
+	width: 100%;
+	background-color: #ffffff;
+	border: 3px solid #3775FF;
+	padding: 50px 20px;
+	text-align: center;
+}
+
+.products-box-4{
+	width: 100%;
+	background-color: #ffffff;
+	border: 3px solid #4C26ED;
+	padding: 50px 20px;
+	text-align: center;
+}
+
+.products-wrapper{
+    padding: 40px 0px 0px 0px;
+    position: relative;
+}
+
+.products-wrapper h2{
+	text-align: center;
+	padding: 40px 0px 60px 0px;
+	font-weight: 900;
+}
+
+.products-icon-out{
+	width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products-color-1{
+	background-color: #07A1DD;
+}
+
+.products-color-2{
+	background-color: #FF4545;
+}
+
+.products-color-3{
+	background-color: #3775FF;
+}
+
+.products-color-4{
+	background-color: #4C26ED;
+}
+.products-icon-inner{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price-text-title{
+	padding: 20px 0px 15px 0px;
+	font-weight: 900;
+	font-size: 1.3rem;
+}
+
+.price-text-delete{
+	text-decoration:line-through ;
+	font-weight: 900;
+	margin-right: 8px;
+}
+
+.price-text-sale{
+	background-color:#FF3756 ;
+	border-radius: 50px;
+	color: #ffffff;
+	font-weight: 900;
+	padding: 2px 10px;
+}
+
+.price-text-wrapper{
+	opacity: .5;
+}
+
+.price-text-main{
+	font-size: 38px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.price-text-main-only{
+	font-size: 27px;
+	font-weight: bold;
+}
+
+.price-text-up{
+	font-size: 22px;
+}
+
+.list-group{
+    text-align: left;
+    list-style-type: none;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 12px;
+    height: 300px;
+}
+
+.fa-check,.fa-gift{
+	margin-right: 10px;
+}
+
+.fa-rocket{
+	color: #4C26ED;
+	margin-right: 10px;
+}
+
+.fa-check{
+	color:#00B67A;
+}
+
+.fa-gift{
+	color:#FD7734;
+}
+
+.products-box-1 .price-btn-1{
+	background-color:#07A1DD ;
+	color: #ffffff;
+	padding: 10px 25px;
+}
+
+.products-box-1 .price-btn-1:hover{
+	background-color:#07A1DD ;
+	color: #ffffff;
+	padding: 10px 25px;
+}
+
+.price-btn-2{
+	background-color:#FF3756 ;
+	color: #ffffff;
+	padding: 10px 25px;
+}
+
+.price-btn-2:hover{
+	background-color:#FF3756 ;
+	color: #ffffff;
+	padding: 10px 25px;
+}
+
+.price-btn-3{
+	background-color:#3775FF ;
+	color: #ffffff;
+	padding: 10px 25px;
+}
+
+.price-btn-3:hover{
+	background-color:#3775FF ;
+	color: #ffffff;
+	padding: 10px 25px;
+}
+
+
+.price-btn-4{
+	background-color:#4C26ED ;
+	color: #ffffff;
+	padding: 10px 25px;
+}
+
+.price-btn-4:hover{
+	background-color:#4C26ED;
+	color: #ffffff;
+	padding: 10px 25px;
+}
+.price-background-triangle{
+	width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 50vw 0 50vw;
+    border-color: #EFEFEF transparent transparent transparent;
+    position: absolute;
+    left: 0px;
+    /* top: 50px; */
+    bottom: -100px;
+}
+
+.price-phone-wrapper{
+	text-align: center;
+    margin-top: 50px;
+}
+.price-phone-title{
+	font-size: 2rem;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.price-phone-number{
+	font-size: 2.5rem;
+	font-weight: bold;
+	margin-top: 20px;
+	color:#FD7734;
+}
+
+
+
+/* 電話區塊 */
+
+
+
+
+
+
+
+
+.site-index .portfolio #index-portfolio.swiper-container-initialized {
+    display: block;
+}
+.site-index .portfolio #index-portfolio {
+    width: 100%;
+    position: relative;
+    display: none;
+    overflow: visible;
+}
+
+.scroll-anime._active {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+.scroll-anime {
+    opacity: 0;
+    -webkit-transform: translateY(48px);
+    transform: translateY(48px);
+    -webkit-transition: all .8s 0s cubic-bezier(.455,.03,.515,.955);
+    transition: all .8s 0s cubic-bezier(.455,.03,.515,.955);
+}
+
+.site-index .portfolio #index-portfolio.swiper-container-initialized {
+    display: block;
+}
+.site-index .portfolio #index-portfolio {
+    width: 100%;
+    position: relative;
+    display: none;
+    overflow: visible;
+}
+.swiper-container {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
+.site-index .portfolio .swiper-pagination {
+    position: absolute;
+    width: 100%;
+    bottom: 64px;
+    left: 0;
+}
+.swiper-pagination {
+    position: absolute;
+    text-align: center;
+    -webkit-transition: .3s opacity;
+    -o-transition: .3s opacity;
+    transition: .3s opacity;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    z-index: 10;
+}
+
+.site-index .portfolio .swiper-pagination {
+    position: absolute;
+    width: 100%;
+    bottom: 64px;
+    left: 0;
+}
+.swiper-pagination {
+    position: absolute;
+    text-align: center;
+    -webkit-transition: .3s opacity;
+    -o-transition: .3s opacity;
+    transition: .3s opacity;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    z-index: 10;
+}
