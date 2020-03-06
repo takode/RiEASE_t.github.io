@@ -258,6 +258,21 @@ a:hover{
 	}
 }
 
+@media screen and (max-width: 470px) {
+	.carousel-control-next, .carousel-control-prev {
+		bottom: -130%!important;
+	}
+	.carousel-control-next {
+		right: 30%!important;
+	}
+	
+	.carousel-control-prev {
+		left: 30%!important;
+	}
+}
+
+
+
 
 /* 輪播 */
 
@@ -1385,9 +1400,8 @@ figure.effect-active:hover p {
 
 @media screen and (max-width:768px){
 #button {
-	bottom: 111px;
-	right: 11px;
-
+	bottom: 102px;
+    right: 25px;
 }
 
 }
