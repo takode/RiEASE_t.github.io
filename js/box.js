@@ -20,7 +20,7 @@ $(function() {
 	  gutter: 0,
 	  // Customize caption area
 	  caption: function(instance) {
-		return '<h3>安進捲門</h3><p>interiors, exteriors, and the humans that inhabit them.</p><p><a href="http://www.rd.com.tw/" target="_blank">www.rd.com.tw</a></p>';
+		return '<h3>安進捲門</h3><p>安進捲門是集合國內高科技研發工程師群，配合精密設備，以優良鍍鋁鋅鋼板材質搭配先進的微電腦控制系統所研發出高品質、安全、安靜、美觀、快速及適合各需求的 ...</p><p><a href="http://www.rd.com.tw/" target="_blank">www.rd.com.tw</a></p>';
 	  }
 	});
 
@@ -386,4 +386,19 @@ $(function() {
 	  hash: "morphing"
 	});
   });
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
