@@ -15,8 +15,13 @@ a{
 }
 
 a:hover{
-	color: #4A4A4A;
-	text-decoration: none;	
+	color: rgb(255, 115, 45)!important;
+	text-decoration: none;
+	transition:.3s;
+	-webkit-transition:.3s;
+	-moz-transition:.3s;
+	-ms-transition:.3s;
+	-o-transition:.3s;
 }
 
 .row {
@@ -36,8 +41,19 @@ a:hover{
 }
 
 .btn-primary:hover {
-	background-color: rgb(243, 106, 37);
-	border-color: rgb(243, 106, 37);
+	background-color: rgb(201, 85, 27);
+	border-color: rgb(201, 85, 27);
+}
+
+.btn-primary:active {
+	background-color: rgb(201, 85, 27);
+	border-color: rgb(201, 85, 27);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+	background-color: rgb(201, 85, 27);
+	border-color: rgb(201, 85, 27);
 }
 
 .btn {
@@ -418,7 +434,7 @@ a:hover{
 .industry-wrapper .industry-mask {
 	width: 93%;
 	height: 95.8%;
-	background: rgba(43, 170, 202, 0.402);
+	background: rgba(31, 130, 155, 0.402);
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	position: absolute;
@@ -428,7 +444,7 @@ a:hover{
 .industry-wrapper .industry-mask-2 {
 	width: 93%;
 	height: 95.8%;
-	background: rgba(65, 171, 150, 0.402);
+	background: rgba(47, 128, 111, 0.402);
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	position: absolute;
@@ -440,7 +456,7 @@ a:hover{
 .industry-wrapper .industry-mask-3 {
 	width: 93%;
 	height: 95.8%;
-	background: rgba(255, 127, 80, 0.402);
+	background: rgba(201, 75, 30, 0.402);
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	position: absolute;
@@ -450,7 +466,7 @@ a:hover{
 .industry-wrapper .industry-mask-4 {
 	width: 93%;
 	height: 95.8%;
-	background: rgba(238, 98, 215, 0.402);
+	background: rgba(168, 57, 150, 0.402);
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	position: absolute;
@@ -806,7 +822,7 @@ figure.effect-active:hover p {
 }
 
 .products-box-1 .price-btn-1:hover {
-	background-color: #07A1DD;
+	background-color: rgb(6, 114, 157);
 	color: #ffffff;
 	padding: 10px 25px;
 }
@@ -818,7 +834,7 @@ figure.effect-active:hover p {
 }
 
 .price-btn-2:hover {
-	background-color: #FF3756;
+	background-color: rgb(204, 42, 66);
 	color: #ffffff;
 	padding: 10px 25px;
 }
@@ -830,7 +846,7 @@ figure.effect-active:hover p {
 }
 
 .price-btn-3:hover {
-	background-color: #3775FF;
+	background-color: rgb(40, 87, 189);
 	color: #ffffff;
 	padding: 10px 25px;
 }
@@ -843,7 +859,7 @@ figure.effect-active:hover p {
 }
 
 .price-btn-4:hover {
-	background-color: #4C26ED;
+	background-color: rgb(55, 28, 177);
 	color: #ffffff;
 	padding: 10px 25px;
 }
@@ -872,12 +888,13 @@ figure.effect-active:hover p {
 }
 
 .price-phone-number {
-	font-size: 2.5rem;
-	font-weight: bold;
-	margin-top: 20px;
-	color: #FD7734;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #FD7734;
+    font-family: Arial;
+    font-weight: 700;
 }
-
 
 
 /* 電話區塊 */
@@ -1045,10 +1062,12 @@ figure.effect-active:hover p {
 
 .planning-number {
 	color: rgba(253, 119, 52, 0.85);
-	position: absolute;
-	right: 29px;
-	top: -4px;
-	font-size: 30px;
+    position: absolute;
+    right: 29px;
+    top: -19px;
+    font-size: 30px;
+    font-family: arial;
+    font-weight: 600;
 }
 
 .planning-wrapper {

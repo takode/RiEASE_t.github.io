@@ -136,7 +136,7 @@
 							<div class="banner-text-bottom">
 								官網、社群、後台、廣告、名片、DM，一次用到好！
 							</div>
-							<button class="btn btn-primary banner-text-btn">了解更多</button>
+							<a href="#section2" class="btn btn-primary banner-text-btn">了解更多</a>
 						</div>
 					</div>
 					<div class="carousel-item active carousel-l-hide">
@@ -201,9 +201,9 @@
 					<img class="w-100" src="./img/industry-medical.jpg" alt="img27" />
 					<div class="industry-mask-2">
 						<h2>醫療診所網站</h2>
-						<p>對象：宴會館/餐廳/飲料店/小吃店<br />
+						<p>對象：診所、醫院、醫學中心、試管嬰兒中心、坐月子中心等.....<br />
 							網站類型：形象網站<br />
-							功能：菜單呈現</p>
+							功能：即時的線上掛號、線上預約</p>
 					</div>
 				</figure>
 			</div>
@@ -212,9 +212,9 @@
 					<img class="w-100" src="./img/industry-manufacture.jpg" alt="img27" />
 					<div class="industry-mask">
 						<h2>科技製造網站</h2>
-						<p>對象：宴會館/餐廳/飲料店/小吃店<br />
+						<p>對象：製造商、中小企業、國內外代理等.....<br />
 							網站類型：形象網站<br />
-							功能：菜單呈現</p>
+							功能：產品型錄</p>
 					</div>
 				</figure>
 			</div>
@@ -223,7 +223,7 @@
 					<img class="w-100" src="./img/industry-food.jpg" alt="img27" />
 					<div class="industry-mask-3">
 						<h2>餐飲宴會網站</h2>
-						<p>對象：宴會館/餐廳/飲料店/小吃店<br />
+						<p>對象：宴會館、餐廳、飲料店、小吃店等.....<br />
 							網站類型：形象網站<br />
 							功能：菜單呈現</p>
 					</div>
@@ -234,9 +234,9 @@
 					<img class="w-100" src="./img/industry-shopping.jpg" alt="img27" />
 					<div class="industry-mask-4">
 						<h2>服裝購物網站</h2>
-						<p>對象：宴會館/餐廳/飲料店/小吃店<br />
+						<p>對象：電子商務、服裝品牌、團購購物等.....<br />
 							網站類型：形象網站<br />
-							功能：菜單呈現</p>
+							功能：會員管理、購物車</p>
 					</div>
 				</figure>
 			</div>
@@ -248,8 +248,10 @@
 
 	<div data-aos="flip-up" class="container">
 		<div class="col-md-12 products-price-wrapper">
-			<img class="w-100" src="./img/website-banner-8800.gif" alt="">
-		</div>
+			<a onclick="myFunction5()" href="#mySelect">
+				<img class="w-100" src="./img/website-banner-8800.gif" alt="">
+			</a>
+	   </div>
 	</div>
 	<div data-aos="zoom-in-up" id="section1" class="products-wrapper container-fulid bg-gray">
 		<div class="container">
@@ -262,7 +264,7 @@
 								<img src="./img/products-icon-1.svg" alt="">
 							</div>
 						</div>
-						<div class="price-text-title">創業贏家</div>
+						<div class="price-text-title">經濟小資</div>
 						<div class="price-text-wrapper">
 							<span class="price-text-delete">$36000</span><span class="price-text-sale">Sale 80%</span>
 						</div>
@@ -274,7 +276,7 @@
 							<li><i class="fas fa-check"></i>連絡表單</li>
 							<li><i class="fas fa-gift"></i>名片設計</li>
 						</ul>
-						<button class="btn price-btn-1">聯絡我們</button>
+						<a onclick="myFunctio1()" href="#mySelect" class="btn price-btn-1">聯絡我們</a>
 					</div>
 				</div>
 				<div class="col-md-6 col-lg-3">
@@ -284,7 +286,7 @@
 								<img src="./img/products-icon-2.svg" alt="">
 							</div>
 						</div>
-						<div class="price-text-title">經濟小資</div>
+						<div class="price-text-title">創業贏家</div>
 						<div class="price-text-wrapper">
 							<span class="price-text-delete">$78400</span><span class="price-text-sale">Sale 75%</span>
 						</div>
@@ -298,7 +300,7 @@
 							<li><i class="fas fa-gift"></i>LINE客服設定</li>
 							<li><i class="fas fa-gift"></i>廣告投放</li>
 						</ul>
-						<button class="btn price-btn-2">聯絡我們</button>
+						<a onclick="myFunction2()" href="#mySelect" class="btn price-btn-2">聯絡我們</a>
 					</div>
 				</div>
 				<div class="col-md-6 col-lg-3">
@@ -324,7 +326,7 @@
 							<li><i class="fas fa-gift"></i>社群服務</li>
 							<li><i class="fas fa-gift"></i>廣告投放</li>
 						</ul>
-						<button class="btn price-btn-3">聯絡我們</button>
+						<a onclick="myFunction3()" href="#mySelect" class="btn price-btn-3">聯絡我們</a>
 					</div>
 				</div>
 				<div class="col-md-6 col-lg-3">
@@ -345,7 +347,7 @@
 							<li><i class="fas fa-rocket"></i></i>企業ERP系統</li>
 							<li><i class="fas fa-rocket"></i></i>進銷存系統</li>
 						</ul>
-						<button class="btn price-btn-4">聯絡我們</button>
+						<a onclick="myFunction4()" href="#mySelect" class="btn price-btn-4">聯絡我們</a>
 					</div>
 				</div>
 			</div>
@@ -686,11 +688,12 @@
 					<div class="contact-select pl-4 pt-3">
 						<div class="d-flex">
 							<label for="attending">您對哪一個方案有興趣呢？</label>
-							<select class="form-control" name="attending" id="attending" required="">
+							<select id="mySelect" class="form-control" name="attending" id="attending" required="">
 								<option>經濟小資</option>
 								<option value="創業贏家">創業贏家</option>
 								<option value="電商購物">電商購物</option>
 								<option value="電商購物">客製系統/網站</option>
+								<option value="電商購物">一頁式官網</option>
 							</select>
 						</div>
 						<input class="float-right mr-4 btn btn-primary select-text-btn" type="submit" value="發送">
@@ -714,6 +717,7 @@
 				</div>
 				<div class="footer-copyright">
 					<div class="">
+						<div style="margin-bottom: 20px;" class="fb-share-button" data-href="https://takode.github.io/RiEASE_t.github.io/?fbclid=IwAR0ObGk0SZGd-pBU3mxtCuz4G6D6HPRDdJO1QQCLoD95zG1CTpQlloM4cC4" data-layout="button_count" data-size="small"><a target="_blank" href="https://takode.github.io/RiEASE_t.github.io/?fbclid=IwAR0ObGk0SZGd-pBU3mxtCuz4G6D6HPRDdJO1QQCLoD95zG1CTpQlloM4cC4" class="fb-xfbml-parse-ignore">分享</a></div>
 						<p><i class="fas fa-map-marker-alt"></i>桃園市蘆竹區中正路365號2樓 <span><i
 									class="fas fa-envelope"></i>客服信箱：service@riease.com</span> </p>
 						<p><i class="fas fa-phone-alt"></i>服務專線：03-2129889 </p>
@@ -755,6 +759,9 @@
 <!-- Your customer chat code -->
 <div class="fb-customerchat" attribution=setup_tool page_id="2040206619586111" theme_color="#000000">
 </div>
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v6.0&appId=840769146273818&autoLogAppEvents=1"></script>
 
 <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 	integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
@@ -1049,6 +1056,29 @@
 		$("#load").fadeOut(6000);
 	};
 </script>
+
+<script> 
+	function myFunction() { 
+	document.getElementById( 
+	"mySelect").selectedIndex = "0"; 
+	}
+	function myFunction2() { 
+	document.getElementById( 
+	 "mySelect").selectedIndex = "1"; 
+	}
+	function myFunction3() { 
+	document.getElementById( 
+	 "mySelect").selectedIndex = "2"; 
+	}
+	function myFunction4() { 
+	document.getElementById( 
+	 "mySelect").selectedIndex = "3"; 
+	}
+	function myFunction5() { 
+	document.getElementById( 
+	 "mySelect").selectedIndex = "4"; 
+	} 
+</script> 
 
 
 </html>
