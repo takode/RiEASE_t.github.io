@@ -1,7 +1,7 @@
 
 		//方法2
 		window.onload = function () {
-			$("#load").fadeOut(6000);
+			$("#load").fadeOut(2000);
 		};
 	
 	AOS.init();

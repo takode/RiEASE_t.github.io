@@ -61,6 +61,8 @@ a:hover{
 	border-radius: 0px;
 }
 
+
+
 /* 導覽 */
 
 .navbar-wrapper {
@@ -72,6 +74,14 @@ a:hover{
 	width: 185px;
 	margin-left: 10px;
 }
+
+@media screen and (max-width:400px) {
+	.navbar-brand img {
+		width: 159px;
+		margin-left: 10px;
+	}
+}
+
 
 .navbar-top {
 	/* position: fixed;
@@ -364,7 +374,7 @@ a:hover{
 
 @media screen and (max-width:768px) {
 	.difficult-wrapper {
-		padding: 9px 0px;
+		padding: 9px 0px 50px 0px;
 	}
 }
 
@@ -1171,6 +1181,13 @@ figure.effect-active:hover p {
 	padding: 40px 0px 40px 0px;
 	position: relative;
 }
+@media screen and (max-width:500px) {
+	.number-wrapper {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+
 
 .number-title {
 	font-size: 1.4375rem;
@@ -1253,6 +1270,13 @@ figure.effect-active:hover p {
 		padding: 20px;
 	}
 }
+
+@media screen and (max-width:400px) {
+	.servive-box p{
+		font-size: 0.8125rem;
+	}
+}
+
 
 /* 聯絡我們 */
 
