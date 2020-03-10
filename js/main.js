@@ -224,40 +224,7 @@ function initMap() {
 
 
 
-	var btn = $('#button');
 
-	$(window).scroll(function () {
-		if ($(window).scrollTop() > 300) {
-			btn.addClass('show');
-		} else {
-			btn.removeClass('show');
-		}
-	});
-
-	btn.click(function (e) {
-		e.preventDefault();
-		$('html, body').scrollTop(0);
-	});
-
-
-
-	// $(window).scroll(function() {
-	//   if ($(this).scrollTop() > 400) {
-	//     $('.navbar-top').addClass('cool');
-	//   }
-	// });
-
-
-	$(function () {
-		$(window).scroll(function () {
-			var scroll = $(this).scrollTop();
-			if (scroll > 1200) {
-				$('.navbar-top').addClass('navbar-fixed');
-			} else {
-				$('.navbar-top').removeClass('navbar-fixed');
-			}
-		});
-	})
 
 	// $(window).scroll(function () {
 	// 	if ($(this).scrollTop() > 400) {
