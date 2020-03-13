@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="zh-TW" style="overflow-x:hidden;">
 
 <head>
 	<title>Gogonow</title>
@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<!-- scroll animation -->
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 	<!-- 主要的style -->
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
@@ -21,9 +21,10 @@
 	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
 	<link rel="stylesheet" href="./css/box.css">
-
-	<link rel="icon" href="./img/favicon-icon-01-01.png" type="image/x-icon"/>
-	<link rel="shortcut icon" href="./img/favicon-icon-01-01.png" type="image/x-icon"/>
+	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+	<link rel="icon" href="./img/favicon-icon-01-01.png" type="image/x-icon" />
+	<link rel="shortcut icon" href="./img/favicon-icon-01-01.png" type="image/x-icon" />
 
 
 </head>
@@ -47,19 +48,21 @@
 						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 					</li> -->
 					<li class="nav-item">
-						<a class="nav-link" href="#section1">方案介紹</a>
+						<a id="section1" class="nav-link">
+							方案介紹
+						</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#section2">案例實績</a>
+						<a class="nav-link" id="section2">案例實績</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#section3">規劃流程</a>
+						<a class="nav-link" id="section3">規劃流程</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#section4">服務項目</a>
+						<a class="nav-link" id="section4">服務項目</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#section5">免費諮詢</a>
+						<a class="nav-link" id="section5">免費諮詢</a>
 					</li>
 					<li class="nav-item nav-phone-wrapper">
 						<a class="nav-link" href="#">
@@ -118,43 +121,44 @@
 			</div>
 		</nav>
 		<div data-aos="zoom-in-right">
-			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+			<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+				<ol class="carousel-indicators carousel-m-hide">
+					<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+					<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+				</ol>
 				<div class="carousel-inner">
+					<div class="carousel-mask"></div>
 					<div class="carousel-item active carousel-m-hide">
-						<!-- <video class="w-100" autoplay muted loop id="myVideo">
-							<source src="./img/banner.mp4" type="video/mp4">
-							Your browser does not support HTML5 video.
-						</video> -->
-
-						<img src="./img/banner.jpg" class="d-block w-100" alt="...">
-						<div class="banner-text-wrapper">
-							<div class="banner-text-top">
-								網站<span>×</span>
-								設計<span>×</span>
-								行銷
-							</div>
-							<div class="banner-text-center">
-								把你的困難都交給我們
-							</div>
-							<div class="banner-text-bottom">
-								官網、社群、後台、廣告、名片、DM，一次用到好！
-							</div>
-							<a href="#section2" class="btn btn-primary banner-text-btn">了解更多</a>
+						<img src="./img/banner-2.jpg"" class=" d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item carousel-m-hide">
+						<img src="./img/banner-1.jpg"" class=" d-block w-100" alt="...">
+					</div>
+					<div class="banner-text-wrapper carousel-m-hide">
+						<div class="banner-text-top">
+							網站<span>×</span>
+							設計<span>×</span>
+							行銷
 						</div>
+						<div class="banner-text-center">
+							把你的困難都交給我們
+						</div>
+						<div class="banner-text-bottom">
+							官網、社群、後台、廣告、名片、DM，一次用到好！
+						</div>
+						<a  id="section6" class="btn btn-primary banner-text-btn">了解更多</a>
 					</div>
 					<div class="carousel-item active carousel-l-hide">
 						<img src="./img/banner-m.jpg" class="d-block w-100" alt="...">
 					</div>
 				</div>
-				<!-- <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a> -->
 			</div>
+
+
+
+
+
+
 		</div>
 
 		<div class="container-fulid feature-wrapper">
@@ -192,7 +196,8 @@
 
 			</div>
 			<div class="col-md-5 col-lg-7" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-				<img class="w-100" src="./img/dilemma-img.png" alt="">
+				<img class="w-100" src="./img/dilemma-img.jpg" alt="">
+				<div class="dilemma-square"></div>
 			</div>
 		</div>
 	</div>
@@ -252,278 +257,296 @@
 	<div data-aos="flip-up" class="container">
 		<div class="col-md-12 products-price-wrapper">
 			<a onclick="myFunction5()" href="#mySelect">
-				<img class="w-100" src="./img/website-banner-8800.gif" alt="">
+				<img class="w-100" src="./img/website-banner-8800-01.jpg" alt="">
 			</a>
-	   </div>
-	</div>
-	<div data-aos="zoom-in-up" id="section1" class="products-wrapper container-fulid bg-gray">
-		<div class="container">
-			<h2>方案介紹</h2>
-			<div class="row">
-				<div class="col-md-6 col-lg-3">
-					<div class="products-box-1">
-						<div class="products-icon-out products-color-1">
-							<div class="products-icon-inner">
-								<img src="./img/products-icon-1.svg" alt="">
-							</div>
-						</div>
-						<div class="price-text-title">經濟小資</div>
-						<div class="price-text-wrapper">
-							<span class="price-text-delete">$36000</span><span class="price-text-sale">Sale 80%</span>
-						</div>
-						<div class="price-text-main">$28,800<span class="price-text-up">up</span></div>
-						<ul class="list-group">
-							<li><i class="fa fa-check"></i>網域空間</li>
-							<li><i class="fas fa-check"></i>虛擬主機空間</li>
-							<li><i class="fas fa-check"></i>SEO網站優化</li>
-							<li><i class="fas fa-check"></i>連絡表單</li>
-							<li><i class="fas fa-gift"></i>名片設計</li>
-						</ul>
-						<a onclick="myFunctio1()" href="#mySelect" class="btn price-btn-1">聯絡我們</a>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-3">
-					<div class="products-box-2">
-						<div class="products-icon-out products-color-2">
-							<div class="products-icon-inner">
-								<img src="./img/products-icon-2.svg" alt="">
-							</div>
-						</div>
-						<div class="price-text-title">創業贏家</div>
-						<div class="price-text-wrapper">
-							<span class="price-text-delete">$78400</span><span class="price-text-sale">Sale 75%</span>
-						</div>
-						<div class="price-text-main">$58,800<span class="price-text-up">up</span></div>
-						<ul class="list-group">
-							<li><i class="fa fa-check"></i>網域空間</li>
-							<li><i class="fas fa-check"></i>虛擬主機空間</li>
-							<li><i class="fas fa-check"></i>SEO網站優化</li>
-							<li><i class="fas fa-check"></i>連絡表單</li>
-							<li><i class="fas fa-gift"></i>名片設計/DM設計</li>
-							<li><i class="fas fa-gift"></i>LINE客服設定</li>
-							<li><i class="fas fa-gift"></i>廣告投放</li>
-						</ul>
-						<a onclick="myFunction2()" href="#mySelect" class="btn price-btn-2">聯絡我們</a>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-3">
-					<div class="products-box-3">
-						<div class="products-icon-out products-color-3">
-							<div class="products-icon-inner">
-								<img src="./img/products-icon-3.svg" alt="">
-							</div>
-						</div>
-						<div class="price-text-title">電商購物</div>
-						<div class="price-text-wrapper">
-							<span class="price-text-delete">$97800</span><span class="price-text-sale">Sale 90%</span>
-						</div>
-						<div class="price-text-main">$88,800<span class="price-text-up">up</span></div>
-						<ul class="list-group">
-							<li><i class="fa fa-check"></i>網域空間</li>
-							<li><i class="fas fa-check"></i>虛擬主機空間</li>
-							<li><i class="fas fa-check"></i>SEO網站優化</li>
-							<li><i class="fas fa-check"></i>連絡表單/商品型錄</li>
-							<li><i class="fas fa-check"></i>預約模組/金流串接</li>
-							<li><i class="fas fa-gift"></i>名片設計/DM設計</li>
-							<li><i class="fas fa-gift"></i>LINE客服設定</li>
-							<li><i class="fas fa-gift"></i>社群服務</li>
-							<li><i class="fas fa-gift"></i>廣告投放</li>
-						</ul>
-						<a onclick="myFunction3()" href="#mySelect" class="btn price-btn-3">聯絡我們</a>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-3">
-					<div class="products-box-4">
-						<div class="products-icon-out products-color-4">
-							<div class="products-icon-inner">
-								<img src="./img/products-icon-4.svg" alt="">
-							</div>
-						</div>
-						<div class="price-text-title">客製系統/網站</div>
-						<div class="price-text-main-only">依客戶的<br />
-							需求報價</div>
-						<ul class="list-group">
-							<li><i class="fa fa-check"></i>網域空間</li>
-							<li><i class="fas fa-check"></i>虛擬主機空間</li>
-							<li><i class="fas fa-rocket"></i></i>客製化系統建置</li>
-							<li><i class="fas fa-rocket"></i></i>客製化形象網站</li>
-							<li><i class="fas fa-rocket"></i></i>企業ERP系統</li>
-							<li><i class="fas fa-rocket"></i></i>進銷存系統</li>
-						</ul>
-						<a onclick="myFunction4()" href="#mySelect" class="btn price-btn-4">聯絡我們</a>
-					</div>
-				</div>
-			</div>
-			<div class="price-phone-wrapper">
-				<div class="price-phone-title">專業、快速、滿意！</div>
-				<div>我們會專心聆聽您的問題與需求，您不必擔心不知道要從何開始</div>
-				<div class="price-phone-number">0800-082-816</div>
-			</div>
-			<div class="price-background-triangle"></div>
 		</div>
 	</div>
-	<section data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" id="section2"
-		class="portfoilo-wrapper">
-		<h2>我們的案例</h2>
-		<p class="col-md-8 col-lg-6 portfoilo-title-p">幫您從頭規劃，量身訂做，針對您需要的功能與服務，為您找出最適當的方法，就像我們要親自
-			面對您的客戶一樣，全心全意，鉅細靡遺，務必給您最好的網站，讓您的客戶也能快速了解您的
-			產品，產生最大的效益！</p>
-		<div class="portfoilo-hidden-m swiper-container swiper-container-initialized swiper-container-horizontal">
-			<div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-1010px, 0px, 0px);">
-				<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
-					data-swiper-slide-index="3"
-					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(-0.25);">
-					Slide 4
-				</div>
-				<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="4"
-					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(-0.125248);">
-					Slide 5</div>
-				<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="5"
-					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(0.000371287);">
-					Slide 6</div>
-				<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="6"
-					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(0.125124);">
-					Slide 7</div>
-				<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="7"
-					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(0.249876);">
-					Slide 8</div>
-				<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="8"
-					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(0.374629);">
-					Slide 9</div>
-				<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="9"
-					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(0.500248);">
-					Slide 10</div>
-				<a class="swiper-slide" href="./img/portfoilo-rwd-1-01.jpg" class="btn btn-primary"
-					data-fancybox="cl-group" data-thumb="https://source.unsplash.com/ePOH0oKeOjE/100x75"
-					data-swiper-slide-index="0"
-					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(0.625);">
 
+
+	<div id="content1">
+		<div data-aos="zoom-in-up" class="products-wrapper container-fulid bg-gray">
+			<div class="container">
+				<h2>方案介紹</h2>
+				<div class="row">
+					<div class="col-md-6 col-lg-3">
+						<div class="products-box-1">
+							<div class="products-icon-out products-color-1">
+								<div class="products-icon-inner">
+									<img src="./img/products-icon-1.svg" alt="">
+								</div>
+							</div>
+							<div class="price-text-title">經濟小資</div>
+							<div class="price-text-wrapper">
+								<span class="price-text-delete">$36000</span><span class="price-text-sale">Sale
+									80%</span>
+							</div>
+							<div class="price-text-main">$28,800<span class="price-text-up">up</span></div>
+							<ul class="list-group">
+								<li><i class="fa fa-check"></i>網域空間</li>
+								<li><i class="fas fa-check"></i>虛擬主機空間</li>
+								<li><i class="fas fa-check"></i>SEO網站優化</li>
+								<li><i class="fas fa-check"></i>連絡表單</li>
+								<li><i class="fas fa-gift"></i>名片設計</li>
+							</ul>
+							<a onclick="myFunctio1()" href="#mySelect" class="btn price-btn-1">聯絡我們</a>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3">
+						<div class="products-box-2">
+							<div class="products-icon-out products-color-2">
+								<div class="products-icon-inner">
+									<img src="./img/products-icon-2.svg" alt="">
+								</div>
+							</div>
+							<div class="price-text-title">創業贏家</div>
+							<div class="price-text-wrapper">
+								<span class="price-text-delete">$78400</span><span class="price-text-sale">Sale
+									75%</span>
+							</div>
+							<div class="price-text-main">$58,800<span class="price-text-up">up</span></div>
+							<ul class="list-group">
+								<li><i class="fa fa-check"></i>網域空間</li>
+								<li><i class="fas fa-check"></i>虛擬主機空間</li>
+								<li><i class="fas fa-check"></i>SEO網站優化</li>
+								<li><i class="fas fa-check"></i>連絡表單</li>
+								<li><i class="fas fa-gift"></i>名片設計/DM設計</li>
+								<li><i class="fas fa-gift"></i>LINE客服設定</li>
+								<li><i class="fas fa-gift"></i>廣告投放</li>
+							</ul>
+							<a onclick="myFunction2()" href="#mySelect" class="btn price-btn-2">聯絡我們</a>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3">
+						<div class="products-box-3">
+							<div class="products-icon-out products-color-3">
+								<div class="products-icon-inner">
+									<img src="./img/products-icon-3.svg" alt="">
+								</div>
+							</div>
+							<div class="price-text-title">電商購物</div>
+							<div class="price-text-wrapper">
+								<span class="price-text-delete">$97800</span><span class="price-text-sale">Sale
+									90%</span>
+							</div>
+							<div class="price-text-main">$88,800<span class="price-text-up">up</span></div>
+							<ul class="list-group">
+								<li><i class="fa fa-check"></i>網域空間</li>
+								<li><i class="fas fa-check"></i>虛擬主機空間</li>
+								<li><i class="fas fa-check"></i>SEO網站優化</li>
+								<li><i class="fas fa-check"></i>連絡表單/商品型錄</li>
+								<li><i class="fas fa-check"></i>預約模組/金流串接</li>
+								<li><i class="fas fa-gift"></i>名片設計/DM設計</li>
+								<li><i class="fas fa-gift"></i>LINE客服設定</li>
+								<li><i class="fas fa-gift"></i>社群服務</li>
+								<li><i class="fas fa-gift"></i>廣告投放</li>
+							</ul>
+							<a onclick="myFunction3()" href="#mySelect" class="btn price-btn-3">聯絡我們</a>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3">
+						<div class="products-box-4">
+							<div class="products-icon-out products-color-4">
+								<div class="products-icon-inner">
+									<img src="./img/products-icon-4.svg" alt="">
+								</div>
+							</div>
+							<div class="price-text-title">客製系統/網站</div>
+							<div class="price-text-main-only">依客戶的<br />
+								需求報價</div>
+							<ul class="list-group">
+								<li><i class="fa fa-check"></i>網域空間</li>
+								<li><i class="fas fa-check"></i>虛擬主機空間</li>
+								<li><i class="fas fa-rocket"></i></i>客製化系統建置</li>
+								<li><i class="fas fa-rocket"></i></i>客製化形象網站</li>
+								<li><i class="fas fa-rocket"></i></i>企業ERP系統</li>
+								<li><i class="fas fa-rocket"></i></i>進銷存系統</li>
+							</ul>
+							<a onclick="myFunction4()" href="#mySelect" class="btn price-btn-4">聯絡我們</a>
+						</div>
+					</div>
+				</div>
+				<div class="price-phone-wrapper">
+					<div class="price-phone-title">專業、快速、滿意！</div>
+					<div>我們會專心聆聽您的問題與需求，您不必擔心不知道要從何開始</div>
+					<div class="price-phone-number">0800-082-816</div>
+				</div>
+				<div class="price-background-triangle"></div>
+			</div>
+		</div>
+	</div>
+	<!-- 輪播 -->
+	<section id="content2" class="portfoilo portfoilo-wrapper">
+		<div class="justify-content-md-center">
+			<h2 class="text-center">我們的案例</h2>
+			<p class="col-md-8 col-lg-6 portfoilo-title-p">幫您從頭規劃，量身訂做，針對您需要的功能與服務，為您找出最適當的方法，就像我們要親自
+				面對您的客戶一樣，全心全意，鉅細靡遺，務必給您最好的網站，讓您的客戶也能快速了解您的
+				產品，產生最大的效益！</p>
+			<div class="owl-carousel owl-theme carousel-content">
+				<div class="item" data-index="1" data-toggle="modal" data-target="#portfoiloModal">
 					<img class="w-100 portfoilo-image-1" src="./img/portfoilo-image-1.jpg" alt="">
 					<div class="portfoilo-text-wrapper">
-						<p>安進捲門</p>
+						<h4>安進捲門</h4>
 						<p>科技製造業</p>
-						<p>響應式wordpress</p>
-						<span>&nbsp;&nbsp;2019.06.26&nbsp;&nbsp;</span>
-					</div>
-
-				</a>
-				<a class="swiper-slide" href="https://source.unsplash.com/ePOH0oKeOjE/1600x900" class="btn btn-primary"
-					data-fancybox="cm-group" data-thumb="https://source.unsplash.com/ePOH0oKeOjE/100x75"
-					data-swiper-slide-index="0"
-					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(0.625);">
-					<img class="w-100 portfoilo-image-1" src="./img/portfoilo-image-3.jpg" alt="">
-					<div class="portfoilo-text-wrapper">
-						<p>麗莎鄉春</p>
-						<p>民宿業</p>
-						<p>響應式wordpress</p>
-						<span>&nbsp;&nbsp;2019.06.26&nbsp;&nbsp;</span>
-					</div>
-				</a>
-				<div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="2"
-					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(0.875371);">
-					<img class="w-100 portfoilo-image-1" src="./img/portfoilo-image-4.jpg" alt="">
-					<div class="portfoilo-text-wrapper">
-						<p>眾翔科技</p>
-						<p>科技製造業</p>
-						<p>響應式wix</p>
-						<span>&nbsp;&nbsp;2019.06.26&nbsp;&nbsp;</span>
-					</div>
-				</div>
-				<div class="swiper-slide swiper-slide-active" data-swiper-slide-index="3"
-					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(0.999876);">
-					<img class="w-100 portfoilo-image-1" src="./img/portfoilo-image-5.jpg" alt="">
-					<div class="portfoilo-text-wrapper">
-						<p>光的課程</p>
-						<p>教育業</p>
 						<p>響應式</p>
-						<span>&nbsp;&nbsp;2019.06.26&nbsp;&nbsp;</span>
+						<p class="text-right text-hide-m">2019.06.26</p>
 					</div>
 				</div>
-				<div class="swiper-slide" data-swiper-slide-index="5"
-					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(0.750371);">
+				<div class="item" data-index="2" data-toggle="modal" data-target="#portfoiloModal">
 					<img class="w-100 portfoilo-image-1" src="./img/portfoilo-image-2.jpg" alt="">
 					<div class="portfoilo-text-wrapper">
-						<p>臺灣藝術大學</p>
+						<h4>臺灣藝術大學</h4>
 						<p>教育業</p>
-						<p>響應式wordpress</p>
-						<span>&nbsp;&nbsp;2019.06.26&nbsp;&nbsp;</span>
+						<p>響應式</p>
+						<p class="text-right text-hide-m">2019.06.26</p>
 					</div>
 				</div>
-
-
-				<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0"
-					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(0.124876);">
-					Slide 1</div>
-				<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1"
-					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(0.000123762);">
-					Slide 2</div>
-				<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="2"
-					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(-0.124629);">
-					Slide 3</div>
-				<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
-					data-swiper-slide-index="3"
-					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(-0.250248);">
-					Slide 4</div>
-				<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="4"
-					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(-0.375);">
-					Slide
-					5</div>
-				<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="5"
-					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(-0.499752);">
-					Slide 6</div>
-				<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="6"
-					style="width: 114.286px; transition-duration: 0ms; margin-right: 30px; transform: scale(-0.624505);">
-					Slide 7</div>
-			</div>
-
-			<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span
-					class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span
-					class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span
-					class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span
-					class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button"
-					aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0" role="button"
-					aria-label="Go to slide 5"></span><span class="swiper-pagination-bullet" tabindex="0" role="button"
-					aria-label="Go to slide 6"></span><span class="swiper-pagination-bullet" tabindex="0" role="button"
-					aria-label="Go to slide 7"></span><span class="swiper-pagination-bullet" tabindex="0" role="button"
-					aria-label="Go to slide 8"></span><span class="swiper-pagination-bullet" tabindex="0" role="button"
-					aria-label="Go to slide 9"></span><span class="swiper-pagination-bullet" tabindex="0" role="button"
-					aria-label="Go to slide 10"></span></div>
-			<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
-		</div>
-
-
-
-		<div id="carouselExampleControls" class="carousel slide portfoilo-hidden-l" data-ride="carousel" style="width: 80%;
-		margin: 0 auto;
-		z-index: 9999999;">
-			<div class="carousel-inner">
-				<div class="carousel-item active">
+				<div class="item" data-index="3" data-toggle="modal" data-target="#portfoiloModal">
+					<img class="w-100 portfoilo-image-1" src="./img/portfoilo-image-5.jpg" alt="">
+					<div class="portfoilo-text-wrapper">
+						<h4>光的課程</h4>
+						<p>教育業</p>
+						<p>響應式</p>
+						<p class="text-right text-hide-m">2019.06.26</p>
+					</div>
+				</div>
+				<div class="item" data-index="4" data-toggle="modal" data-target="#portfoiloModal">
 					<img class="w-100 portfoilo-image-1" src="./img/portfoilo-image-3.jpg" alt="">
 					<div class="portfoilo-text-wrapper">
-						<p>麗莎鄉春</p>
+						<h4>拉拉山旅遊網</h4>
 						<p>民宿業</p>
-						<p>響應式wordpress</p>
-						<span>&nbsp;&nbsp;2019.06.26&nbsp;&nbsp;</span>
+						<p>響應式</p>
+						<p class="text-right text-hide-m">2019.06.26</p>
 					</div>
 				</div>
-
+				<div class="item" data-index="5" data-toggle="modal" data-target="#portfoiloModal">
+					<img class="w-100 portfoilo-image-1" src="./img/portfoilo-image-6.jpg" alt="">
+					<div class="portfoilo-text-wrapper">
+						<h4>活出美好人生</h4>
+						<p>教育業</p>
+						<p>文章式網頁</p>
+						<p class="text-right text-hide-m">2019.06.26</p>
+					</div>
+				</div>
+				<div class="item" data-index="6" data-toggle="modal" data-target="#portfoiloModal">
+					<img class="w-100 portfoilo-image-1" src="./img/portfoilo-image-7.jpg" alt="">
+					<div class="portfoilo-text-wrapper">
+						<h4>眾翔科技</h4>
+						<p>科技業</p>
+						<p>響應式</p>
+						<p class="text-right text-hide-m">2019.06.26</p>
+					</div>
+				</div>
 			</div>
-			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			</a>
-			<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			</a>
 		</div>
-
 		<div class="portfoilo-background">
 			<div class="portfoilo-background-triangle"></div>
 		</div>
 	</section>
+	<div class="modal fade" id="portfoiloModal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-xl" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
+						<div class="carousel-inner">
+							<div class="carousel-item active" data-index="1">
+								<div class="row detail-content">
+									<div class="col-xl-9 pr-xl-0">
+										<img src="./img/portfoilo-rwd-1.jpg" class="d-block w-100" alt="...">
+									</div>
+									<div class="col-xl-3 pt-3 list">
+										<h4>安進捲門</h4>
+										<p>安進捲門是集合國內高科技研發工程師群，配合精密設備，以優良鍍鋁鋅鋼板材質搭配先進的微電腦控制系統所研發出高品質、安全、安靜、美觀、快速</p>
+									</div>
+								</div>
 
-	<section id="section3" class="planning-wrapper">
+							</div>
+							<div class="carousel-item" data-index="2">
+								<div class="row detail-content">
+									<div class="col-xl-9 pr-xl-0">
+										<img src="./img/portfoilo-rwd-2.jpg" class="d-block w-100" alt="...">
+									</div>
+									<div class="col-xl-3 pt-3 list">
+										<h4>臺灣藝術大學-雕塑系</h4>
+										<p>雕塑系為目前國內大專院校中唯一專研於雕塑藝術的科系。
+											創立至今幾近四十年，培育了七百多位專業人才，為現今雕塑藝術的主幹</p>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item" data-index="3">
+								<div class="row detail-content">
+									<div class="col-xl-9 pr-xl-0">
+										<img src="./img/portfoilo-rwd-3.jpg" class="d-block w-100" alt="...">
+									</div>
+									<div class="col-xl-3 pt-3 list">
+										<h4>光的課程</h4>
+										<p>你<br/>
+											可以擁有快樂<br/>
+											享受豐盛<br/>
+											使生活進入圓滿與喜悅<br/>
+											讓我們一起走入光中<br/>
+											領受生命的豐富與創造</p>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item" data-index="4">
+								<div class="row detail-content">
+									<div class="col-xl-9 pr-xl-0">
+										<img src="./img/portfoilo-rwd-4.jpg" class="d-block w-100" alt="...">
+									</div>
+									<div class="col-xl-3 pt-3 list">
+										<h4>拉拉山旅遊網</h4>
+										<p>位於桃園市復興區與新北市烏來區的交界。1973年文化大學教授在這裡發現了大片的神木林，從此成為眾所矚目的休閒新據點。也因其林相相當豐富，並擁有全臺灣面積最大的紅檜森林，於是政府在1986年正式成立達觀山自然保護區，範圍涵蓋北橫巴陵附近山區。達觀在泰雅族語裡，是「美麗」的意思。</p>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item" data-index="5">
+								<div class="row detail-content">
+									<div class="col-xl-9 pr-xl-0">
+										<img src="./img/portfoilo-rwd-5.jpg" class="d-block w-100" alt="...">
+									</div>
+									<div class="col-xl-3 pt-3 list">
+										<h4>活出美好人生</h4>
+										<p>成立於2013年7月5日，每天清晨透過微信平台，傳遞聖經價值觀的積極正向圖文音訊的信息，目前已逾2萬人關注，閱讀人群遍及中國大陸、台灣及世界各地華人。</p>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item" data-index="6">
+								<div class="row detail-content">
+									<div class="col-xl-9 pr-xl-0">
+										<img src="./img/portfoilo-rwd-6.jpg" class="d-block w-100" alt="...">
+									</div>
+									<div class="col-xl-3 pt-3 list">
+										<h4>眾翔科技</h4>
+										<p>眾翔科技創立於2004年，眾翔科技主要從事印刷電路板製造(PCB)製造，PCB被廣泛運用在筆記型電腦、網路與行動通訊器材、照相機、汽車儀表板等電子消費性產品，在電子產業中有相當重要的地位。眾翔科技秉持認真踏實的態度，積極研發新技術、新方法、新流程，積極為客戶、為客戶創造最大的利潤。</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-link" data-dismiss="modal">關閉</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 輪播 -->
+
+	<section id="content3" class="planning-wrapper">
 		<div data-aos="zoom-in">
 			<h2>最細緻的規劃</h2>
 			<p class="col-md-8 col-lg-6 portfoilo-title-p">專屬於您的服務</p>
@@ -598,7 +621,7 @@
 		<p class="number-content">0800-082-816</p>
 	</section>
 	<div class="number-background-triangle"></div>
-	<section data-aos="zoom-in-left" id="section4" class="servive-wrapper">
+	<section data-aos="zoom-in-left" id="content4" class="servive-wrapper">
 		<div class="container">
 			<h2>一站式全方位數位服務</h2>
 			<p class="servive-title-p col-md-8 col-lg-6">公司經營不用單打獨鬥，我們為您量身定做最適合您的網站
@@ -652,7 +675,7 @@
 	</section>
 	<section class="contact-wrapper">
 		<div class="container-fulid contact-mask">
-			<div id="section5" class="contact-box">
+			<div id="content5" class="contact-box">
 				<div class="p-4">
 					<span class="contact-title">免費諮詢</span><span class="float-right contact-number">0800-082-816</span>
 				</div>
@@ -720,7 +743,11 @@
 				</div>
 				<div class="footer-copyright">
 					<div class="">
-						<div style="margin-bottom: 20px;" class="fb-share-button" data-href="https://takode.github.io/RiEASE_t.github.io/?fbclid=IwAR0ObGk0SZGd-pBU3mxtCuz4G6D6HPRDdJO1QQCLoD95zG1CTpQlloM4cC4" data-layout="button_count" data-size="small"><a target="_blank" href="https://takode.github.io/RiEASE_t.github.io/?fbclid=IwAR0ObGk0SZGd-pBU3mxtCuz4G6D6HPRDdJO1QQCLoD95zG1CTpQlloM4cC4" class="fb-xfbml-parse-ignore">分享</a></div>
+						<div style="margin-bottom: 20px;" class="fb-share-button"
+							data-href="https://takode.github.io/RiEASE_t.github.io/?fbclid=IwAR0ObGk0SZGd-pBU3mxtCuz4G6D6HPRDdJO1QQCLoD95zG1CTpQlloM4cC4"
+							data-layout="button_count" data-size="small"><a target="_blank"
+								href="https://takode.github.io/RiEASE_t.github.io/?fbclid=IwAR0ObGk0SZGd-pBU3mxtCuz4G6D6HPRDdJO1QQCLoD95zG1CTpQlloM4cC4"
+								class="fb-xfbml-parse-ignore">分享</a></div>
 						<p><i class="fas fa-map-marker-alt"></i>桃園市蘆竹區中正路365號2樓 <span><i
 									class="fas fa-envelope"></i>客服信箱：service@riease.com</span> </p>
 						<p><i class="fas fa-phone-alt"></i>服務專線：03-2129889 </p>
@@ -742,22 +769,27 @@
 <!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>
 <script>
-	window.fbAsyncInit = function () {
-		FB.init({
-			xfbml: true,
-			version: 'v6.0'
-		});
-	};
+  window.fbAsyncInit = function() {
+	FB.init({
+	  xfbml            : true,
+	  version          : 'v6.0'
+	});
+  };
 
-	(function (d, s, id) {
-		var js, fjs = d.getElementsByTagName(s)[0];
-		if (d.getElementById(id)) return;
-		js = d.createElement(s);
-		js.id = id;
-		js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js';
-		fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));
-</script>
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="182057785773729"
+theme_color="#000000">
+</div>
 
 <!-- Your customer chat code -->
 <div class="fb-customerchat" attribution=setup_tool page_id="2040206619586111" theme_color="#000000">
@@ -766,7 +798,9 @@
 
 <!-- fb share -->
 <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v6.0&appId=840769146273818&autoLogAppEvents=1"></script>
+<script async defer crossorigin="anonymous"
+	src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v6.0&appId=840769146273818&autoLogAppEvents=1">
+</script>
 
 <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 	integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
@@ -783,35 +817,37 @@
 <script src="https://unpkg.com/swiper/js/swiper.js"> </script>
 <script src="https://unpkg.com/swiper/js/swiper.min.js"> </script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146880351-2"></script>
-<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-<script src='./js/box.js'></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <script src="./js/main.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDn7zrf8uk9iTXldUsOwtSjElT20mRWAls&callback=initMap" async
 	defer></script>
 
-	<script>
-			var btn = $('#button');
 
-$(window).scroll(function () {
-	if ($(window).scrollTop() > 300) {
-		btn.addClass('show');
-	} else {
-		btn.removeClass('show');
-	}
-});
+<script>
+	var btn = $('#button');
 
-btn.click(function (e) {
-	e.preventDefault();
-	$('html, body').scrollTop(0);
-});
+	$(window).scroll(function () {
+		if ($(window).scrollTop() > 300) {
+			btn.addClass('show');
+		} else {
+			btn.removeClass('show');
+		}
+	});
+
+	btn.click(function (e) {
+		e.preventDefault();
+		$('html, body').scrollTop(0);
+	});
 
 
 
-// $(window).scroll(function() {
-//   if ($(this).scrollTop() > 400) {
-//     $('.navbar-top').addClass('cool');
-//   }
-// });
+	// $(window).scroll(function() {
+	//   if ($(this).scrollTop() > 400) {
+	//     $('.navbar-top').addClass('cool');
+	//   }
+	// });
 
 
 	$(function () {
@@ -824,7 +860,142 @@ btn.click(function (e) {
 			}
 		});
 	})
-	</script>
+
+	$(function () {
+		$('#section1').click(function () {
+			$('html,body').animate({
+				scrollTop: $('#content1').offset().top
+			}, 1000);
+		});
+		$('#section2').click(function () {
+			$('html,body').animate({
+				scrollTop: $('#content2').offset().top
+			}, 1000);
+		});
+		$('#section3').click(function () {
+			$('html,body').animate({
+				scrollTop: $('#content3').offset().top
+			}, 1000);
+		});
+		$('#section4').click(function () {
+			$('html,body').animate({
+				scrollTop: $('#content4').offset().top
+			}, 1000);
+		});
+		$('#section5').click(function () {
+			$('html,body').animate({
+				scrollTop: $('#content5').offset().top
+			}, 1000);
+		});
+		$('#section6').click(function () {
+			$('html,body').animate({
+				scrollTop: $('#content1').offset().top
+			}, 1000);
+		});
+	});
+
+
+	$('.carousel').carousel({
+		interval: 7000,
+		pause:false,
+		ride:true
+	})
+</script>
+
+<script>
+	$(document).ready(function () {
+		var owl = $('.owl-carousel');
+		owl.owlCarousel({
+			loop: true,
+			margin: 20,
+			autoplay: true,
+			autoplayTimeout: 5500,
+			autoplayHoverPause: true,
+			responsiveClass: true,
+			responsive: {
+				0: {
+					items: 1,
+					nav: true,
+					dots: false,
+					mouseDrag: true,
+					touchDrag: true
+				},
+				768: {
+					items: 3,
+					nav: true,
+					dots: false,
+					mouseDrag: true,
+					touchDrag: true
+				},
+				1200: {
+					items: 5,
+					nav: true,
+					dots: false,
+					mouseDrag: false,
+					touchDrag: false
+				}
+			}
+		});
+		const changeSize = (() => {
+			// console.log('move');
+			var screen = $(document.body).width();
+			$('.owl-item').find('.item').each((index, el) => {
+				var left = $(el).offset().left;
+				if (0 <= left && left < screen) {
+					$(el).addClass('show');
+				} else {
+					$(el).removeClass('show');
+				}
+			});
+			$('.owl-item .show').each((index, el) => {
+				if (index === 2 || index == 3 || index == 4) {
+					$(el).addClass('center');
+				} else {
+					$(el).removeClass('center');
+				}
+			});
+		});
+		$('.owl-item').find('.item').removeClass('center');
+		$('.owl-item.active').eq(1).find('.item').addClass('center');
+		$('.owl-item.active').eq(2).find('.item').addClass('center');
+		$('.owl-item.active').eq(3).find('.item').addClass('center');
+		owl.on('changed.owl.carousel', function (event) {
+			changeSize();
+		});
+		$('.owl-nav button.owl-prev').on('click', (event) => {
+			$(event.currentTarget).attr("disabled", true);
+			event.preventDefault();
+			$('.owl-item').removeClass('show');
+			$('.owl-item').find('.item').removeClass('center');
+			var screen = $(document.body).width();
+			$('.owl-item').find('.item').each((index, el) => {
+				var left = $(el).offset().left;
+				if (0 <= left && left < screen) {
+					$(el).addClass('show');
+				} else {
+					$(el).removeClass('show');
+				};
+			});
+			$('.owl-item .show').each((index, el) => {
+				if (index === 0 || index == 1 || index == 2) {
+					$(el).addClass('center');
+				} else {
+					console.log(index);
+					$(el).removeClass('center');
+				}
+			});
+			setTimeout(function () {
+				$(event.currentTarget).attr("disabled", false);
+			}, 500);
+		});
+
+		$('#portfoiloModal').on('show.bs.modal', function (e) {
+			var index = $(e.relatedTarget).data('index');
+			$('#carouselExampleControls .carousel-item').removeClass('active');
+			$('.carousel-item[data-index="' + index + '"]').addClass('active');
+		});
+	});
+</script>
 
 
 
