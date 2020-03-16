@@ -4,6 +4,10 @@
 	scroll-behavior: smooth;
 } */
 
+* {
+	outline: none!important;
+}
+
 body {
 	font-family: 'Noto Sans TC' !important;
 	color: #4A4A4A;
@@ -38,11 +42,14 @@ a:hover {
 	color: rgb(255, 115, 45) !important;
 	font-weight: 900 !important;
 }
+.text-right {
+    font-size: .5rem;
+}
 
 .btn-primary {
-	color: #ffffff;
-	background-color: rgb(255, 115, 45);
-	border-color: rgb(255, 115, 45);
+	color: #ffffff!important;
+    background-color: rgb(255, 115, 45);
+    border-color: rgb(255, 115, 45);
 }
 
 .btn-primary:hover {
@@ -1159,6 +1166,10 @@ figure.effect-active:hover p {
 	}
 }
 
+.owl-item {
+    cursor: pointer!important;
+}
+
 
 
 /* 規劃 */
@@ -1260,11 +1271,16 @@ figure.effect-active:hover p {
 	margin-bottom: 3px;
 }
 
-.number-content {
+.number-content{
 	font-size: 3rem;
-	font-family: Arial;
-	font-weight: 700;
-	margin-bottom: 3px;
+    font-family: Arial;
+    font-weight: 700;
+    margin-bottom: 3px;
+    color: #ffffff;
+}
+
+.number-content:hover{
+    color: #ffffff!important;
 }
 
 .number-background-triangle {
@@ -1523,6 +1539,16 @@ figure.effect-active:hover p {
 	color: rgb(141, 141, 141);
 }
 
+@media screen and (max-width:1100px) {
+	.footer-text-wrapper{
+		display: block;
+		margin-top: 13px;
+	}
+	.fa-envelope {
+		margin-left: 0px!important;
+	}
+}
+
 @media screen and (max-width:992px) {
 	.footer-copyright {
 		position: relative;
@@ -1683,7 +1709,7 @@ figure.effect-active:hover p {
 	to {
 		-webkit-transform: scale(1.2, 1.2);
 	}
-}
+}				
 
 @keyframes zoom {
 	from {
@@ -1714,4 +1740,16 @@ figure.effect-active:hover p {
 		max-width: 70%;
 	}
 
+}
+
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    color: #fff!important;
+    font-size: 40px!important;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: #86979100!important;
+    color: rgba(255, 255, 255, 0.662)!important;
+    text-decoration: none;
 }
