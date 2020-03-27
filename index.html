@@ -12,7 +12,7 @@
 	<!-- bootstrap js -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-		<!-- scroll animation -->
+	<!-- scroll animation -->
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
@@ -198,20 +198,20 @@
 
 
 		<div class="container-fulid feature-wrapper">
-				<div class="row">
-					<div class="col-md-4 feature-box">
-						<h3 class="feature-icon-focus">專業技術</h3>
-						<p>結合資安、程式、設計、企劃、行銷、管理等不同領域的專業人才，為您打造符合您需求的RWD網站。</p>
-					</div>
-					<div class="col-md-4 feature-box">
-						<h3 class="feature-icon-nice">優質服務</h3>
-						<p>提供最親切、最值得信賴的網站規劃與服務。不知道該怎麼做嗎？那就交給我們吧！</p>
-					</div>
-					<div class="col-md-4 feature-box">
-						<h3 class="feature-icon-price">價格合理</h3>
-						<p>錢要花在刀口上，最便宜不等於最有價值。唯有提供超乎期待的規劃與品質，才是真正的價超所值！</p>
-					</div>
+			<div class="row">
+				<div class="col-md-4 feature-box">
+					<h3 class="feature-icon-focus">專業技術</h3>
+					<p>結合資安、程式、設計、企劃、行銷、管理等不同領域的專業人才，為您打造符合您需求的RWD網站。</p>
 				</div>
+				<div class="col-md-4 feature-box">
+					<h3 class="feature-icon-nice">優質服務</h3>
+					<p>提供最親切、最值得信賴的網站規劃與服務。不知道該怎麼做嗎？那就交給我們吧！</p>
+				</div>
+				<div class="col-md-4 feature-box">
+					<h3 class="feature-icon-price">價格合理</h3>
+					<p>錢要花在刀口上，最便宜不等於最有價值。唯有提供超乎期待的規劃與品質，才是真正的價超所值！</p>
+				</div>
+			</div>
 		</div>
 
 	</section>
@@ -236,7 +236,7 @@
 		</div>
 	</div>
 
-	<div data-aos="zoom-in-right " class="container-fulid industry-wrapper">
+	<div class="container-fulid industry-wrapper">
 		<div class="row industry-inner-wrapper effect-hidden-m">
 			<div class="col-md-3 industry-box">
 				<figure class="effect-active">
@@ -804,28 +804,26 @@
 <!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>
 <script>
-  window.fbAsyncInit = function() {
-	FB.init({
-	  xfbml            : true,
-	  version          : 'v6.0'
-	});
-  };
+	window.fbAsyncInit = function () {
+		FB.init({
+			xfbml: true,
+			version: 'v6.0'
+		});
+	};
 
-  (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+	(function (d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s);
+		js.id = id;
+		js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+</script>
 
 <!-- Your customer chat code -->
-<div class="fb-customerchat"
-  attribution=setup_tool
-  page_id="182057785773729"
-theme_color="#43A9DA"
-logged_in_greeting="您好，有什麼架站上的問題都可以跟我們說喔～"
-logged_out_greeting="您好，有什麼架站上的問題都可以跟我們說喔～">
+<div class="fb-customerchat" attribution=setup_tool page_id="182057785773729" theme_color="#43A9DA"
+	logged_in_greeting="您好，有什麼架站上的問題都可以跟我們說喔～" logged_out_greeting="您好，有什麼架站上的問題都可以跟我們說喔～">
 </div>
 
 <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -845,6 +843,8 @@ logged_out_greeting="您好，有什麼架站上的問題都可以跟我們說�
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146880351-2"></script>
 <script src="owlcarousel/owl.carousel.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<!-- 滾動 -->
+<script src="./js/scrollreveal .js"></script>
 <script src="./js/main.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCq4ChJswZHFPse28j8MH78hOkbKxrXAg&callback=initMap" async
 	defer></script>
@@ -1020,6 +1020,23 @@ logged_out_greeting="您好，有什麼架站上的問題都可以跟我們說�
 			$('.carousel-item[data-index="' + index + '"]').addClass('active');
 		});
 	});
+</script>
+
+<script>
+	window.sr = ScrollReveal();
+	sr.reveal('.industry-box', {
+		duration: 600,
+		scale: 0.3,
+		distance: '0px',
+		reset: 'true'
+	}, 500);
+	window.sr = ScrollReveal();
+	sr.reveal('.servive-box', {
+		duration: 600,
+		scale: 0.3,
+		distance: '0px',
+		reset: 'true'
+	}, 500);
 </script>
 
 

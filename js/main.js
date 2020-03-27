@@ -256,4 +256,5 @@ function initMap() {
 	document.getElementById( 
 	 "mySelect").selectedIndex = "4"; 
 	} 
- 
+
+
