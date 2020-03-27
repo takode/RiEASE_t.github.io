@@ -1610,22 +1610,21 @@ figure.effect-active:hover p {
 /* 移致頂層 */
 
 #button {
-	display: inline-block;
-	background-color: rgba(253, 119, 52, 0.85);
-	width: 57px;
-	height: 57px;
-	text-align: center;
-	border-radius: 50%;
-	position: fixed;
-	bottom: 72px;
-	right: -4px;
-	transition: background-color .3s, opacity .5s, visibility .5s;
-	opacity: 0;
-	visibility: hidden;
-	z-index: 1000;
-	box-shadow: -5px 4px 14px rgba(0, 0, 0, .15);
+    display: inline-block;
+    background-color: rgba(253, 119, 52, 0.85);
+    width: 57px;
+    height: 57px;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 72px;
+    right: -4px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 99;
+    box-shadow: -5px 4px 14px rgba(0, 0, 0, .15);
 }
-
 
 @media screen and (max-width:768px) {
 	#button {
