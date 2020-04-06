@@ -1732,10 +1732,16 @@ figure.effect-active:hover p {
 @media screen and (max-width:768px) {
 	#button {
 		bottom: 102px;
-		right: 25px;
+		right: -2px;
 	}
-
 }
+
+@media screen and (max-width:500px) {
+	#button {
+		right: 35px;
+	}
+}
+
 
 #button::after {
 	color: #fff;
@@ -1990,7 +1996,11 @@ figure.effect-active:hover p {
 
 /* 我們的案例手機版 */
 
-
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 99999999999999999999999999!important;
+}
 
 @media screen and (max-width:630px) {
 	.modal-body {
