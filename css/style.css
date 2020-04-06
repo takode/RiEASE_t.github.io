@@ -111,7 +111,7 @@ a:hover {
 @media screen and (max-width:998px) {
 	.navbar-top {
 		position: fixed;
-		z-index: 999999999;
+		z-index: 999;
 		left: 0;
 		right: 0;
 		box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.238);
@@ -355,7 +355,13 @@ a:hover {
 .feature-box {
 	width: 100%;
 	background-color: #F2F2F2;
-	padding: 43px 4%;
+    padding: 43px 6%;
+}
+
+.feature-box-m {
+    width: 100%;
+    background-color: #F2F2F2;
+	padding: 13px 8%;
 }
 
 .feature-box:nth-child(2) {
@@ -391,6 +397,7 @@ a:hover {
 	content: url('../img/features-price.svg');
 	margin: 0px 10px 0px 0px;
 }
+
 
 
 /* 公司特點 */
@@ -726,7 +733,7 @@ figure.effect-active:hover p {
 .products-box-4 {
 	width: 100%;
 	background-color: #ffffff;
-	border: 3px solid #4C26ED;
+	border: 3px solid #244BEB;
 	padding: 50px 20px;
 	text-align: center;
 	position: relative;
@@ -786,6 +793,9 @@ figure.effect-active:hover p {
 	.products-icon-out {
 		left: -10px;
 	}
+	.products-icon-out {
+		left: 37%;
+	}
 }
 
 
@@ -802,7 +812,7 @@ figure.effect-active:hover p {
 }
 
 .products-color-4 {
-	background-color: #4C26ED;
+	background-color: #244BEB;
 }
 
 .products-icon-inner {
@@ -897,7 +907,7 @@ figure.effect-active:hover p {
 }
 
 .fa-rocket {
-	color: #4C26ED;
+	color: #244BEB;
 	margin-right: 10px;
 }
 
@@ -947,7 +957,7 @@ figure.effect-active:hover p {
 
 
 .price-btn-4 {
-	background-color: #4C26ED;
+	background-color: #244BEB;
 	color: #ffffff;
 	padding: 10px 25px;
 }
@@ -991,6 +1001,7 @@ figure.effect-active:hover p {
 }
 
 
+
 /* 電話區塊 */
 
 
@@ -998,12 +1009,11 @@ figure.effect-active:hover p {
 
 
 
-
 .portfoilo-wrapper h2 {
-	text-align: center;
-	padding: 40px 0px 20px 0px;
-	font-weight: 900;
-	margin-top: 170px;
+    text-align: center;
+    padding: 40px 0px 20px 0px;
+    font-weight: 900;
+    margin-top: 141px;
 }
 
 .portfoilo-title-p {
@@ -1707,7 +1717,7 @@ figure.effect-active:hover p {
 
 #load {
 	position: fixed;
-	z-index: 9999999;
+	z-index: 99999999999;
 	width: 100%;
 	height: 100vh;
 	background-color: rgba(253, 119, 52);
@@ -1767,12 +1777,11 @@ figure.effect-active:hover p {
 }
 
 
-.owl-carousel .owl-nav button.owl-next,
-.owl-carousel .owl-nav button.owl-prev,
-.owl-carousel button.owl-dot {
-	color: #fff !important;
-	font-size: 25px !important;
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    color: #fff !important;
+    font-size: 36px !important;
 }
+
 
 .owl-theme .owl-nav [class*=owl-]:hover {
 	background: #86979100 !important;
@@ -1801,3 +1810,68 @@ figure.effect-active:hover p {
 .carousel-control-next {
     right: -8%;
 }
+
+
+
+/* 手機版三角形 */
+@media screen and (max-width:992px) {
+	.price-background-triangle {
+		border-width: 31px 50vw 0 50vw;
+		bottom: -31px;
+	}
+	.portfoilo-background-triangle{
+		border-width: 31px 50vw 0 50vw;
+		bottom: -31px;	
+	}
+	.products-wrapper{
+		padding-bottom: 50px;
+	}
+	.portfoilo-wrapper h2 {
+		margin-top: 79px!important;
+	}
+	.planning-wrapper {
+		padding-top: 92px;
+	}
+}
+
+
+@media screen and (max-width:680px) {
+	.feature-icon-focus::before {
+		margin: 0px 0px 10px 0px;
+		width: 100%;
+	}
+	
+	.feature-icon-nice::before {
+		margin: 0px 0px 10px 0px;
+		width: 100%;
+	}
+	
+	.feature-icon-price::before {
+		margin: 0px 0px 10px 0px;
+		width: 100%;
+	}
+	.feature-box h3 {
+		margin-bottom: 16px;
+		flex-wrap: wrap !important;
+		font-size: 1.1rem;
+		font-weight: bold;
+	}
+	.feature-box p {
+		display: none;
+	}
+	.feature-box {
+		padding: 32px 4% 0px 4%;
+	}
+	.feature-box:nth-child(2) {
+		background-color: #F2F2F2;
+	}
+
+}
+
+
+@media screen and (min-width:680px) {
+	.feature-box-m{
+		display: none;
+	}
+}
+
