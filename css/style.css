@@ -194,6 +194,9 @@ a:hover {
 	.nav-link:nth-child(1) {
 		padding-top: 13px;
 	}
+	.nav-phone-wrapper a img {
+		margin-left: 0px;
+	}
 }
 
 /* 導覽 */
