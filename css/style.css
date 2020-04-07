@@ -1570,6 +1570,12 @@ figure.effect-active:hover p {
 	}
 }
 
+@media screen and (max-width:500px) {
+	.textarea-box {
+		width: 89%;
+	}
+}
+
 .select-wrapper {
 	display: flex;
 	justify-content: space-between;
@@ -1736,9 +1742,9 @@ figure.effect-active:hover p {
 	}
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px){
 	#button {
-		right: 35px;
+		right: 26px;
 	}
 }
 
