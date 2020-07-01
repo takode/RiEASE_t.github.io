@@ -165,8 +165,8 @@ a:hover {
 .starsec {
   content: " ";
   position: absolute;
-  width: 8px;
-  height: 8px;
+  width: 11px;
+  height: 11px;
   background: transparent;
   box-shadow: 571px 173px #F9F0B9, 1732px 143px #F9F0B9, 1745px 454px #F9F0B9, 234px 784px #F9F0B9, 1793px 1123px #F9F0B9, 1076px 504px #F9F0B9, 633px 601px #F9F0B9, 350px 630px #FFEB3B, 1164px 782px #F9F0B9, 76px 690px #F5E595, 1825px 701px #CDDC39, 1646px 578px #FFEB3B, 544px 293px #F5E595, 445px 1061px #F5E595, 928px 47px #F9F0B9, 168px 1410px, 777px 782px #F5E595, 1235px 1941px #F5E595, 104px 1690px, 1167px 1338px #F5E595, 345px 1652px #F5E595, 1682px 1196px #F5E595, 1995px 494px, 428px 798px #F9F0B9, 340px 1623px #F5E595, 605px 349px #F5E595, 1339px 1344px #F5E595, 1102px 1745px #F5E595, 1592px 1676px #F5E595, 419px 1024px #F9F0B9, 630px 1033px #F5E595, 1995px 1644px #F9F0B9, 1092px 712px #F5E595, 1355px 606px #F5E595, 622px 1881px #CDDC39, 1481px 621px #F5E595, 19px 1348px, 864px 1780px #F5E595, 442px 1136px #F5E595, 67px 712px #F9F0B9, 89px 1406px #F5E595, 275px 321px #F5E595, 592px 630px #F5E595, 1012px 1690px #F5E595, 1749px 23px #F5E595, 94px 1542px #FFEB3B, 1201px 1657px #F5E595, 1505px 692px #F5E595, 1799px 601px #F9F0B9, 656px 811px #F9F0B9, 701px 597px #F9F0B9, 1202px 46px #F9F0B9, 890px 569px #F9F0B9, 1613px 813px #F5E595, 223px 252px #F9F0B9, 983px 1093px #F5E595, 726px 1029px #FFC107, 1764px 778px #CDDC39, 622px 1643px #F5E595, 174px 1559px #F5E595, 212px 517px #F9F0B9, 340px 505px #FFF, 1700px 39px #FFF, 1768px 516px #F5E595, 849px 391px #F9F0B9, 228px 1824px #FFF, 1119px 1680px #FFC107, 812px 1480px #F5E595, 1438px 1585px #CDDC39, 137px 1397px #FFF, 1080px 456px #F5E595, 1208px 1437px #F9F0B9, 857px 281px #F5E595, 1254px 1306px #CDDC39, 987px 990px #F5E595, 1655px 911px #F9F0B9, 1102px 1216px #F9F0B9, 1807px 1044px #FFF, 660px 435px #F9F0B9, 299px 678px #F5E595, 1193px 115px #F9F0B9, 918px 290px #CDDC39, 1447px 1422px #FFEB3B, 91px 1273px #F5E595, 108px 223px #FFEB3B, 146px 754px #F9F0B9, 461px 1446px #F9F0B9, 1004px 391px #F5E595, 1529px 516px #F5E595, 1206px 845px #CDDC39, 347px 583px #F5E595, 1102px 1332px #F5E595, 709px 1756px #F9F0B9, 1972px 248px #FFF, 1669px 1344px #F9F0B9, 1132px 406px #F5E595, 320px 1076px #CDDC39, 126px 943px #FFEB3B, 263px 604px #F9F0B9, 1546px 692px #F5E595;
   animation: animStar 150s linear infinite;
@@ -175,8 +175,8 @@ a:hover {
 .starthird {
   content: " ";
   position: absolute;
-  width: 8px;
-  height: 8px;
+  width: 11px;
+  height: 11px;
   background: transparent;
   box-shadow: 571px 173px #F9F0B9, 1732px 143px #F9F0B9, 1745px 454px #F9F0B9, 234px 784px #F9F0B9, 1793px 1123px #F9F0B9, 1076px 504px #F9F0B9, 633px 601px #F9F0B9, 350px 630px #FFEB3B, 1164px 782px #F9F0B9, 76px 690px #F5E595, 1825px 701px #CDDC39, 1646px 578px #FFEB3B, 544px 293px #F5E595, 445px 1061px #F5E595, 928px 47px #F9F0B9, 168px 1410px #F5E595, 777px 782px #F5E595, 1235px 1941px #F5E595, 104px 1690px #F5E595, 1167px 1338px #F5E595, 345px 1652px #F5E595, 1682px 1196px #F5E595, 1995px 494px #F5E595, 428px 798px #F9F0B9, 340px 1623px #F5E595, 605px 349px #F5E595, 1339px 1344px #F5E595, 1102px 1745px #F5E595, 1592px 1676px #F5E595, 419px 1024px #F9F0B9, 630px 1033px #F5E595, 1995px 1644px #F9F0B9, 1092px 712px #F5E595, 1355px 606px #F5E595, 622px 1881px #CDDC39, 1481px 621px #F5E595, 19px 1348px #F5E595, 864px 1780px #F5E595, 442px 1136px #F5E595, 67px 712px #F9F0B9, 89px 1406px #F5E595, 275px 321px #F5E595, 592px 630px #F5E595, 1012px 1690px #F5E595, 1749px 23px #F5E595, 94px 1542px #FFEB3B, 1201px 1657px #F5E595, 1505px 692px #F5E595, 1799px 601px #F9F0B9, 656px 811px #F9F0B9, 701px 597px #F9F0B9, 1202px 46px #F9F0B9, 890px 569px #F9F0B9, 1613px 813px #F5E595, 223px 252px #F9F0B9, 983px 1093px #F5E595, 726px 1029px #FFC107, 1764px 778px #CDDC39, 622px 1643px #F5E595, 174px 1559px #F5E595, 212px 517px #F9F0B9, 340px 505px #FFF, 1700px 39px #FFF, 1768px 516px #F5E595, 849px 391px #F9F0B9, 228px 1824px #FFF, 1119px 1680px #FFC107, 812px 1480px #F5E595, 1438px 1585px #CDDC39, 137px 1397px #FFF, 1080px 456px #F5E595, 1208px 1437px #F9F0B9, 857px 281px #F5E595, 1254px 1306px #CDDC39, 987px 990px #F5E595, 1655px 911px #F9F0B9, 1102px 1216px #F9F0B9, 1807px 1044px #FFF, 660px 435px #F9F0B9, 299px 678px #F5E595, 1193px 115px #F9F0B9, 918px 290px #CDDC39, 1447px 1422px #FFEB3B, 91px 1273px #F5E595, 108px 223px #FFEB3B, 146px 754px #F9F0B9, 461px 1446px #F9F0B9, 1004px 391px #F5E595, 1529px 516px #F5E595, 1206px 845px #CDDC39, 347px 583px #F5E595, 1102px 1332px #F5E595, 709px 1756px #F9F0B9, 1972px 248px #FFF, 1669px 1344px #F9F0B9, 1132px 406px #F5E595, 320px 1076px #CDDC39, 126px 943px #FFEB3B, 263px 604px #F9F0B9, 1546px 692px #F5E595;
   animation: animStar 40s linear infinite;
@@ -186,8 +186,8 @@ a:hover {
 .starfourth {
   content: " ";
   position: absolute;
-  width: 5px;
-  height: 5px;
+  width: 7px;
+  height: 7px;
   background: transparent;
   box-shadow: 571px 173px #F9F0B9, 1732px 143px #F9F0B9, 1745px 454px #F9F0B9, 234px 784px #F9F0B9, 1793px 1123px #F9F0B9, 1076px 504px #F9F0B9, 633px 601px #F9F0B9, 350px 630px #FFEB3B, 1164px 782px #F9F0B9, 76px 690px #F5E595, 1825px 701px #CDDC39, 1646px 578px #FFEB3B, 544px 293px #F5E595, 445px 1061px #F5E595, 928px 47px #F9F0B9, 168px 1410px #F5E595, 777px 782px #F5E595, 1235px 1941px #F5E595, 104px 1690px #F5E595, 1167px 1338px #F5E595, 345px 1652px #F5E595, 1682px 1196px #F5E595, 1995px 494px #F5E595, 428px 798px #F9F0B9, 340px 1623px #F5E595, 605px 349px #F5E595, 1339px 1344px #F5E595, 1102px 1745px #F5E595, 1592px 1676px #F5E595, 419px 1024px #F9F0B9, 630px 1033px #F5E595, 1995px 1644px #F9F0B9, 1092px 712px #F5E595, 1355px 606px #F5E595, 622px 1881px #CDDC39, 1481px 621px #F5E595, 19px 1348px #F5E595, 864px 1780px #F5E595, 442px 1136px #F5E595, 67px 712px #F9F0B9, 89px 1406px #F5E595, 275px 321px #F5E595, 592px 630px #F5E595, 1012px 1690px #F5E595, 1749px 23px #F5E595, 94px 1542px #FFEB3B, 1201px 1657px #F5E595, 1505px 692px #F5E595, 1799px 601px #F9F0B9, 656px 811px #F9F0B9, 701px 597px #F9F0B9, 1202px 46px #F9F0B9, 890px 569px #F9F0B9, 1613px 813px #F5E595, 223px 252px #F9F0B9, 983px 1093px #F5E595, 726px 1029px #FFC107, 1764px 778px #CDDC39, 622px 1643px #F5E595, 174px 1559px #F5E595, 212px 517px #F9F0B9, 340px 505px #FFF, 1700px 39px #FFF, 1768px 516px #F5E595, 849px 391px #F9F0B9, 228px 1824px #FFF, 1119px 1680px #FFC107, 812px 1480px #F5E595, 1438px 1585px #CDDC39, 137px 1397px #FFF, 1080px 456px #F5E595, 1208px 1437px #F9F0B9, 857px 281px #F5E595, 1254px 1306px #CDDC39, 987px 990px #F5E595, 1655px 911px #F9F0B9, 1102px 1216px #F9F0B9, 1807px 1044px #FFF, 660px 435px #F9F0B9, 299px 678px #F5E595, 1193px 115px #F9F0B9, 918px 290px #CDDC39, 1447px 1422px #FFEB3B, 91px 1273px #F5E595, 108px 223px #FFEB3B, 146px 754px #F9F0B9, 461px 1446px #F9F0B9, 1004px 391px #F5E595, 1529px 516px #F5E595, 1206px 845px #CDDC39, 347px 583px #F5E595, 1102px 1332px #F5E595, 709px 1756px #F9F0B9, 1972px 248px #FFF, 1669px 1344px #F9F0B9, 1132px 406px #F5E595, 320px 1076px #CDDC39, 126px 943px #FFEB3B, 263px 604px #F9F0B9, 1546px 692px #F5E595;
   animation: animStar 50s linear infinite;
@@ -196,10 +196,10 @@ a:hover {
 .starfifth {
   content: " ";
   position: absolute;
-  width: 3px;
-  height: 3px;
+  width: 5px;
+  height: 5px;
   background: transparent;
-  box-shadow: 571px 173px #F9F0B9, 1732px 143px #F9F0B9, 1745px 454px #F9F0B9, 234px 784px #F9F0B9, 1793px 1123px #F9F0B9, 1076px 504px #F9F0B9, 633px 601px #F9F0B9, 350px 630px #FFEB3B, 1164px 782px #F9F0B9, 76px 690px #F5E595, 1825px 701px #CDDC39, 1646px 578px #FFEB3B, 544px 293px #F5E595, 445px 1061px #F5E595, 928px 47px #F9F0B9, 168px 1410px #F5E595, 777px 782px #F5E595, 1235px 1941px #F5E595, 104px 1690px #F5E595, 1167px 1338px #F5E595, 345px 1652px #F5E595, 1682px 1196px #F5E595, 1995px 494px #F9F0B9, 428px 798px #F9F0B9, 340px 1623px #F5E595, 605px 349px #F5E595, 1339px 1344px #F5E595, 1102px 1745px #F5E595, 1592px 1676px #F5E595, 419px 1024px #F9F0B9, 630px 1033px #F5E595, 1995px 1644px #F9F0B9, 1092px 712px #F5E595, 1355px 606px #F5E595, 622px 1881px #CDDC39, 1481px 621px #F5E595, 19px 1348px, 864px 1780px #F5E595, 442px 1136px #F5E595, 67px 712px #F9F0B9, 89px 1406px #F5E595, 275px 321px #F5E595, 592px 630px #F5E595, 1012px 1690px #F5E595, 1749px 23px #F5E595, 94px 1542px #FFEB3B, 1201px 1657px #F5E595, 1505px 692px #F5E595, 1799px 601px #F9F0B9, 656px 811px #F9F0B9, 701px 597px #F9F0B9, 1202px 46px #F9F0B9, 890px 569px #F9F0B9, 1613px 813px #F5E595, 223px 252px #F9F0B9, 983px 1093px #F5E595, 726px 1029px #FFC107, 1764px 778px #CDDC39, 622px 1643px #F5E595, 174px 1559px #F5E595, 212px 517px #F9F0B9, 340px 505px #FFF, 1700px 39px #FFF, 1768px 516px #F5E595, 849px 391px #F9F0B9, 228px 1824px #FFF, 1119px 1680px #FFC107, 812px 1480px #F5E595, 1438px 1585px #CDDC39, 137px 1397px #FFF, 1080px 456px #F5E595, 1208px 1437px #F9F0B9, 857px 281px #F5E595, 1254px 1306px #CDDC39, 987px 990px #F5E595, 1655px 911px #F9F0B9, 1102px 1216px #F9F0B9, 1807px 1044px #FFF, 660px 435px #F9F0B9, 299px 678px #F5E595, 1193px 115px #F9F0B9, 918px 290px #CDDC39, 1447px 1422px #FFEB3B, 91px 1273px #F5E595, 108px 223px #FFEB3B, 146px 754px #00BCD4, 461px 1446px #F9F0B9, 1004px 391px #F5E595, 1529px 516px #F5E595, 1206px 845px #CDDC39, 347px 583px #F5E595, 1102px 1332px #F5E595, 709px 1756px #00BCD4, 1972px 248px #FFF, 1669px 1344px #F9F0B9, 1132px 406px #F5E595, 320px 1076px #CDDC39, 126px 943px #FFEB3B, 263px 604px #F9F0B9, 1546px 692px #F5E595;
+  box-shadow: 571px 173px #F9F0B9, 1732px 143px #F9F0B9, 1745px 454px #F9F0B9, 234px 784px #F9F0B9, 1793px 1123px #F9F0B9, 1076px 504px #F9F0B9, 633px 601px #F9F0B9, 350px 630px #FFEB3B, 1164px 782px #F9F0B9, 76px 690px #F5E595, 1825px 701px #CDDC39, 1646px 578px #FFEB3B, 544px 293px #F5E595, 445px 1061px #F5E595, 928px 47px #F9F0B9, 168px 1410px #F5E595, 777px 782px #F5E595, 1235px 1941px #F5E595, 104px 1690px #F5E595, 1167px 1338px #F5E595, 345px 1652px #F5E595, 1682px 1196px #F5E595, 1995px 494px #F9F0B9, 428px 798px #F9F0B9, 340px 1623px #F5E595, 605px 349px #F5E595, 1339px 1344px #F5E595, 1102px 1745px #F5E595, 1592px 1676px #F5E595, 419px 1024px #F9F0B9, 630px 1033px #F5E595, 1995px 1644px #F9F0B9, 1092px 712px #F5E595, 1355px 606px #F5E595, 622px 1881px #CDDC39, 1481px 621px #F5E595, 19px 1348px #F5E595, 864px 1780px #F5E595, 442px 1136px #F5E595, 67px 712px #F9F0B9, 89px 1406px #F5E595, 275px 321px #F5E595, 592px 630px #F5E595, 1012px 1690px #F5E595, 1749px 23px #F5E595, 94px 1542px #FFEB3B, 1201px 1657px #F5E595, 1505px 692px #F5E595, 1799px 601px #F9F0B9, 656px 811px #F9F0B9, 701px 597px #F9F0B9, 1202px 46px #F9F0B9, 890px 569px #F9F0B9, 1613px 813px #F5E595, 223px 252px #F9F0B9, 983px 1093px #F5E595, 726px 1029px #FFC107, 1764px 778px #CDDC39, 622px 1643px #F5E595, 174px 1559px #F5E595, 212px 517px #F9F0B9, 340px 505px #FFF, 1700px 39px #FFF, 1768px 516px #F5E595, 849px 391px #F9F0B9, 228px 1824px #FFF, 1119px 1680px #FFC107, 812px 1480px #F5E595, 1438px 1585px #CDDC39, 137px 1397px #FFF, 1080px 456px #F5E595, 1208px 1437px #F9F0B9, 857px 281px #F5E595, 1254px 1306px #CDDC39, 987px 990px #F5E595, 1655px 911px #F9F0B9, 1102px 1216px #F9F0B9, 1807px 1044px #FFF, 660px 435px #F9F0B9, 299px 678px #F5E595, 1193px 115px #F9F0B9, 918px 290px #CDDC39, 1447px 1422px #FFEB3B, 91px 1273px #F5E595, 108px 223px #FFEB3B, 146px 754px #00BCD4, 461px 1446px #F9F0B9, 1004px 391px #F5E595, 1529px 516px #F5E595, 1206px 845px #CDDC39, 347px 583px #F5E595, 1102px 1332px #F5E595, 709px 1756px #F5E595, 1972px 248px #FFF, 1669px 1344px #F9F0B9, 1132px 406px #F5E595, 320px 1076px #CDDC39, 126px 943px #FFEB3B, 263px 604px #F9F0B9, 1546px 692px #F5E595;
   animation: animStar 80s linear infinite;
 }
 
@@ -302,7 +302,7 @@ i {
 
 .proposal-bg-top {
   position: absolute;
-  top: 0px;
+  top: -13px;
   width: 100%;
 }
 
@@ -610,9 +610,8 @@ i {
 }
 
 .table td {
-  background-color: #EDF5F2;
+  background-color: #FDFBE5;
 }
-
 
 /* 重要時程 */
 
@@ -760,6 +759,7 @@ i {
 .policy-page ul li {
   display: list-item;
   list-style: cjk-ideographic;
+  padding: 2px 0px;
 }
 
 .section2-wrapper {
@@ -814,6 +814,10 @@ i {
   animation: voaa 1s infinite alternate ease-in-out;
   transform-style: preserve-3d;
   transform: rotateX(-30deg);
+  -webkit-transform: rotateX(-30deg);
+  -moz-transform: rotateX(-30deg);
+  -ms-transform: rotateX(-30deg);
+  -o-transform: rotateX(-30deg);
 }
 
 .leaf-wrapper {
@@ -823,12 +827,20 @@ i {
 
 @keyframes voaa {
   0% {
-    transform: translateY(0px)
-  }
+    transform: translateY(0px)  ;
+    -webkit-transform: translateY(0px)  ;
+    -moz-transform: translateY(0px)  ;
+    -ms-transform: translateY(0px)  ;
+    -o-transform: translateY(0px)  ;
+}
 
   50% {
-    transform: translateY(2px)
-  }
+    transform: translateY(2px)  ;
+    -webkit-transform: translateY(2px);
+    -moz-transform: translateY(2px);
+    -ms-transform: translateY(2px);
+    -o-transform: translateY(2px);
+}
 }
 
 
