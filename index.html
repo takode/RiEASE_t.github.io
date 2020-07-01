@@ -3,7 +3,7 @@
 <html lang="zh-TW" style="overflow-x:hidden;">
 
 <head>
-	<title>Gogonow</title>
+	<title>創生黑客松</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 	<link rel="SHORTCUT ICON" href="" />
@@ -29,832 +29,381 @@
 </head>
 
 <body>
-	<div id="load">
-		<img class="loading-img" src="./img/load-logo-01.svg" alt="">
-	</div>
 	<a id="button"></a>
 	<section class="container-fulid">
 		<nav class="navbar-top navbar navbar-expand-lg navbar-light bg-white">
-			<a class="navbar-brand text-primary" href="#"><img src="./img/main-logo.svg" alt=""></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-wrapper navbar-nav ml-auto topnav">
+				<ul class="navbar-wrapper navbar-nav topnav">
 					<!-- <li class="nav-item active">
 						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 					</li> -->
-					<li class="nav-item">
-						<a id="section1" class="nav-link">
-							方案介紹
-						</a>
+					<li class="nav-item reg-nav-style">
+						<a class="nav-link" id="section1"> <img src="./img/nav-leaf.svg" alt=""> 活動辦法</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" id="section2">案例實績</a>
+					<li class="nav-item reg-nav-style">
+						<a class="nav-link" id="section2"> <img src="./img/nav-idea.svg" alt="">提案與徵件</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" id="section3">規劃流程</a>
+					<li class="nav-item reg-nav-style">
+						<a class="nav-link" id="section5"> <img src="./img/nav-announcement.svg" alt="">訊息公告</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" id="section4">服務項目</a>
+					<li class="nav-item reg-nav-style">
+						<a class="nav-link" id="section6"> <img src="./img/nav-calendar.svg" alt="">重要時程</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" id="section5">免費諮詢</a>
-					</li>
-					<li class="nav-item nav-phone-wrapper">
-						<a class="nav-link" href="tel:03-2129889">
-							<img src="./img/nav-icon-phone.svg" alt="">
-							<span class="nav-text-phone">03-212-9889</span>
-						</a>
+					<li class="nav-item reg-nav-style">
+						<a class="nav-link" id="section7"><img src="./img/nav-alert.svg" alt="">注意事項</a>
 					</li>
 				</ul>
 			</div>
-
-			<!-- The Modal -->
-			<div class="modal" id="myModal">
-				<div class="modal-dialog">
-					<div class="modal-content">
-
-						<!-- Modal Header -->
-						<div class="modal-header">
-							<h4 class="modal-title">Customer Sign In</h4>
-							<button type="button" class="close" data-dismiss="modal">×</button>
-						</div>
-
-						<!-- Modal body -->
-						<div class="modal-body">
-							<form>
-								<label class="sr-only" for="usrname">Username</label>
-								<div class="input-group mb-3">
-									<div class="input-group-prepend">
-										<span class="input-group-text" id="basic-addon1"><i
-												class="fa fa-user"></i></span>
-									</div>
-									<input type="text" class="form-control" placeholder="Username" aria-label="Username"
-										aria-describedby="basic-addon1">
-								</div>
-
-
-								<label class="sr-only" for="Password">Name</label>
-								<div class="input-group mb-2">
-									<div class="input-group-prepend">
-										<span class="input-group-text" id="basic-addon2"><i
-												class="fa fa-key"></i></span>
-									</div>
-									<input id="Password" type="password" class="form-control" placeholder="Password"
-										aria-label="Password" aria-describedby="basic-addon2">
-								</div>
-							</form>
-						</div>
-
-						<!-- Modal footer -->
-						<div class="modal-footer">
-							<button type="submit" class="btn btn-primary">Sign In</button>
-							<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-						</div>
-
-					</div>
-				</div>
+			<div class="nav-item nav-phone-wrapper ml-auto">
+				<a class="nav-link SignUp-btn">
+					<span class="nav-text-phone">點此報名</span>
+				</a>
 			</div>
+
 		</nav>
 
-
-		<!-- <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-				<ol class="carousel-indicators">
-					<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-					<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-				</ol>
-				<div class="carousel-inner">
-					<div class="carousel-item active carousel-m-hide">
-						<img src="./img/banner-2.jpg"" class=" d-block w-100" alt="...">
-					</div>
-					<div class="carousel-item carousel-m-hide">
-						<img src="./img/banner-1.jpg"" class=" d-block w-100" alt="...">
-					</div>
-					<div class="banner-text-wrapper carousel-m-hide">
-						<div class="banner-text-top">
-							網站<span>×</span>
-							設計<span>×</span>
-							行銷
-						</div>
-						<div class="banner-text-center">
-							把你的困難都交給我們
-						</div>
-						<div class="banner-text-bottom">
-							官網、社群、後台、廣告、名片、DM，一次用到好！
-						</div>
-						<a  id="section6" class="btn btn-primary banner-text-btn">了解更多</a>
-					</div>
-					<div class="carousel-item active carousel-l-hide">
-						<img src="./img/banner-m.jpg" class="d-block w-100" alt="...">
-					</div>
-				</div>
-				<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				  </a>
-				  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				  </a>
-			</div> -->
-
 		<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
-			<ol class="carousel-indicators carousel-m-hide">
-				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-			</ol>
+
 			<div class="carousel-inner carousel-m-hide">
 				<div class="carousel-item active">
-					<img src="./img/banner-2.jpg" class="d-block w-100" alt="...">
+					<img src="./img/banner-1.png" class="d-block w-100" alt="...">
 				</div>
-				<div class="carousel-item">
-					<img src="./img/banner-1.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="banner-text-wrapper carousel-m-hide">
-					<div class="banner-text-top">
-						網站<span>×</span>
-						設計<span>×</span>
-						行銷
+				<div id="mainCoantiner">
+					<!--dust particel-->
+					<div class="margin-body">
+
+						<div>
+							<div class="starsec"></div>
+							<div class="starthird"></div>
+							<div class="starfourth"></div>
+							<div class="starfifth"></div>
+						</div>
+						<!--Dust particle end--->
 					</div>
-					<div class="banner-text-center">
-						把你的困難都交給我們
-					</div>
-					<div class="banner-text-bottom">
-						官網、社群、後台、廣告、名片、DM，一次用到好！
-					</div>
-					<a id="section6" class="btn btn-primary banner-text-btn">了解更多</a>
-				</div>
-			</div>
-			<div class="carousel-inner carousel-l-hide">
-				<div class="carousel-item active">
-					<img src="./img/banner-m.jpg" class="d-block w-100" alt="...">
 				</div>
 			</div>
 		</div>
-
-
-
-		<div class="container-fulid feature-wrapper">
-			<div class="row">
-				<div class="col-4 col-md-4 feature-box">
-					<h3 class="feature-icon-focus">專業技術</h3>
-					<p>結合資安、程式、設計、企劃、行銷、管理等不同領域的專業人才，為您打造符合您需求的RWD網站。</p>
-				</div>
-				<div class="col-4 col-md-4 feature-box">
-					<h3 class="feature-icon-nice">優質服務</h3>
-					<p>提供最親切、最值得信賴的網站規劃與服務。不知道該怎麼做嗎？那就交給我們吧！</p>
-				</div>
-				<div class="col-4 col-md-4 feature-box">
-					<h3 class="feature-icon-price">價格合理</h3>
-					<p>錢要花在刀口上，最便宜不等於最有價值。唯有提供超乎期待的規劃與品質，才是真正的價超所值！</p>
-				</div>
-				<div class="feature-box-m">
-					<p>結合資安、程式、設計、企劃、行銷、管理等不同領域的專業人才，提供最親切、最值得信賴的網站規劃與服務。不知道該怎麼做嗎？那就交給我們吧！為您打造符合您需求的RWD網站。</p>
-				</div>
-			</div>
-		</div>
-
 	</section>
 
-
-	<div class="container">
-		<div class="difficult-wrapper row">
-			<div class="col-md-7 col-lg-5">
-				<div class="title-mark"></div>
-				<h2>你也有遇到這些問題嗎？</h2>
-				<p>我們知道，創業不易。預算不夠只能校長兼撞鐘，你只好樣樣都要懂、樣樣都要會......你，不累嗎？
-					我們知道，服務做得好還不夠，公司要被人看見，訂單才有機會進來。創業需要的官網、名片、DM 設計、廣告行銷，交給我們，讓你一次到位！創業路漫長，你不要每件事都自己扛！</p>
-				<p class="difficult-text-l">讓你的時間能專注在更有價值的地方
-					讓我們陪你一起走下去吧！<div class="difficult-text-mark"></div>
-				</p>
-
-			</div>
-			<div class="col-md-5 col-lg-7" data-aos="fade-down" data-aos-once="true" data-aos-easing="linear"
-				data-aos-duration="1500">
-				<img class="w-100" src="./img/dilemma-img.jpg" alt="">
-				<div class="dilemma-square"></div>
-			</div>
+	<div class="container-fulid activity-background">
+		<div id="content1" class="container">
+			<h1 class="title-style-box mt-5" data-items="科技 x 二地居, 地方創生黑客松">活動宗旨 &nbsp;</h1><i></i>
+			<p class="activity-p">
+				嘿，你有沒有這種時候：突然地有了一個解決問題的想法，卻疑惑怎麼沒有人執行？又或是對於現在各地創生的執行上，你有很多很多的想法，卻苦無成形？黑客們，是時候集合啦！
+				為配合國家社會發展需求及推動「社會參與創生」，讓我們將「科技」導入地方創生，整合自有資料進行多方共同協作，運用人工智慧（AI）、區塊鏈（Blockchain）、雲端運算（cloud
+				technology）、大數據分析（big data analysis）、生態系（ecosystem）等新興數位科技與創新思維，針對地方產業發展或生活機能維持，研擬創新解決方案，催生地方創生提案。
+				你的提案，將會是社會更新與創新的契機！
+			</p>
+			<h1 class="title-style-box mt-5">活動辦法</h1>
+			<p class="activity-p">
+				本次活動為達到數位共創，徵件與活動期間將提供HackMD共筆協作系統做為「地方創生許願池」，除提供地方發展需求參考也利於參賽團隊於活動期間進行共同協作完成提案與成果，參賽團隊應須於受理期間內完成報名與提案資料，徵件截止後將進入評審內審與民眾票選階段。
+				初選後將入選隊伍進行兩場工作坊，協助參賽團隊提案產出成果並增加其之可行性。
+			</p>
+			<h1 class="title-style-box mt-5">活動對象</h1>
+			<p class="activity-p">
+				青創與新創、政府、學術機構、法人組織、社區團體等產官學研社部門，能提出與本活動議題相關之明確提案及組成團隊之人員，採取組隊報名的方式參加。
+			</p>
 		</div>
-	</div>
 
-	<div class="container-fulid industry-wrapper">
-		<div class="row industry-inner-wrapper effect-hidden-m">
-			<div class="col-md-3 industry-box">
-				<figure class="effect-active">
-					<img class="w-100" src="./img/industry-medical.jpg" alt="img27" />
-					<div class="industry-mask-2 mask">
-						<h2>醫療診所網站</h2>
-						<div class="industry-text-wrapper"><span class="industry-text-style-1">&nbsp; &nbsp;對象&nbsp;
-								&nbsp;</span><br />
-							<div class="industry-p-style">醫院診所、醫學美容、產後護理中心等.....</div>
-							<span class="industry-text-style-1">&nbsp; &nbsp;網站類型&nbsp; &nbsp;</span><br />
-							<div class="industry-p-style">企業形象網站</div>
-							<span class="industry-text-style-1">&nbsp; &nbsp;功能&nbsp; &nbsp;</span><br />
-							<div class="industry-p-style">即時的線上掛號、線上預約</div>
-						</div>
-				</figure>
-			</div>
-			<div class="col-md-3 industry-box">
-				<figure class="">
-					<img class="w-100" src="./img/industry-manufacture.jpg" alt="img27" />
-					<div class="industry-mask mask">
-						<h2>科技製造網站</h2>
-						<div class="industry-text-wrapper"><span class="industry-text-style-2">&nbsp; &nbsp;對象&nbsp;
-								&nbsp;</span><br />
-							<div class="industry-p-style">製造商、中小企業、國內外代理等.....</div>
-							<span class="industry-text-style-2">&nbsp; &nbsp;網站類型&nbsp; &nbsp;</span><br />
-							<div class="industry-p-style">企業形象網站</div>
-							<span class="industry-text-style-2">&nbsp; &nbsp;功能&nbsp; &nbsp;</span><br />
-							<div class="industry-p-style">產品型錄、詢價單、會員管理、多語系</div>
-						</div>
-					</div>
-				</figure>
-			</div>
-			<div class="col-md-3 industry-box">
-				<figure class="effect-active">
-					<img class="w-100" src="./img/industry-food.jpg" alt="img27" />
-					<div class="industry-mask-3 mask">
-						<h2>餐飲宴會網站</h2>
-						<div class="industry-text-wrapper"><span class="industry-text-style-3">&nbsp; &nbsp;對象&nbsp;
-								&nbsp;</span><br />
-							<div class="industry-p-style">餐飲宴會、飲料店、小吃店、食品電商等.....</div>
-							<span class="industry-text-style-3">&nbsp; &nbsp;網站類型&nbsp; &nbsp;</span><br />
-							<div class="industry-p-style">企業形象網站</div>
-							<span class="industry-text-style-3">&nbsp; &nbsp;服務&nbsp; &nbsp;</span><br />
-							<div class="industry-p-style">MENU設計、促銷訊息、伴手禮購物</div>
-						</div>
-					</div>
-				</figure>
-			</div>
-			<div class="col-md-3 industry-box">
-				<figure class="effect-active">
-					<img class="w-100" src="./img/industry-shopping.jpg" alt="img27" />
-					<div class="industry-mask-4 mask">
-						<h2>時尚購物網站</h2>
-						<div class="industry-text-wrapper"><span class="industry-text-style-4">&nbsp; &nbsp;對象&nbsp;
-								&nbsp;</span><br />
-							<div class="industry-p-style">電子商務、服飾配件、團購購物等.....</div>
-							<span class="industry-text-style-4">&nbsp; &nbsp;網站類型&nbsp; &nbsp;</span><br />
-							<div class="industry-p-style">電商購物網站</div>
-							<span class="industry-text-style-4">&nbsp; &nbsp;功能&nbsp; &nbsp;</span><br />
-							<div class="industry-p-style">會員管理、產品型錄、購物車、折價優惠券</div>
-						</div>
-					</div>
-				</figure>
-			</div>
-
-			<!-- <div class="col-md-3"><img class="w-100" src="./img/industry-food.jpg" alt=""></div>
-			<div class="col-md-3"><img class="w-100" src="./img/industry-shopping.jpg" alt=""></div> -->
-		</div>
-	</div>
-
-	<div data-aos="flip-up" data-aos-once="true" class="container">
-		<div class="col-md-12 products-price-wrapper">
-			<a onclick="myFunction5()" href="#mySelect">
-				<img class="w-100" src="./img/website-banner-8800-01.jpg" alt="">
-			</a>
-		</div>
-	</div>
-
-
-	<div id="content1">
-		<div data-aos="zoom-in-up" data-aos-once="true" class="products-wrapper container-fulid bg-gray">
+		<div id="content2" class="proposal-wrapper">
+			<img class="proposal-bg-top" src="./img/content-bg-top.png" alt="">
+			<img class="proposal-bg-bottom" src="./img/content-bg-bottom.png" alt="">
 			<div class="container">
-				<h2>方案介紹</h2>
+				<h1 class="title-style-box mt-5">提案與徵件</h1>
+				<div class="row mt-5">
+					<div class="col-md-4">
+						<div class="proposal-content-box">
+							<h4 class="text-primary">提案限制</h4>
+							<p class="mt-2">提案必須為本活動議題相關之明確提案、尚未成立標案之計畫，且亦必須尚未申請政府相關預算，若屬於階段性計劃亦同。</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="proposal-content-box">
+							<h4 class="text-primary">徵件方式</h4>
+							<p class="mt-2">參賽團隊應至HackMD共筆協作系統完成提案內容，並至Google表單鏈結進行組隊報名，提供聯絡人資訊。
+								參賽團隊應於受理期間內完成並提交提案資料。</p>
+							<button class="btn">點此報名</button>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="proposal-content-box">
+							<h4 class="text-primary">提案格式</h4>
+							<p class="mt-2">提案製作內容須包含下列各項</br>
+								<span class="text-secondary">＊請依本活動提出主題內容進行撰寫</span></br>
+								• 提案題目</br>
+								• 提案背景</br>
+								• 欲解決什麼問題</br>
+								• 覺得這個問題可以如何解決</br>
+								• 期待本次專案成果之影響與
+								效益
+							</p>
+						</div>
+					</div>
+					<div class="col-md-12 mt-5">
+						<img class="w-100" src="./img/tr-bg.png" alt="">
+					</div>
+					<div class="col-md-12 mt-5 mb-5 score-wrapper">
+						<div class="proposal-content-box row">
+							<div class="col-md-12">
+								<h4 class="text-primary">評選標準</h4>
+							</div>
+							<div class="col-md-4 p-5"><img class="w-100" src="./img/ score-l.png" alt="">
+								<p class="score-text mt-4">創新服務之<br />
+									延展性與優勢
+								</p>
+							</div>
+							<div class="col-md-4 p-5"><img class="w-100" src="./img/ score-c.png" alt="">
+								<p class="score-text mt-4">創新技術之延展性<br />
+									發展規劃可行性</p>
+							</div>
+							<div class="col-md-4 p-5"><img class="w-100" src="./img/ score-r.png" alt="">
+								<p class="score-text mt-4">
+									外部資源鏈結與應用</p>
+							</div>
+							<div class="col-md-5 pr-5 pl-5 pb-5">
+								<div class="
+								primaries-text mb-3">初選</div>評審評分70%、民眾票選30%
+							</div>
+							<div class="col-md-7 pr-5 pl-5 pb-5">
+								<div class="
+								finals-text mb-3">決選</div> 取前三名，創新性占30%、可行性占40%、社會影響力及民
+								眾參與度占30%（三個面向都由評審評分）
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section2-wrapper">
+			<div id="content3" class="container">
+				<h1 class="title-style-box mt-5">獎勵方式</h1>
+				<p class="mt-3 text-secondary">決審入選3組，優勝者可獲以下獎金獎勵。</p>
 				<div class="row">
-					<div class="col-md-6 col-lg-3">
-						<div class="products-box-1">
-							<div class="products-icon-out products-color-1">
-								<div class="products-icon-inner">
-									<img src="./img/products-icon-1.svg" alt="">
-								</div>
-							</div>
-							<div class="price-text-title">經濟小資</div>
-							<div class="price-text-wrapper">
-								<span class="price-text-delete">$36000</span><span class="price-text-sale">Save
-									20%</span>
-							</div>
-							<div class="price-text-main">$28,800<span class="price-text-up">up</span></div>
-							<ul class="list-group">
-								<li><i class="fa fa-check"></i>網域空間</li>
-								<li><i class="fas fa-check"></i>虛擬主機空間</li>
-								<li><i class="fas fa-check"></i>SEO網站優化</li>
-								<li><i class="fas fa-check"></i>連絡表單</li>
-								<li><i class="fas fa-gift"></i>名片設計</li>
-							</ul>
-							<a onclick="myFunctio1()" href="#mySelect" class="btn price-btn-1">聯絡我們</a>
+					<div class="col-md-4">
+						<div class="medal-1">
+							<p class="medal-number">第一名</p>
+							<p class="medal-title">1萬元獎金</p>
+							<p>新台幣</p>
+							<div class="star-box-1"></div>
+							<div class="star-box-2"></div>
+							<div class="medal-f-1"></div>
 						</div>
 					</div>
-					<div class="col-md-6 col-lg-3">
-						<div class="products-box-2">
-							<div class="products-icon-out products-color-2">
-								<div class="products-icon-inner">
-									<img src="./img/products-icon-2.svg" alt="">
-								</div>
-							</div>
-							<div class="price-text-title">創業贏家</div>
-							<div class="price-text-wrapper">
-								<span class="price-text-delete">$78400</span><span class="price-text-sale">Save
-									25%</span>
-							</div>
-							<div class="price-text-main">$58,800<span class="price-text-up">up</span></div>
-							<ul class="list-group">
-								<li><i class="fa fa-check"></i>網域空間</li>
-								<li><i class="fas fa-check"></i>虛擬主機空間</li>
-								<li><i class="fas fa-check"></i>SEO網站優化</li>
-								<li><i class="fas fa-check"></i>連絡表單</li>
-								<li><i class="fas fa-gift"></i>名片設計/DM設計</li>
-								<li><i class="fas fa-gift"></i>LINE客服設定</li>
-								<li><i class="fas fa-gift"></i>廣告投放</li>
-							</ul>
-							<a onclick="myFunction2()" href="#mySelect" class="btn price-btn-2">聯絡我們</a>
+					<div class="col-md-4">
+						<div class="medal-2">
+							<p class="medal-number">第二名</p>
+							<p class="medal-title">8千元獎金</p>
+							<p>新台幣</p>
+							<div class="star-box-3"></div>
+							<div class="star-box-4"></div>
+							<div class="medal-f-2"></div>
 						</div>
 					</div>
-					<div class="col-md-6 col-lg-3">
-						<div class="products-box-3">
-							<div class="products-icon-out products-color-3">
-								<div class="products-icon-inner">
-									<img src="./img/products-icon-3.svg" alt="">
-								</div>
-							</div>
-							<div class="price-text-title">電商購物</div>
-							<div class="price-text-wrapper">
-								<span class="price-text-delete">$97800</span><span class="price-text-sale">Save
-									10%</span>
-							</div>
-							<div class="price-text-main">$88,800<span class="price-text-up">up</span></div>
-							<ul class="list-group">
-								<li><i class="fa fa-check"></i>網域空間</li>
-								<li><i class="fas fa-check"></i>虛擬主機空間</li>
-								<li><i class="fas fa-check"></i>SEO網站優化</li>
-								<li><i class="fas fa-check"></i>連絡表單/商品型錄</li>
-								<li><i class="fas fa-check"></i>預約模組/金流串接</li>
-								<li><i class="fas fa-gift"></i>名片設計/DM設計</li>
-								<li><i class="fas fa-gift"></i>LINE客服設定</li>
-								<li><i class="fas fa-gift"></i>社群服務</li>
-								<li><i class="fas fa-gift"></i>廣告投放</li>
-							</ul>
-							<a onclick="myFunction3()" href="#mySelect" class="btn price-btn-3">聯絡我們</a>
+					<div class="col-md-4">
+						<div class="medal-3">
+							<p class="medal-number">第三名</p>
+							<p class="medal-title">5千元獎金</p>
+							<p>新台幣</p>
+							<div class="star-box-5"></div>
+							<div class="star-box-6"></div>
+							<div class="medal-f-3"></div>
 						</div>
-					</div>
-					<div class="col-md-6 col-lg-3">
-						<div class="products-box-4">
-							<div class="products-icon-out products-color-4">
-								<div class="products-icon-inner">
-									<img src="./img/products-icon-4.svg" alt="">
-								</div>
-							</div>
-							<div class="price-text-title">客製系統/網站</div>
-							<div class="price-text-main-only">依客戶的<br />
-								需求報價</div>
-							<ul class="list-group">
-								<li><i class="fa fa-check"></i>網域空間</li>
-								<li><i class="fas fa-check"></i>虛擬主機空間</li>
-								<li><i class="fas fa-rocket"></i></i>客製化系統建置</li>
-								<li><i class="fas fa-rocket"></i></i>客製化形象網站</li>
-								<li><i class="fas fa-rocket"></i></i>企業ERP系統</li>
-								<li><i class="fas fa-rocket"></i></i>進銷存系統</li>
-							</ul>
-							<a onclick="myFunction4()" href="#mySelect" class="btn price-btn-4">聯絡我們</a>
-						</div>
-					</div>
-				</div>
-				<div class="price-phone-wrapper">
-					<div class="price-phone-title">專業、快速、滿意！</div>
-					<div>我們會專心聆聽您的問題與需求，您不必擔心不知道要從何開始</div>
-					<div class="price-phone-number"><a href="tel:03-2129889">03-212-9889</a></div>
-				</div>
-				<div id="content2" class="price-background-triangle"></div>
-			</div>
-		</div>
-	</div>
-	<!-- 輪播 -->
-	<section class="portfoilo portfoilo-wrapper">
-		<div class="justify-content-md-center">
-			<h2 class="text-center">我們的案例</h2>
-			<p class="col-md-8 col-lg-6 portfoilo-title-p">幫您從頭規劃，量身訂做，針對您需要的功能與服務，為您找出最適當的方法，就像我們要親自
-				面對您的客戶一樣，全心全意，鉅細靡遺，務必給您最好的網站，讓您的客戶也能快速了解您的
-				產品，產生最大的效益！</p>
-			<div class="owl-carousel owl-theme carousel-content">
-				<div class="item" data-index="1" data-toggle="modal" data-target="#portfoiloModal">
-					<img class="w-100 portfoilo-image-1" src="./img/portfoilo-image-1.jpg" alt="">
-					<div class="portfoilo-text-wrapper">
-						<h4>安進捲門</h4>
-						<p>科技製造業</p>
-						<p class="mb-4">產品型錄、詢價單、多語系</p>
-					</div>
-				</div>
-				<div class="item" data-index="2" data-toggle="modal" data-target="#portfoiloModal">
-					<img class="w-100 portfoilo-image-1" src="./img/portfoilo-image-2.jpg" alt="">
-					<div class="portfoilo-text-wrapper">
-						<h4>臺灣藝術大學</h4>
-						<p>教育業</p>
-						<p class="mb-4">形象介紹、活動資訊、聯繫表單</p>
-					</div>
-				</div>
-				<div class="item" data-index="3" data-toggle="modal" data-target="#portfoiloModal">
-					<img class="w-100 portfoilo-image-1" src="./img/portfoilo-image-5.jpg" alt="">
-					<div class="portfoilo-text-wrapper">
-						<h4>光的課程</h4>
-						<p>教育業</p>
-						<p class="mb-4">形象介紹、課程資訊、討論區</p>
-					</div>
-				</div>
-				<div class="item" data-index="4" data-toggle="modal" data-target="#portfoiloModal">
-					<img class="w-100 portfoilo-image-1" src="./img/portfoilo-image-3.jpg" alt="">
-					<div class="portfoilo-text-wrapper">
-						<h4>拉拉山旅遊網</h4>
-						<p>民宿業</p>
-						<p class="mb-4">手繪地圖、活動訊息、會員管理</p>
-					</div>
-				</div>
-				<div class="item" data-index="5" data-toggle="modal" data-target="#portfoiloModal">
-					<img class="w-100 portfoilo-image-1" src="./img/portfoilo-image-6.jpg" alt="">
-					<div class="portfoilo-text-wrapper">
-						<h4>CENS中經社</h4>
-						<p>科技業</p>
-						<p class="mb-4">形象介紹、模板設計、產品資訊</p>
-					</div>
-				</div>
-				<div class="item" data-index="6" data-toggle="modal" data-target="#portfoiloModal">
-					<img class="w-100 portfoilo-image-1" src="./img/portfoilo-image-7.jpg" alt="">
-					<div class="portfoilo-text-wrapper">
-						<h4>眾翔科技</h4>
-						<p>科技業</p>
-						<p class="mb-4">形象介紹、多語系、連絡表單</p>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="portfoilo-background">
-			<div class="portfoilo-background-triangle"></div>
-		</div>
-	</section>
-	<div class="modal fade" id="portfoiloModal" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-dialog modal-xl" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLabel">我們的案例</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
-						<div class="carousel-inner">
-							<div class="carousel-item active" data-index="1">
-								<div class="row detail-content">
-									<div class="col-xl-9 pr-xl-0">
-										<img src="./img/portfoilo-rwd-1.jpg" class="d-block w-100" alt="...">
-									</div>
-									<div class="col-xl-3 pt-3 list">
-										<h4>安進捲門</h4>
-										<p>安進捲門是集合國內高科技研發工程師群，配合精密設備，以優良鍍鋁鋅鋼板材質搭配先進的微電腦控制系統所研發出高品質、安全、安靜、美觀、快速</p>
-									</div>
-								</div>
+			<div id="content4" class="container mt-5">
+				<h1 class="title-style-box mt-5">初選票選機制</h1>
+				<p class="mt-4">
+					徵件截止後，初選除了進行評審內審外，為擴大社區與公民參與，並提升民眾對地方創生議題關注與探討，將提供Google表單頁面供民眾票選，民眾需登入自己的Google帳號才能進行票選，而一組帳號只有一票並一次票選。
+					<span class="text-danger">(將於8/17開放投票)</span></p>
+				<button disabled class="btn vote-btn">點此投票</button>
+			</div>
+			<div id="content5" class="container mt-5">
+				<h1 class="title-style-box mt-5">訊息公告</h1>
+				<table class="w-100 text-center table mt-4">
+					<thead>
+						<tr>
+							<th>發布時間
+							</th>
+							<th>標題</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>8月28日(五)</td>
+							<td>初審入選名單出爐啦！ </td>
+						</tr>
+						<tr>
+							<td>7月14日(二)</td>
+							<td>2020年地方創生黑客松徵件開跑啦！</td>
+						</tr>
+					</tbody>
 
-							</div>
-							<div class="carousel-item" data-index="2">
-								<div class="row detail-content">
-									<div class="col-xl-9 pr-xl-0">
-										<img src="./img/portfoilo-rwd-2.jpg" class="d-block w-100" alt="...">
-									</div>
-									<div class="col-xl-3 pt-3 list">
-										<h4>臺灣藝術大學-雕塑系</h4>
-										<p>雕塑系為目前國內大專院校中唯一專研於雕塑藝術的科系。
-											創立至今幾近四十年，培育了七百多位專業人才，為現今雕塑藝術的主幹</p>
-									</div>
-								</div>
-							</div>
-							<div class="carousel-item" data-index="3">
-								<div class="row detail-content">
-									<div class="col-xl-9 pr-xl-0">
-										<img src="./img/portfoilo-rwd-3.jpg" class="d-block w-100" alt="...">
-									</div>
-									<div class="col-xl-3 pt-3 list">
-										<h4>光的課程</h4>
-										<p>你<br />
-											可以擁有快樂<br />
-											享受豐盛<br />
-											使生活進入圓滿與喜悅<br />
-											讓我們一起走入光中<br />
-											領受生命的豐富與創造</p>
-									</div>
-								</div>
-							</div>
-							<div class="carousel-item" data-index="4">
-								<div class="row detail-content">
-									<div class="col-xl-9 pr-xl-0">
-										<img src="./img/portfoilo-rwd-4.jpg" class="d-block w-100" alt="...">
-									</div>
-									<div class="col-xl-3 pt-3 list">
-										<h4>拉拉山旅遊網</h4>
-										<p>位於桃園市復興區與新北市烏來區的交界。1973年文化大學教授在這裡發現了大片的神木林，從此成為眾所矚目的休閒新據點。也因其林相相當豐富，並擁有全臺灣面積最大的紅檜森林，於是政府在1986年正式成立達觀山自然保護區，範圍涵蓋北橫巴陵附近山區。達觀在泰雅族語裡，是「美麗」的意思。
-										</p>
-									</div>
-								</div>
-							</div>
-							<div class="carousel-item" data-index="5">
-								<div class="row detail-content">
-									<div class="col-xl-9 pr-xl-0">
-										<img src="./img/portfoilo-rwd-5.jpg" class="d-block w-100" alt="...">
-									</div>
-									<div class="col-xl-3 pt-3 list">
-										<h4>CENS中經社</h4>
-										<p>CENS.com是全球買主搜尋台灣供應商的第一個B2B搜尋平台，原由中國經通訊社經營，後於2016年6月併入聯合報系經濟日報。CENS.com裡收錄十萬筆商品項目，匯集百萬名專業買主會員，平均每日收到多達1,000封來自全球買主的詢問函，是國內廠商曝光全球的最佳平台。
-										</p>
-									</div>
-								</div>
-							</div>
-							<div class="carousel-item" data-index="6">
-								<div class="row detail-content">
-									<div class="col-xl-9 pr-xl-0">
-										<img src="./img/portfoilo-rwd-6.jpg" class="d-block w-100" alt="...">
-									</div>
-									<div class="col-xl-3 pt-3 list">
-										<h4>眾翔科技</h4>
-										<p>眾翔科技創立於2004年，眾翔科技主要從事印刷電路板製造(PCB)製造，PCB被廣泛運用在筆記型電腦、網路與行動通訊器材、照相機、汽車儀表板等電子消費性產品，在電子產業中有相當重要的地位。眾翔科技秉持認真踏實的態度，積極研發新技術、新方法、新流程，積極為客戶、為客戶創造最大的利潤。
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Previous</span>
-					</a>
-					<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Next</span>
-					</a>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-link" data-dismiss="modal">關閉</button>
-				</div>
+				</table>
 			</div>
-		</div>
-	</div>
-	<!-- 輪播 -->
-
-	<section id="content3" class="planning-wrapper">
-		<div data-aos="zoom-in">
-			<h2>最細緻的規劃</h2>
-			<p class="col-md-8 col-lg-6 portfoilo-title-p">專屬於您的服務</p>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-lg-4 planning-margin-m">
-						<div class="planning-box">
-							<p class="planning-title">明確溝通，達成共識！</p>
-							<p class="planning-content">確實瞭解您的需求，溝通視覺與功能細目。<br />
-								<span class="planning-subtitle">需求訪談</span>
-							</p>
-							<img class="planning-img" src="./img/planning-img-1.png" alt="">
-							<span class="planning-number">01</span>
+			<div id="content6" class="container mt-5">
+				<h1 class="title-style-box mt-5">重要時程</h1>
+				<div class="timeline__wrapper">
+					<div class="timeline__group">
+						<div class="timeline__mon mon-7">7月</div>
+						<div class="timeline__box">
+							<div class="timeline">
+								<div class="timeline__post">
+									<div class="timeline__content">
+										<p> <span class="text-primary">7/14(二)</span>&nbsp;&nbsp;&nbsp;初步徵件</p>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-lg-4 planning-margin-m">
-						<div class="planning-box">
-							<p class="planning-title">透明價格，安心保證！</p>
-							<p class="planning-content">因應需求提供多元價格方案，立約保固雙方權益。<br />
-								<span class="planning-subtitle">簽約立案</span>
-							</p>
-							<img class="planning-img" src="./img/planning-img-2.png" alt="">
-							<span class="planning-number">02</span>
+					<div class="timeline__group">
+						<div class="timeline__mon mon-8">8月</div>
+						<div class="timeline__box">
+							<div class="timeline">
+								<div class="timeline__post">
+									<div class="timeline__content">
+										<p> <span class="text-primary">8/14(五)</span>&nbsp;&nbsp;&nbsp;徵件截止</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="timeline__box">
+							<div class="timeline">
+								<div class="timeline__post">
+									<div class="timeline__content">
+										<p> <span class="text-primary">8/17(一)</span>&nbsp;&nbsp;&nbsp;民眾票選及評審內審開始</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="timeline__box">
+							<div class="timeline">
+								<div class="timeline__post">
+									<div class="timeline__content">
+										<p> <span class="text-primary">8/24(一)</span>&nbsp;&nbsp;&nbsp;民眾票選及評審內審結束</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="timeline__box">
+							<div class="timeline">
+								<div class="timeline__post">
+									<div class="timeline__content">
+										<p> <span class="text-primary">8/28(五)</span>&nbsp;&nbsp;&nbsp;公布入選名單</p>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-lg-4 planning-margin-m">
-						<div class="planning-box">
-							<p class="planning-title">合乎情理，最適風格！</p>
-							<p class="planning-content">落實依照需求規劃，制定友善介面與操作體驗。<br />
-								<span class="planning-subtitle">企劃設計</span>
-							</p>
-							<img class="planning-img" src="./img/planning-img-3.png" alt="">
-							<span class="planning-number">03</span>
+					<div class="timeline__group">
+						<div class="timeline__mon mon-8">9月</div>
+						<div class="timeline__box">
+							<div class="timeline">
+								<div class="timeline__post">
+									<div class="timeline__content">
+										<p> <span class="text-primary">9/5(六)</span>&nbsp;&nbsp;&nbsp;第一次工作坊</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="timeline__box">
+							<div class="timeline">
+								<div class="timeline__post">
+									<div class="timeline__content">
+										<p> <span class="text-primary">9/26(六)</span>&nbsp;&nbsp;&nbsp;第二次工作坊</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="timeline__box">
+							<div class="timeline">
+								<div class="timeline__post">
+									<div class="timeline__content">
+										<p> <span class="text-primary">9/27(日)</span>&nbsp;&nbsp;&nbsp;評選簡報</p>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-lg-4 planning-margin-m">
-						<div class="planning-box">
-							<p class="planning-title">專業技術，完整全面！</p>
-							<p class="planning-content">採用流行框架，專注於互動性、產品效能、資安維護。<br />
-								<span class="planning-subtitle">程式開發</span>
-							</p>
-							<img class="planning-img" src="./img/planning-img-4.png" alt="">
-							<span class="planning-number">04</span>
+					<div class="timeline__group">
+						<div class="timeline__mon mon-8">10月</div>
+						<div class="timeline__box">
+							<div class="timeline">
+								<div class="timeline__post">
+									<div class="timeline__content">
+										<p> <span class="text-primary">10/7(三)</span>&nbsp;&nbsp;&nbsp;公布決審名單</p>
+									</div>
+								</div>
+							</div>
 						</div>
-					</div>
-					<div class="col-md-6 col-lg-4 planning-margin-m">
-						<div class="planning-box">
-							<p class="planning-title">準時上線，專人教學！</p>
-							<p class="planning-content">提供詳細說明操作流程，協助您輕鬆使用、快速上手。<br />
-								<span class="planning-subtitle">上線教學</span>
-							</p>
-							<img class="planning-img" src="./img/planning-img-5.png" alt="">
-							<span class="planning-number">05</span>
-						</div>
-					</div>
-					<div class="col-md-6 col-lg-4 planning-margin-m">
-						<div class="planning-box">
-							<p class="planning-title">頂尖團隊，用心客服！</p>
-							<p class="planning-content">睿鍶科技團隊，永遠是您最棒的商業合作夥伴。<br />
-								<span class="planning-subtitle">售後服務</span>
-							</p>
-							<img class="planning-img" src="./img/planning-img-6.png" alt="">
-							<span class="planning-number">06</span>
-						</div>
+						<div class="timeline__end"></div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-	<section class="number-wrapper">
-		<p class="number-title">我們會專心聆聽您的問題與需求，您不必擔心不知道要從何開始</p>
-		<a class="number-content" href="tel:03-2129889">03-212-9889</a>
-	</section>
-	<div id="content4" class="number-background-triangle"></div>
-	<section data-aos="zoom-in-left" class="servive-wrapper">
-		<div class="container">
-			<h2>一站式全方位數位服務</h2>
-			<p class="servive-title-p col-md-8 col-lg-6">公司經營不用單打獨鬥，我們為您量身定做最適合您的網站
-				讓您不用東奔西走，就可以一次找到能處理問題的數位化解決方案</p>
-			<div class="d-flex">
-				<div class="servive-box">
-					<img class="w-100" src="./img/service-img-1.png" alt="">
-					<p class="servive-title">網頁設計</p>
-					<p>RWD響應式網站</br>
-						介面視覺設計</br>
-						套版及客製化網站</br>
-						網站Banner設計</p>
-				</div>
-				<div class="servive-box">
-					<img class="w-100" src="./img/service-img-2.png" alt="">
-					<p class="servive-title">程式開發</p>
-					<p>客製化功能開發</br>
-						全站後台管理</br>
-						多權限管理者</br>
-						網頁互動效果</p>
-				</div>
-				<div class="servive-box">
-					<img class="w-100" src="./img/service-img-3.png" alt="">
-					<p class="servive-title">系統維護</p>
-					<p>國內外主機租用維護
-						</br>
-						SSL優惠價
-						</br>
-						高危險網站弱點排除
-						</br>
-						網站運行監控</p>
-				</div>
-				<div class="servive-box">
-					<img class="w-100" src="./img/service-img-4.png" alt="">
-					<p class="servive-title">網路行銷</p>
-					<p>SEO自然排序優化</br>
-						數位廣告代操</br>
-						客服工具管理</br>
-						行銷規劃建議</p>
-				</div>
-				<div class="servive-box">
-					<img class="w-100" src="./img/service-img-5.png" alt="">
-					<p class="servive-title">平面設計</p>
-					<p>LOGO商標設計</br>
-						名片設計製作</br>
-						DM海報設計</br>
-						CIS全套識別系統</p>
+			<div id="content7" class="container mt-5">
+				<h1 class="title-style-box mt-5">注意事項</h1>
+				<div class="policy-page mt-5">
+					<ul>
+						<li>初審入圍之參賽提案，其智慧財產權歸屬參賽團隊。</li>
+						<li>參賽團隊保證所提供與填報之各項資料，不得侵害他人之智慧財產權，如有與事實不符或侵害他人權益之情況，主辦單位有權取消其競賽或得獎資格，該團隊並應負一切相關責任。</li>
+						<li>參賽者於活動期間內，請密切注意官網公告及所提供之聯絡電子信箱訊息。</li>
+						<li>初審入圍之參賽團隊同意將其為參加本活動所提供之圖文、簡報、照片、影音及其他資料（包括但不限於參賽團隊成員之姓名、肖像
+							等，但不包括參賽產出之程式、軟體、系統），無償授權主辦單位或協辦單位以不限區域、時間、次數及非營利之方式使用（包括但不限於印刷、展示、宣傳、報導、出版或公開），或再授權第三人使用，並同意主辦單位得改作、重製或編輯及行使其他著作權法上著作財產權人所得享有之一切權利於相關行銷媒體，且主辦單位均不另予通知參賽團隊。如未涉及著作人格之誣衊，參賽團隊及其成員同意對主辦單位不行使著作人格權。
+						</li>
+						<li>參賽團隊同意無償授權主辦單位或協辦單位得於本活動進行過程中，拍攝、錄影或請參賽團隊提供相關照片或動態影像，做為紀錄、宣傳推廣、行銷本活動或相關活動之用，並得以任何形式發表前述之相片或動態影像。
+						</li>
+						<li>初審入圍之參賽提案，主辦單位自獲選名單公布後，可就參賽提案本身及衍生之智慧財產權轉讓或授權事宜，享有優先洽談合作之權利。</li>
+						<li>參賽團隊須同意主辦單位將您的真實姓名、郵寄地址及 聯絡電話做為贈獎(寄)發資料處理之用。</li>
+						<li>本活動辦法如有未盡事宜，得隨時補充或修正，將以主辦單位通知及網站最新公 告為主；主辦單位對於活動內容及獎項保有修改及最後解釋之權利。</li>
+					</ul>
 				</div>
 			</div>
 		</div>
-	</section>
-	<section class="contact-wrapper">
-		<div class="container-fulid contact-mask">
-			<div id="content5" class="contact-box">
-				<div class="p-4">
-					<span class="contact-title">免費諮詢</span><span class="float-right"><a class="contact-number"
-							href="tel:03-2129889">03-212-9889</a></span>
+		<footer>
+			<div class="sponsor-wrapper">
+				<div class="container sponsor-box-group">
+					<div class="sponsor-box">
+						主辦單位<i class="ml-3"></i>
+						<img class="ml-3" src="./img/sponsor-logo-1.png" alt="">
+					</div>
+					<div class="sponsor-box ml-5">
+						承辦單位<i class="ml-3"></i>
+						<img class="ml-3" src="./img/cosponsor-logo-1.png" alt="">
+						<img class="ml-3" src="./img/cosponsor-logo-2.png" alt="">
+					</div>
+					<div class="leaf-wrapper ml-auto">
+						<img src="./img/footer-leaf-bg.png" alt="">
+						<div class="leaf-1"></div>
+						<div class="leaf-2"></div>
+					</div>
 				</div>
-
-				<form class="contact-form" action="https://formspree.io/xzbvzrap" method="POST">
+			</div>
+			<div class="contact-wrapper">
+				<div class="container">
 					<div class="row">
-						<div class="col-md-7">
-							<div class="row">
-								<div class="col-xs-12 col-md-6 contact-padding-m">
-									<input type="text" name="companyname" class="form-control rounded-0 contact-input"
-										placeholder="公司名稱">
-								</div>
-								<div class="col-xs-12 col-md-6 contact-padding-m">
-									<input type="text" name="name" class="form-control rounded-0 contact-input"
-										placeholder="姓名">
-								</div>
-							</div>
-							<div class="row mt-4">
-								<div class="col-xs-12 col-md-6 contact-padding-m">
-									<input type="email" name="mail" class="form-control rounded-0 contact-input"
-										placeholder="E-mail">
-								</div>
-								<div class="col-xs-12 col-md-6 contact-padding-m">
-									<input type="tel" id="phone" class="form-control rounded-0 contact-input"
-										name="phone" placeholder="電話" required>
-								</div>
-							</div>
+						<div class="col-md-5 contact-box"><i class="fas fa-user mr-3"></i>聯絡窗口：地創黑客松團隊小組</div>
+						<div class="col-md-7 contact-box"><i class="fas fa-phone-alt mr-3"></i>諮詢電話：02-8692-5588#6343 或
+							02-7707-4907
 						</div>
-						<div class="col-md-5">
-							<div class="textarea-box col pl-0 pr-0">
-								<textarea name="content"
-									class="contact-textarea form-control rounded-0 pr-0">輸入你想要了解的內容...</textarea>
-							</div>
+						<div class="col-md-5 contact-box"><i
+								class="fas fa-envelope mr-3"></i>諮詢Email：hacka.placemaking@gmail.com</div>
+						<div class="col-md-7 contact-box"><i
+								class="fas fa-clock mr-3"></i>諮詢服務時間：09:00-12:00、13:30-17:30
 						</div>
 					</div>
-					<div class="contact-select pl-4 pt-3">
-						<div class="contact-program-box">
-							<label for="attending">您對哪一個方案有興趣呢？</label>
-							<select id="mySelect" class="form-control" name="attending" id="attending" required="">
-								<option>經濟小資</option>
-								<option value="創業贏家">創業贏家</option>
-								<option value="電商購物">電商購物</option>
-								<option value="電商購物">客製系統/網站</option>
-								<option value="電商購物">一頁式官網</option>
-							</select>
-						</div>
-						<input class="float-right mr-4 btn btn-primary select-text-btn" type="submit" value="發送">
-					</div>
-				</form>
-
-			</div>
-		</div>
-	</section>
-	<footer class="footer-wrapper">
-		<div class="p-4 row">
-			<div class="col-md-8 col-lg-7">
-				<div class="footer-box-1">
-					<img class="footer-logo" src="./img/main-logo.svg" alt="">
-					<!-- <div class="footer-content address-hide-m">
-						<p><i class="fas fa-map-marker-alt"></i>桃園市蘆竹區中正路365號2樓 <span><i
-									class="fas fa-envelope"></i>客服信箱：service@riease.com</span> </p>
-						<p><i class="fas fa-phone-alt"></i>服務專線：03-2129889 </p>
-					</div> -->
-				</div>
-				<div class="footer-copyright">
-					<div class="">
-						<!-- <div style="margin-bottom: 20px;" class="fb-share-button"
-											data-href="https://takode.github.io/RiEASE_t.github.io/?fbclid=IwAR0ObGk0SZGd-pBU3mxtCuz4G6D6HPRDdJO1QQCLoD95zG1CTpQlloM4cC4"
-											data-layout="button_count" data-size="small"><a target="_blank"
-												href="https://takode.github.io/RiEASE_t.github.io/?fbclid=IwAR0ObGk0SZGd-pBU3mxtCuz4G6D6HPRDdJO1QQCLoD95zG1CTpQlloM4cC4"
-												class="fb-xfbml-parse-ignore">分享</a></div> -->
-						<p><i class="fas fa-map-marker-alt"></i>桃園市蘆竹區中正路365號2樓</p>
-						<p><span class="footer-text-wrapper"><i class="fas fa-envelope"></i><a
-									href="mailto:gogonow365@gmail.com">gogonow365@gmail.com</a></span></p>
-						<p><i class="fas fa-phone-alt"></i> <a href="tel:03-2129889">03-212-9889</a></p>
-					</div>
-					全方位RWD響應式網頁設計規劃團隊，桃園、台北全台網頁設計服務<br />
-					<span class="footer-copyright-text">© RiEASE TECHNOLOGY Co., LTD. ALL RIGHTS RESERVED.</span>
 				</div>
 			</div>
-			<div class="col-md-4 col-lg-5">
-				<div id="map"></div>
-			</div>
-
-		</div>
-	</footer>
+		</footer>
+	</div>
 
 
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-<script>
-	window.onload = function () {
-		$("#load").fadeOut(1000);
-	};
-</script>
-
-<!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>
-	window.fbAsyncInit = function () {
-		FB.init({
-			xfbml: true,
-			version: 'v6.0'
-		});
-	};
-
-	(function (d, s, id) {
-		var js, fjs = d.getElementsByTagName(s)[0];
-		if (d.getElementById(id)) return;
-		js = d.createElement(s);
-		js.id = id;
-		js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-		fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));
-</script>
-
-<!-- Your customer chat code -->
-<div class="fb-customerchat" attribution=setup_tool page_id="182057785773729" theme_color="#43A9DA"
-	logged_in_greeting="您好，有什麼架站上的問題都可以跟我們說喔～" logged_out_greeting="您好，有什麼架站上的問題都可以跟我們說喔～">
-</div>
-
-<!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-	integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-</script> -->
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
 	integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
 </script>
@@ -871,57 +420,9 @@
 <!-- 滾動 -->
 <script src="./js/scrollreveal .js"></script>
 <script src="./js/main.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCq4ChJswZHFPse28j8MH78hOkbKxrXAg&callback=initMap" async
-	defer></script>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162959527-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-162959527-1');
-</script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
 
 <script>
-	//方法2
-	var btn = $('#button');
-
-	$(window).scroll(function () {
-		if ($(window).scrollTop() > 300) {
-			btn.addClass('show');
-		} else {
-			btn.removeClass('show');
-		}
-	});
-
-	btn.click(function (e) {
-		e.preventDefault();
-		$('html, body').scrollTop(0);
-	});
-
-
-
-	// $(window).scroll(function() {
-	//   if ($(this).scrollTop() > 400) {
-	//     $('.navbar-top').addClass('cool');
-	//   }
-	// });
-
-
-	$(function () {
-		$(window).scroll(function () {
-			var scroll = $(this).scrollTop();
-			if (scroll > 1200) {
-				$('.navbar-top').addClass('navbar-fixed');
-			} else {
-				$('.navbar-top').removeClass('navbar-fixed');
-			}
-		});
-	})
-
 	$(function () {
 		$('#section1').click(function () {
 			$('html,body').animate({
@@ -933,16 +434,6 @@
 				scrollTop: $('#content2').offset().top
 			}, 1000);
 		});
-		$('#section3').click(function () {
-			$('html,body').animate({
-				scrollTop: $('#content3').offset().top
-			}, 1000);
-		});
-		$('#section4').click(function () {
-			$('html,body').animate({
-				scrollTop: $('#content4').offset().top
-			}, 1000);
-		});
 		$('#section5').click(function () {
 			$('html,body').animate({
 				scrollTop: $('#content5').offset().top
@@ -950,127 +441,96 @@
 		});
 		$('#section6').click(function () {
 			$('html,body').animate({
-				scrollTop: $('#content1').offset().top
+				scrollTop: $('#content6').offset().top
+			}, 1000);
+		});
+		$('#section7').click(function () {
+			$('html,body').animate({
+				scrollTop: $('#content7').offset().top
 			}, 1000);
 		});
 	});
-
-
-	$('.carousel').carousel({
-		interval: 7000,
-		pause: true,
-		touch: true
-	})
-</script>
-
-<script>
-	$(document).ready(function () {
-		var owl = $('.owl-carousel');
-		owl.owlCarousel({
-			loop: true,
-			margin: 30,
-			autoplay: true,
-			autoplayTimeout: 8000,
-			autoplayHoverPause: true,
-			responsiveClass: true,
-			responsive: {
-				0: {
-					items: 1,
-					nav: true,
-					dots: false,
-					mouseDrag: true,
-					touchDrag: true
-				},
-				768: {
-					items: 3,
-					nav: true,
-					dots: false,
-					mouseDrag: true,
-					touchDrag: true
-				},
-				1200: {
-					items: 5,
-					nav: true,
-					dots: false,
-					mouseDrag: false,
-					touchDrag: false
-				}
+	$(function () {
+		$(window).scroll(function () {
+			var scroll = $(this).scrollTop();
+			if (scroll > 600) {
+				$('.navbar-top').addClass('navbar-fixed');
+			} else {
+				$('.navbar-top').removeClass('navbar-fixed');
 			}
 		});
-		const changeSize = (() => {
-			var screen = $(document.body).width();
-			$('.owl-item').find('.item').each((index, el) => {
-				var left = $(el).offset().left;
-				if (0 <= left && left < screen) {
-					$(el).addClass('show');
-				} else {
-					$(el).removeClass('show');
-				}
-			});
-			$('.owl-item .show').each((index, el) => {
-				if (index === 2 || index == 3 || index == 4) {
-					$(el).addClass('center');
-				} else {
-					$(el).removeClass('center');
-				}
-			});
+	});
+	$(document).ready(function () {
+		$(".medal-1").mouseover(function () {
+			$(".star-box-1").addClass("medal-star-1");
+			$(".star-box-2").addClass("medal-star-2");
 		});
-		$('.owl-item').find('.item').removeClass('center');
-		$('.owl-item.active').eq(1).find('.item').addClass('center');
-		$('.owl-item.active').eq(2).find('.item').addClass('center');
-		$('.owl-item.active').eq(3).find('.item').addClass('center');
-		owl.on('changed.owl.carousel', function (event) {
-			changeSize();
+		$(".medal-2").mouseover(function () {
+			$(".star-box-3").addClass("medal-star-1");
+			$(".star-box-4").addClass("medal-star-2");
 		});
-		$('.owl-nav button.owl-prev').on('click', (event) => {
-			$(event.currentTarget).attr("disabled", true);
-			event.preventDefault();
-			$('.owl-item').removeClass('show');
-			$('.owl-item').find('.item').removeClass('center');
-			var screen = $(document.body).width();
-			$('.owl-item').find('.item').each((index, el) => {
-				var left = $(el).offset().left;
-				if (0 <= left && left < screen) {
-					$(el).addClass('show');
-				} else {
-					$(el).removeClass('show');
-				};
-			});
-			$('.owl-item .show').each((index, el) => {
-				if (index === 0 || index == 1 || index == 2) {
-					$(el).addClass('center');
-				} else {
-					$(el).removeClass('center');
-				}
-			});
-			setTimeout(function () {
-				$(event.currentTarget).attr("disabled", false);
-			}, 500);
+		$(".medal-3").mouseover(function () {
+			$(".star-box-5").addClass("medal-star-1");
+			$(".star-box-6").addClass("medal-star-2");
 		});
-
-		$('#portfoiloModal').on('show.bs.modal', function (e) {
-			var index = $(e.relatedTarget).data('index');
-			$('#carouselExampleControls .carousel-item').removeClass('active');
-			$('.carousel-item[data-index="' + index + '"]').addClass('active');
+		$(".medal-1").mouseout(function () {
+			$(".star-box-1").removeClass("medal-star-1");
+			$(".star-box-2").removeClass("medal-star-2");
+		});
+		$(".medal-2").mouseout(function () {
+			$(".star-box-3").removeClass("medal-star-1");
+			$(".star-box-4").removeClass("medal-star-2");
+		});
+		$(".medal-3").mouseout(function () {
+			$(".star-box-5").removeClass("medal-star-1");
+			$(".star-box-6").removeClass("medal-star-2");
 		});
 	});
 </script>
 
 <script>
-	window.sr = ScrollReveal();
-	sr.reveal('.industry-box', {
-		duration: 600,
-		scale: 0.3,
-		distance: '0px'
-	}, 500);
-	sr.reveal('.servive-box', {
-		duration: 600,
-		scale: 0.3,
-		distance: '0px'
-	}, 500);
+	let el = document.getElementsByTagName('h1')[0];
+
+	let items = el.dataset.items.split(', ');
+
+	TweenMax.to(el.nextElementSibling, 0.6, {
+		opacity: 0,
+		repeat: -1,
+		ease: Linear.easeNone
+	});
+
+	let tl = new TimelineMax({
+		repeat: -1
+	});
+
+	let tmp = {
+		x: 0
+	};
+
+	items.forEach((word, idx) => {
+		let chars = word.split('');
+
+		chars.forEach(char => {
+			tl.to(tmp, 0.1, {
+				x: '+=' + 1,
+				onComplete: () => {
+					el.textContent += char;
+				}
+			});
+		});
+		tl.to(tmp, 1, {
+			x: '+=' + 1
+		});
+
+		chars.forEach(char => {
+			tl.to(tmp, 0.05, {
+				x: '+=' + 1,
+				onComplete: () => {
+					el.textContent = el.textContent.slice(0, -1);
+				}
+			});
+		})
+	});
 </script>
-
-
-
 
 </html>
