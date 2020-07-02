@@ -428,6 +428,20 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
 
 <script>
+		var btn = $('#button');
+		$(window).scroll(function () {
+			if ($(window).scrollTop() > 300) {
+				btn.addClass('show');
+			} else {
+				btn.removeClass('show');
+			}
+		});
+
+		btn.click(function (e) {
+			e.preventDefault();
+			$('html, body').scrollTop(0);
+		});
+
 	$(function () {
 		$('#section1').click(function () {
 			$('html,body').animate({

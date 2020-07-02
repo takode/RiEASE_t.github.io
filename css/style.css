@@ -106,6 +106,42 @@ a:hover {
   font-weight: 900 !important;
 }
 
+/* 移到最頂 */
+
+#button {
+  display: inline-block;
+  background-color: #FFCC5D;
+  width: 57px;
+  height: 57px;
+  text-align: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 72px;
+  right: -4px;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+  opacity: 1;
+  z-index: 9999999999999;
+}
+
+#button::after {
+  color: rgb(52, 52, 52);
+  content: '\f077';
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  text-decoration: inherit;
+  font-size: 23px;
+  top: 12px;
+  position: relative;
+  cursor: pointer;
+}
+
+@media (min-width: 500px) {
+  #button {
+    margin: 30px;
+  }
+}
+
 /* nav */
 
 .home-link {
@@ -115,8 +151,8 @@ a:hover {
   font-size: 1.8rem;
 }
 
-.home-link a{
-  color:#3F936D!important;
+.home-link a {
+  color: #3F936D !important;
 }
 
 .navbar-top {
@@ -649,6 +685,7 @@ i {
   z-index: 99;
   font-weight: bold;
 }
+
 .mon-7 {
   position: absolute;
   top: -44px;
@@ -700,6 +737,7 @@ i {
   background-color: #fff;
   width: 56%;
 }
+
 .timeline__box:before {
   content: "";
   width: 45%;
